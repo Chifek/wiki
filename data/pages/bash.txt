@@ -1,1 +1,3 @@
 [[30_examples| 30 Bash Script Examples]]
+
+[[30_examples| 30 Bash Script Examples]]

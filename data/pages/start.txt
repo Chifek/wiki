@@ -5,5 +5,6 @@
 
 [[ufw|ufw firewall]]
 
-
 [[npm|npm]]
+
+[[bash| /bin/bash]]

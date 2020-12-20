@@ -8,3 +8,5 @@ npm_shrinkwrap
 ssh
 ssh_server
 ssh_keys
+bash
+30_examples

@@ -36,3 +36,8 @@
 1608485945	95.31.13.88	E	ssh_keys	chifek			178
 1608486012	95.31.13.88	E	ssh_keys	chifek			163
 1608486401	95.31.13.88	e	ssh_server	chifek			1
+1608487031	95.31.13.88	E	start	chifek			20
+1608487060	95.31.13.88	C	bash	chifek	создано		40
+1608487065	95.31.13.88	C	30_examples	chifek	создано		23
+1608487073	95.31.13.88	E	30_examples	chifek			9
+1608487097	95.31.13.88	E	30_examples	chifek			54

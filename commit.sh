@@ -11,4 +11,4 @@ Second=`date +%S`
 
 cd /var/www/html/wiki.chifek.ru/ && git add . \
 && git commit -m "Auto commit in $Day-$Month-$Year -- $Hour-$Minute-$Second" \
-&& git push origin master \
+&& git push origin master

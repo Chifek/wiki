@@ -8,5 +8,6 @@ Hour=`date +%H`
 Minute=`date +%M`
 Second=`date +%S`
 
-git add . && git commit -m "Auto commit in $Day-$Month-$Year -- $Hour-$Minute-$Second" 
+
+cd /var/www/html/wiki.chifek.ru/ && git add . && git commit -m "Auto commit in $Day-$Month-$Year -- $Hour-$Minute-$Second" 
 

@@ -10,6 +10,6 @@ echo `date` \
 
 git add . \
 
-git commit -m "Auto commit " \
+git commit -m "Auto commit in $Day-$Month-$Year" \
 
 git push origin master

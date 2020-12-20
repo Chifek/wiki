@@ -1,0 +1,100 @@
+
+<h1 class="sectionedit1" id="linux_macos">Linux/MacOS</h1>
+<div class="level1">
+
+<p>
+Создание/Добавление ключей, отключение root доступа, отключение парольной аутентификации
+</p>
+
+<p>
+<strong>Откройте терминал и выполните команду:</strong>
+</p>
+<pre class="code">ssh-keygen -t rsa</pre>
+
+<p>
+На консоль будет выведен следующий диалог:
+</p>
+<pre class="code">Enter file in which to save the key (/home/user/.ssh/id_rsa):</pre>
+
+<p>
+Нажмите на клавишу Enter.  Далее система предложит ввести кодовую фразу для дополнительной защиты SSH-подключения:
+</p>
+<pre class="code">Enter passphrase (empty for no passphrase):</pre>
+
+<p>
+Этот шаг можно пропустить. При ответе на этот и следующий вопрос просто нажмите клавишу Enter.
+</p>
+
+<p>
+После этого ключ будет создан, а на консоль будет выведено следующее сообщение:
+</p>
+<pre class="code">Your identification has been saved in /home/user/.ssh/id_rsa.
+Your public key has been saved in /home/user/.ssh/id_rsa.pub.
+The key fingerprint is:
+476:b2:a8:7f:08:b4:c0:af:81:25:7e:21:48:01:0e:98 user@localhost
+
+The key&#039;s randomart image is:
+
++--[ RSA 2048]----+
+
+|+.o.             |
+
+|ooE              |
+
+|oo               |
+
+|o.+..            |
+
+|.+.+..  S .      |
+
+|....+  o +       |
+
+|  .o ....        |
+
+|  .  .. .        |
+
+|    ....         |
+
++-----------------+</pre>
+
+<p>
+Далее выполните в терминале команду:
+</p>
+<pre class="code">cat ~/.ssh/id_rsa.pub</pre>
+
+<p>
+Увидите свой ключ.
+</p>
+
+<p>
+<strong>Дополнительная защита сервера при использовании SSH ключей: отключение парольной аутентификации</strong>
+</p>
+
+<p>
+<strong>
+ВНИМАНИЕ!</strong> Прежде чем выполнять этот пункт обязательно проверьте работу SSH ключей и входа на сервер по ним.
+</p>
+
+<p>
+Если у вас вышло подключиться к серверу с помощью SSH-ключей, то в качестве дополнительной меры безопасности можно отключить аутентификацию через пароль. Для этого открываем конфигурационный файл демона SSH /etc/ssh/sshd_config и раскомментируем директиву PasswordAuthentication,  а также установим ей значение no.
+</p>
+<pre class="code">PasswordAuthentication no</pre>
+
+<p>
+Сохраняем изменения и перезапускаем сервис
+</p>
+<pre class="code"># Ubuntu/Debian
+sudo systemctl restart ssh
+# CentOS/Fedora
+sudo service sshd restart</pre>
+
+<p>
+<strong>Отключение root- ssh доступ</strong>
+</p>
+
+<p>
+Отключите root- ssh доступ, отредактировав /etc/ssh/sshd_config:
+</p>
+<pre class="code">PermitRootLogin no</pre>
+
+</div>

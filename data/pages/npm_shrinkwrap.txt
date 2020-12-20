@@ -1,0 +1,28 @@
+====== What Is Npm Shrinkwrap And Why You Should Start Using It Right Now? ======
+
+
+I've recently talked to people who are mostly PHP developers and want to try Node.js. For installing and managing dependencies, they use Composer. Composer creates 2 files, composer.json and composer.lock. Composer.json file is similar to package.json in Node.js but what's composer.lock? Here comes npm shrinkwrap.
+
+NPM shrinkwrap lets you lock down the ver­sions of installed pack­ages and their descen­dant pack­ages. It helps you use same package versions on all environments (development, staging, production) and also improve download and installation speed. Having same versions of packages on all environments can help you test systems and deploy with confidence. If all tests pass on one machine, you can be sure that it will pass on all other because you know that you use same code!
+
+
+====== How To Use It? ======
+
+
+NPM shrinkwrap is very simple to use. After installing packages using <code>npm install</code>or <code> npm install <package-name> </code> and updating your node_modules folder, you should run
+
+<code> npm shrinkwrap </code>
+That's all!
+
+It should create new npm-shrinkwrap.json file with information about all packages you use. Don't forget to commit it!
+
+Next time, when someone calls npm install, it will install packages from npm-shrinkwrap.json and you will have the same environment on all machines.
+
+
+====== How To Add/Update/Delete Package? ======
+
+
+Installing and updating packages is very simple. Just use <code> npm install <package-name> </code> to install package, or <code> npm update <package-name> </code> to update it or <code> npm uninstall <package-name> </code>. Just don't forget to run npm shrinkwrap command after you finish. It will update npm-shrinkwrap.json file with new packages.
+
+
+For more information click [[https://ivanjov.com/what-is-npm-shrinkwrap-and-why-you-should-start-using-it-right-now/ | here]]

@@ -1,0 +1,74 @@
+
+<h1 class="sectionedit1" id="what_is_npm_shrinkwrap_and_why_you_should_start_using_it_right_now">What Is Npm Shrinkwrap And Why You Should Start Using It Right Now?</h1>
+<div class="level1">
+
+<p>
+I&#039;ve recently talked to people who are mostly PHP developers and want to try Node.js. For installing and managing dependencies, they use Composer. Composer creates 2 files, composer.json and composer.lock. Composer.json file is similar to package.json in Node.js but what&#039;s composer.lock? Here comes npm shrinkwrap.
+</p>
+
+<p>
+NPM shrinkwrap lets you lock down the ver­sions of installed pack­ages and their descen­dant pack­ages. It helps you use same package versions on all environments (development, staging, production) and also improve download and installation speed. Having same versions of packages on all environments can help you test systems and deploy with confidence. If all tests pass on one machine, you can be sure that it will pass on all other because you know that you use same code!
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;What Is Npm Shrinkwrap And Why You Should Start Using It Right Now?&quot;,&quot;hid&quot;:&quot;what_is_npm_shrinkwrap_and_why_you_should_start_using_it_right_now&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:1,&quot;range&quot;:&quot;1-884&quot;} -->
+<h1 class="sectionedit2" id="how_to_use_it">How To Use It?</h1>
+<div class="level1">
+
+<p>
+NPM shrinkwrap is very simple to use. After installing packages using 
+</p>
+<pre class="code">npm install</pre>
+
+<p>
+or 
+</p>
+<pre class="code"> npm install &lt;package-name&gt; </pre>
+
+<p>
+ and updating your node_modules folder, you should run
+</p>
+<pre class="code"> npm shrinkwrap </pre>
+
+<p>
+That&#039;s all!
+</p>
+
+<p>
+It should create new npm-shrinkwrap.json file with information about all packages you use. Don&#039;t forget to commit it!
+</p>
+
+<p>
+Next time, when someone calls npm install, it will install packages from npm-shrinkwrap.json and you will have the same environment on all machines.
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;How To Use It?&quot;,&quot;hid&quot;:&quot;how_to_use_it&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:2,&quot;range&quot;:&quot;885-1422&quot;} -->
+<h1 class="sectionedit3" id="how_to_add_update_delete_package">How To Add/Update/Delete Package?</h1>
+<div class="level1">
+
+<p>
+Installing and updating packages is very simple. Just use 
+</p>
+<pre class="code"> npm install &lt;package-name&gt; </pre>
+
+<p>
+ to install package, or 
+</p>
+<pre class="code"> npm update &lt;package-name&gt; </pre>
+
+<p>
+ to update it or 
+</p>
+<pre class="code"> npm uninstall &lt;package-name&gt; </pre>
+
+<p>
+. Just don&#039;t forget to run npm shrinkwrap command after you finish. It will update npm-shrinkwrap.json file with new packages.
+</p>
+
+<p>
+For more information click <a href="https://ivanjov.com/what-is-npm-shrinkwrap-and-why-you-should-start-using-it-right-now/" class="urlextern" title="https://ivanjov.com/what-is-npm-shrinkwrap-and-why-you-should-start-using-it-right-now/" rel="ugc nofollow"> here</a>
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;How To Add\/Update\/Delete Package?&quot;,&quot;hid&quot;:&quot;how_to_add_update_delete_package&quot;,&quot;codeblockOffset&quot;:3,&quot;secid&quot;:3,&quot;range&quot;:&quot;1423-&quot;} -->

@@ -1,0 +1,81 @@
+====== Linux/MacOS ======
+
+Создание/Добавление ключей, отключение root доступа, отключение парольной аутентификации
+
+**Откройте терминал и выполните команду:**
+
+<code>ssh-keygen -t rsa</code>
+
+На консоль будет выведен следующий диалог:
+
+<code>Enter file in which to save the key (/home/user/.ssh/id_rsa):</code>
+Нажмите на клавишу Enter.  Далее система предложит ввести кодовую фразу для дополнительной защиты SSH-подключения:
+
+<code>Enter passphrase (empty for no passphrase):</code>
+Этот шаг можно пропустить. При ответе на этот и следующий вопрос просто нажмите клавишу Enter.
+
+После этого ключ будет создан, а на консоль будет выведено следующее сообщение:
+
+<code>Your identification has been saved in /home/user/.ssh/id_rsa.
+Your public key has been saved in /home/user/.ssh/id_rsa.pub.
+The key fingerprint is:
+476:b2:a8:7f:08:b4:c0:af:81:25:7e:21:48:01:0e:98 user@localhost
+
+The key's randomart image is:
+
++--[ RSA 2048]----+
+
+|+.o.             |
+
+|ooE              |
+
+|oo               |
+
+|o.+..            |
+
+|.+.+..  S .      |
+
+|....+  o +       |
+
+|  .o ....        |
+
+|  .  .. .        |
+
+|    ....         |
+
++-----------------+</code>
+
+Далее выполните в терминале команду:
+
+<code>cat ~/.ssh/id_rsa.pub</code>
+
+Увидите свой ключ.
+
+
+
+**Дополнительная защита сервера при использовании SSH ключей: отключение парольной аутентификации**
+
+
+**
+ВНИМАНИЕ!** Прежде чем выполнять этот пункт обязательно проверьте работу SSH ключей и входа на сервер по ним.
+
+Если у вас вышло подключиться к серверу с помощью SSH-ключей, то в качестве дополнительной меры безопасности можно отключить аутентификацию через пароль. Для этого открываем конфигурационный файл демона SSH /etc/ssh/sshd_config и раскомментируем директиву PasswordAuthentication,  а также установим ей значение no.
+
+<code>PasswordAuthentication no</code>
+
+Сохраняем изменения и перезапускаем сервис
+
+ 
+<code>
+# Ubuntu/Debian
+sudo systemctl restart ssh
+# CentOS/Fedora
+sudo service sshd restart
+</code>
+
+
+**Отключение root- ssh доступ**
+
+Отключите root- ssh доступ, отредактировав /etc/ssh/sshd_config:
+
+<code>PermitRootLogin no</code>

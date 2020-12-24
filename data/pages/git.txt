@@ -1,0 +1,12 @@
+====== Частые команды git ======
+
+
+<code>git branch -r</code>  показывает remote ветки
+<code>git branch -a</code>  показывает все ветки
+<code>git restore <file></code>  убирает не закоммиченные изменения с указанного файла
+<code>git log</code> - показывает все коммиты текущей ветки (новые с верху вниз)
+<code>git show <hash></code> - показывает код изменения конкретного коммита  
+<code>git reset <file></code> убирает с добавленных файл (отменяет git add <file>)
+<code>git revert —no-edit <hash></code> -  откатывает указанный коммит к предыдущему значению. 
+
+<code>git commit -a -m “Commit title”</code>- коммитит с добавлением всех измененных файлов, т.е. вместо <code>git add . && git commit -m “Commit title”</code>

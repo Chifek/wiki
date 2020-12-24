@@ -1,0 +1,46 @@
+
+<h1 class="sectionedit1" id="частые_команды_git">Частые команды git</h1>
+<div class="level1">
+<pre class="code">git branch -r</pre>
+
+<p>
+  показывает remote ветки
+</p>
+<pre class="code">git branch -a</pre>
+
+<p>
+  показывает все ветки
+</p>
+<pre class="code">git restore &lt;file&gt;</pre>
+
+<p>
+  убирает не закоммиченные изменения с указанного файла
+</p>
+<pre class="code">git log</pre>
+
+<p>
+ - показывает все коммиты текущей ветки (новые с верху вниз)
+</p>
+<pre class="code">git show &lt;hash&gt;</pre>
+
+<p>
+ - показывает код изменения конкретного коммита  
+</p>
+<pre class="code">git reset &lt;file&gt;</pre>
+
+<p>
+ убирает с добавленных файл (отменяет git add &lt;file&gt;)
+</p>
+<pre class="code">git revert —no-edit &lt;hash&gt;</pre>
+
+<p>
+ -  откатывает указанный коммит к предыдущему значению. 
+</p>
+<pre class="code">git commit -a -m “Commit title”</pre>
+
+<p>
+- коммитит с добавлением всех измененных файлов, т.е. вместо 
+</p>
+<pre class="code">git add . &amp;&amp; git commit -m “Commit title”</pre>
+
+</div>

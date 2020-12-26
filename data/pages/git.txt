@@ -8,5 +8,7 @@
 <code>git show <hash></code> - показывает код изменения конкретного коммита  
 <code>git reset <file></code> убирает с добавленных файл (отменяет git add <file>)
 <code>git revert —no-edit <hash></code> -  откатывает указанный коммит к предыдущему значению. 
-
 <code>git commit -a -m “Commit title”</code>- коммитит с добавлением всех измененных файлов, т.е. вместо <code>git add . && git commit -m “Commit title”</code>
+<code>git log —oneline </code>показывает в одну строку коммиты
+<code>git log —stat —graph</code>показывает детальный log 
+<code>git log <file name></code>история изменений (коммитов) в файле

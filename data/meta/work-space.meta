@@ -1,0 +1,28 @@
+a:2:{s:7:"current";a:7:{s:4:"date";a:2:{s:7:"created";i:1608972814;s:8:"modified";i:1608972814;}s:7:"creator";s:6:"ruslan";s:4:"user";s:6:"chifek";s:11:"last_change";a:8:{s:4:"date";i:1608972814;s:2:"ip";s:15:"185.116.202.192";s:4:"type";s:1:"C";s:2:"id";s:10:"work-space";s:4:"user";s:6:"chifek";s:3:"sum";s:14:"создано";s:5:"extra";s:0:"";s:10:"sizechange";i:1961;}s:8:"internal";a:2:{s:5:"cache";b:1;s:3:"toc";b:1;}s:11:"description";a:1:{s:8:"abstract";s:503:"#!/bin/bash
+
+#git
+sudo apt-get install git -y
+
+#php7.3
+sudo apt-get install software-properties-common
+sudo add-apt-repository ppa:ondrej/php
+sudo apt-get update
+sudo apt-get install -y php7.3
+
+#postgreSQL
+sudo apt-get update
+sudo apt-get install postgresql postgresql-contrib -y
+
+#nodeJS
+sudo apt-get update
+sudo apt-get install nodejs -y
+
+#npm
+sudo apt-get install npm -y
+
+#curl
+sudo apt-get update
+sudo apt-get install curl -y
+
+#nvm
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/in…";}s:8:"relation";a:1:{s:10:"firstimage";s:0:"";}}s:10:"persistent";a:4:{s:4:"date";a:1:{s:7:"created";i:1608972814;}s:7:"creator";s:6:"ruslan";s:4:"user";s:6:"chifek";s:11:"last_change";a:8:{s:4:"date";i:1608972814;s:2:"ip";s:15:"185.116.202.192";s:4:"type";s:1:"C";s:2:"id";s:10:"work-space";s:4:"user";s:6:"chifek";s:3:"sum";s:14:"создано";s:5:"extra";s:0:"";s:10:"sizechange";i:1961;}}}

@@ -1,35 +1,3 @@
-1608483145	95.31.13.88	E	start	chifek			12
-1608483224	95.31.13.88	C	ssh	chifek	создано		870
-1608483235	95.31.13.88	E	ssh	chifek			-2
-1608483258	95.31.13.88	E	ssh	chifek			488
-1608483301	95.31.13.88	E	ssh	chifek			105
-1608484758	95.31.13.88	E	ssh	chifek			435
-1608484829	95.31.13.88	E	ssh	chifek			-384
-1608484840	95.31.13.88	C	ssh_server	chifek	создано		447
-1608484855	95.31.13.88	E	ssh	chifek			-1462
-1608484860	95.31.13.88	C	ssh_keys	chifek	создано		1461
-1608484934	95.31.13.88	E	start	chifek			39
-1608484943	95.31.13.88	E	start	chifek			-29
-1608485513	95.31.13.88	E	ssh_keys	chifek			957
-1608485541	95.31.13.88	E	ssh_keys	chifek			40
-1608485564	95.31.13.88	E	ssh_keys	chifek			185
-1608485945	95.31.13.88	E	ssh_keys	chifek			178
-1608486012	95.31.13.88	E	ssh_keys	chifek			163
-1608486401	95.31.13.88	e	ssh_server	chifek			1
-1608487031	95.31.13.88	E	start	chifek			20
-1608487060	95.31.13.88	C	bash	chifek	создано		40
-1608487065	95.31.13.88	C	30_examples	chifek	создано		23
-1608487073	95.31.13.88	E	30_examples	chifek			9
-1608487097	95.31.13.88	E	30_examples	chifek			54
-1608487513	95.31.13.88	E	30_examples	chifek			3
-1608487790	95.31.13.88	E	30_examples	chifek			20
-1608490118	95.31.13.88	E	30_examples	chifek			-19
-1608494192	95.31.13.88	E	bash	chifek			42
-1608494213	95.31.13.88	E	30_examples	chifek			7
-1608494296	95.31.13.88	E	30_examples	chifek			9
-1608494941	95.31.13.88	E	30_examples	chifek			-17
-1608494958	95.31.13.88	E	30_examples	chifek			23
-1608495473	95.31.13.88	E	bash	chifek			-42
 1608749095	95.31.13.88	E	start	chifek			13
 1608749176	95.31.13.88	C	git	chifek	создано		989
 1608749206	95.31.13.88	E	git	chifek			48
@@ -70,3 +38,4 @@
 1608911846	185.116.202.192	E	git	chifek			231
 1608972798	185.116.202.192	E	start	chifek			53
 1608972814	185.116.202.192	C	work-space	chifek	создано		1961
+1609139582	185.116.202.192	E	git	chifek			292

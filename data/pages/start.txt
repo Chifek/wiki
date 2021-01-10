@@ -15,3 +15,5 @@
 [[Laravel|Laravel]]
 
 [[work-space|Установка раб.среды]]
+
+[[psql|psql]]

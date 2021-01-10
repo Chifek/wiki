@@ -98,3 +98,6 @@ amd64
 cache
 uname
 chmod
+owner
+ctype
+limit

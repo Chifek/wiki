@@ -1,1 +1,3 @@
 [[https://habr.com/ru/company/ruvds/blog/450312/|Основные команды]]
+
+[[How to Remove Images and Containers in Docker|How to Remove Images and Containers in Docker]]

@@ -22,3 +22,5 @@ work-space
 psql
 sql
 create_database
+rsync
+how_to_remove_images_and_containers_in_docker

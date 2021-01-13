@@ -4,9 +4,13 @@
 
 [[php|PHP]]
 
+[[docker|docker]]
+
 [[ufw|ufw firewall]]
 
 [[npm|npm]]
+
+[[rsync|RSYNC]]
 
 [[bash| /bin/bash]]
 

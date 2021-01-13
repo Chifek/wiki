@@ -1,12 +1,16 @@
-a:2:{s:7:"current";a:8:{s:4:"date";a:2:{s:7:"created";i:1604987314;s:8:"modified";i:1610226043;}s:7:"creator";s:6:"ruslan";s:4:"user";s:6:"chifek";s:11:"last_change";a:8:{s:4:"date";i:1610226043;s:2:"ip";s:11:"95.31.13.88";s:4:"type";s:1:"E";s:2:"id";s:5:"start";s:4:"user";s:6:"chifek";s:3:"sum";s:0:"";s:5:"extra";s:0:"";s:10:"sizechange";i:15;}s:11:"contributor";a:1:{s:6:"chifek";s:6:"ruslan";}s:8:"relation";a:2:{s:10:"references";a:10:{s:5:"links";b:1;s:3:"ssh";b:1;s:3:"php";b:1;s:3:"ufw";b:1;s:3:"npm";b:1;s:4:"bash";b:1;s:3:"git";b:1;s:7:"laravel";b:1;s:10:"work-space";b:1;s:4:"psql";b:1;}s:10:"firstimage";s:0:"";}s:8:"internal";a:2:{s:5:"cache";b:1;s:3:"toc";b:1;}s:11:"description";a:1:{s:8:"abstract";s:128:"полезные ссылки
+a:2:{s:7:"current";a:8:{s:4:"date";a:2:{s:7:"created";i:1604987314;s:8:"modified";i:1610465385;}s:7:"creator";s:6:"ruslan";s:4:"user";s:6:"chifek";s:11:"last_change";a:8:{s:4:"date";i:1610465385;s:2:"ip";s:15:"185.116.202.192";s:4:"type";s:1:"E";s:2:"id";s:5:"start";s:4:"user";s:6:"chifek";s:3:"sum";s:0:"";s:5:"extra";s:0:"";s:10:"sizechange";i:19;}s:11:"contributor";a:1:{s:6:"chifek";s:6:"ruslan";}s:8:"relation";a:2:{s:10:"references";a:12:{s:5:"links";b:1;s:3:"ssh";b:1;s:3:"php";b:1;s:6:"docker";b:1;s:3:"ufw";b:1;s:3:"npm";b:1;s:5:"rsync";b:1;s:4:"bash";b:1;s:3:"git";b:1;s:7:"laravel";b:1;s:10:"work-space";b:1;s:4:"psql";b:1;}s:10:"firstimage";s:0:"";}s:8:"internal";a:2:{s:5:"cache";b:1;s:3:"toc";b:1;}s:11:"description";a:1:{s:8:"abstract";s:143:"полезные ссылки
 
 SSH
 
 PHP
 
+docker
+
 ufw firewall
 
 npm
+
+RSYNC
 
  /bin/bash
 
@@ -16,4 +20,4 @@ Laravel
 
 Установка раб.среды
 
-psql";}}s:10:"persistent";a:5:{s:4:"date";a:2:{s:7:"created";i:1604987314;s:8:"modified";i:1610226043;}s:7:"creator";s:6:"ruslan";s:4:"user";s:6:"chifek";s:11:"last_change";a:8:{s:4:"date";i:1610226043;s:2:"ip";s:11:"95.31.13.88";s:4:"type";s:1:"E";s:2:"id";s:5:"start";s:4:"user";s:6:"chifek";s:3:"sum";s:0:"";s:5:"extra";s:0:"";s:10:"sizechange";i:15;}s:11:"contributor";a:1:{s:6:"chifek";s:6:"ruslan";}}}
+psql";}}s:10:"persistent";a:5:{s:4:"date";a:2:{s:7:"created";i:1604987314;s:8:"modified";i:1610465385;}s:7:"creator";s:6:"ruslan";s:4:"user";s:6:"chifek";s:11:"last_change";a:8:{s:4:"date";i:1610465385;s:2:"ip";s:15:"185.116.202.192";s:4:"type";s:1:"E";s:2:"id";s:5:"start";s:4:"user";s:6:"chifek";s:3:"sum";s:0:"";s:5:"extra";s:0:"";s:10:"sizechange";i:19;}s:11:"contributor";a:1:{s:6:"chifek";s:6:"ruslan";}}}

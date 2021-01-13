@@ -18,3 +18,16 @@
 1610226083	95.31.13.88	C	sql	chifek	создано		35
 1610226124	95.31.13.88	C	create_database	chifek	создано		710
 1610226146	95.31.13.88	E	create_database	chifek			1114
+1610462031	185.116.202.192	E	start	chifek			17
+1610462104	185.116.202.192	C	rsync	chifek	создано		628
+1610462149	185.116.202.192	E	rsync	chifek			420
+1610465385	185.116.202.192	E	start	chifek			19
+1610465414	185.116.202.192	E	docker	chifek			97
+1610465557	185.116.202.192	C	how_to_remove_images_and_containers_in_docker	chifek	создано		1320
+1610465576	185.116.202.192	E	how_to_remove_images_and_containers_in_docker	chifek	[Remove multiple images] 		13
+1610465629	185.116.202.192	E	how_to_remove_images_and_containers_in_docker	chifek	[Docker rmi] 		24
+1610465640	185.116.202.192	E	how_to_remove_images_and_containers_in_docker	chifek			1
+1610465671	185.116.202.192	E	how_to_remove_images_and_containers_in_docker	chifek	[Remove all images at once] 		13
+1610465715	185.116.202.192	E	how_to_remove_images_and_containers_in_docker	chifek	[Remove all images at once] 		26
+1610465744	185.116.202.192	E	how_to_remove_images_and_containers_in_docker	chifek	[Remove all images at once] 		0
+1610465752	185.116.202.192	E	how_to_remove_images_and_containers_in_docker	chifek	[Remove all images at once] 		-1

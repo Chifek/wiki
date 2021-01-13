@@ -16,3 +16,7 @@ mapwithkeys
 unlessempty
 wherestrict
 getcomposer
+directories
+destination
+recursively
+permissions

@@ -1,0 +1,22 @@
+====== Using rsync to Transfer Files over SSH # ======
+
+With rsync, you can transfer files and directories over SSH from and to remote servers.
+
+The general syntax for transferring files with rsync is as follows:
+
+
+<code>Local to Remote: rsync [OPTION]... -e ssh [SRC]... [USER@]HOST:DEST
+Remote to Local: rsync [OPTION]... -e ssh [USER@]HOST:SRC... [DEST]
+</code>
+
+Where SRC is the source directory, DEST is the destination directory USER is the remote SSH username and HOST is the remote SSH host or IP Address.
+
+The newer versions of rsync are configured to use SSH as default remote shell so you can omit the -e ssh option.
+
+
+or example, to transfer a single file /opt/file.zip from the local system to the /var/www/ directory on the remote system with IP 12.12.12.12 you would run:
+
+<code>rsync -a /opt/file.zip user@12.12.12.12:/var/www/</code>
+
+
+The -a option stands for archive mode which will syncs directories recursively, transfer special and block devices, preserve symbolic links, modification times, group, ownership, and permissions.

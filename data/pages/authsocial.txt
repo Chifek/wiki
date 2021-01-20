@@ -1,0 +1,3 @@
+Пока только ссылка
+
+[[http://www.voerro.com/ru/tutorials/r/autentifikatsiya-cherez-sotsialnye-seti-v-laravel-5-s-pomoshchyu-socialite/1|http://www.voerro.com/ru/tutorials/r/autentifikatsiya-cherez-sotsialnye-seti-v-laravel-5-s-pomoshchyu-socialite/1]]

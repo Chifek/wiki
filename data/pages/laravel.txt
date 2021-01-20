@@ -1,3 +1,5 @@
 [[Seeder|Seeder]]
 
 [[Collections|Collections]]
+
+[[authSocial|Авторизация через соц. сети]]

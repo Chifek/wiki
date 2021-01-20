@@ -1,0 +1,14 @@
+Try to disable the branch protection in the settings/repository page. Check the sections Default Branch and Protected Branches
+
+After that:
+
+Checkout the branch locally.
+<code>git checkout branch</code>
+Rename it locally
+<code>git checkout -b branch_old</code>
+delete remote branch
+<code>git push --delete origin branch</code>
+push the locally renamed branch to remote.
+<code>git push --set-upstream origin branch_old</code>
+
+

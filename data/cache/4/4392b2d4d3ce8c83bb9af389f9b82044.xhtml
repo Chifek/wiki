@@ -1,0 +1,47 @@
+
+<h1 class="sectionedit1" id="php_filters">PHP Filters</h1>
+<div class="level1">
+
+<p>
+Validating data = Determine if the data is in proper form.
+</p>
+
+<p>
+Sanitizing data = Remove any illegal character from the data.
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;PHP Filters&quot;,&quot;hid&quot;:&quot;php_filters&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:1,&quot;range&quot;:&quot;1-151&quot;} -->
+<h2 class="sectionedit2" id="the_php_filter_extension">The PHP Filter Extension</h2>
+<div class="level2">
+
+<p>
+PHP filters are used to validate and sanitize external input.
+</p>
+
+<p>
+The PHP filter extension has many of the functions needed for checking user input, and is designed to make data validation easier and quicker.
+</p>
+
+<p>
+The filter_list() function can be used to list what the PHP filter extension offers:
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;The PHP Filter Extension&quot;,&quot;hid&quot;:&quot;the_php_filter_extension&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:2,&quot;range&quot;:&quot;152-482&quot;} -->
+<h3 class="sectionedit3" id="example">Example</h3>
+<div class="level3">
+<pre class="code">&lt;table&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Filter Name&lt;/td&gt;
+    &lt;td&gt;Filter ID&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;?php
+  foreach (filter_list() as $id =&gt;$filter) {
+    echo &#039;&lt;tr&gt;&lt;td&gt;&#039; . $filter . &#039;&lt;/td&gt;&lt;td&gt;&#039; . filter_id($filter) . &#039;&lt;/td&gt;&lt;/tr&gt;&#039;;
+  }
+  ?&gt;
+&lt;/table&gt;</pre>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Example&quot;,&quot;hid&quot;:&quot;example&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:3,&quot;range&quot;:&quot;483-&quot;} -->

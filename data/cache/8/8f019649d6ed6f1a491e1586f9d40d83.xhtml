@@ -26,3 +26,23 @@ delete remote branch
 push the locally renamed branch to remote.
 </p>
 <pre class="code">git push --set-upstream origin branch_old</pre>
+
+<h2 class="sectionedit1" id="how_do_i_delete_a_local_branch_in_git">How do I delete a local branch in Git?</h2>
+<div class="level2">
+
+<p>
+Git makes managing branches really easy - and deleting local branches is no exception:
+</p>
+<pre class="code">git branch -d &lt;local-branch&gt;</pre>
+
+<p>
+In some cases, Git might refuse to delete your local branch: when it contains commits that haven&#039;t been merged into any other local branches or pushed to a remote repository. This is a very sensible rule that protects you from inadvertently losing commit data.
+</p>
+
+<p>
+If you want to delete such a branch nonetheless (e.g. because you&#039;ve programmed yourself into a dead end and produced commits that aren&#039;t worth keeping) you can do so with the «-D» flag:
+</p>
+<pre class="code">git branch -D &lt;local-branch&gt;</pre>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;How do I delete a local branch in Git?&quot;,&quot;hid&quot;:&quot;how_do_i_delete_a_local_branch_in_git&quot;,&quot;codeblockOffset&quot;:4,&quot;secid&quot;:1,&quot;range&quot;:&quot;429-&quot;} -->

@@ -1,11 +1,3 @@
-1609139582	185.116.202.192	E	git	chifek			292
-1609706440	95.31.13.88	E	links	chifek			1
-1610226043	95.31.13.88	E	start	chifek			15
-1610226063	95.31.13.88	C	psql	chifek	создано		26
-1610226083	95.31.13.88	C	sql	chifek	создано		35
-1610226124	95.31.13.88	C	create_database	chifek	создано		710
-1610226146	95.31.13.88	E	create_database	chifek			1114
-1610462031	185.116.202.192	E	start	chifek			17
 1610462104	185.116.202.192	C	rsync	chifek	создано		628
 1610462149	185.116.202.192	E	rsync	chifek			420
 1610465385	185.116.202.192	E	start	chifek			19
@@ -26,3 +18,6 @@
 1611042191	185.116.202.192	C	authsocial	chifek	создано		267
 1611066347	185.116.202.192	E	git	chifek			79
 1611066396	185.116.202.192	C	rename_branch	chifek	создано		427
+1611127139	185.116.202.192	E	git	chifek			60
+1611156391	185.116.202.192	E	rename_branch	chifek			184
+1611156427	185.116.202.192	E	rename_branch	chifek			491

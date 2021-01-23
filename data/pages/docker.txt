@@ -1,3 +1,6 @@
 [[https://habr.com/ru/company/ruvds/blog/450312/|Основные команды]]
 
 [[How to Remove Images and Containers in Docker|How to Remove Images and Containers in Docker]]
+
+
+[[https://medium.com/@fazlulkabir94/everyday-we-need-to-run-some-task-automatic-in-the-web-server-for-various-purpose-suppose-we-have-f1d6192e63ec|Laravel Scheduler task in the docker container]]

@@ -1,0 +1,115 @@
+
+<h1 class="sectionedit1" id="certbot_instructions">certbot instructions</h1>
+<div class="level1">
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;certbot instructions&quot;,&quot;hid&quot;:&quot;certbot_instructions&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:1,&quot;range&quot;:&quot;1-37&quot;} -->
+<h2 class="sectionedit2" id="ssh_into_the_server">1. SSH into the server</h2>
+<div class="level2">
+
+<p>
+SSH into the server running your HTTP website as a user with sudo privileges.
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;1. SSH into the server&quot;,&quot;hid&quot;:&quot;ssh_into_the_server&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:2,&quot;range&quot;:&quot;38-153&quot;} -->
+<h2 class="sectionedit3" id="install_snapd">2. Install snapd</h2>
+<div class="level2">
+
+<p>
+You&#039;ll need to install snapd and make sure you follow any instructions to enable classic snap support.
+Follow these instructions on snapcraft&#039;s site to install snapd.
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;2. Install snapd&quot;,&quot;hid&quot;:&quot;install_snapd&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:3,&quot;range&quot;:&quot;154-351&quot;} -->
+<h2 class="sectionedit4" id="ensure_that_your_version_of_snapd_is_up_to_date">3. Ensure that your version of snapd is up to date</h2>
+<div class="level2">
+
+<p>
+Execute the following instructions on the command line on the machine to ensure that you have the latest version of snapd.
+</p>
+<pre class="code">sudo snap install core; sudo snap refresh core</pre>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;3. Ensure that your version of snapd is up to date&quot;,&quot;hid&quot;:&quot;ensure_that_your_version_of_snapd_is_up_to_date&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:4,&quot;range&quot;:&quot;352-603&quot;} -->
+<h2 class="sectionedit5" id="remove_certbot-auto_and_any_certbot_os_packages">4. Remove certbot-auto and any Certbot OS packages</h2>
+<div class="level2">
+
+<p>
+If you have any Certbot packages installed using an <abbr title="Operating System">OS</abbr> package manager like apt, dnf, or yum, you should remove them before installing the Certbot snap to ensure that when you run the command certbot the snap is used rather than the installation from your <abbr title="Operating System">OS</abbr> package manager. The exact command to do this depends on your <abbr title="Operating System">OS</abbr>, but common examples are sudo apt-get remove certbot, sudo dnf remove certbot, or sudo yum remove certbot.
+</p>
+
+<p>
+If you previously used Certbot through the certbot-auto script, you should also remove its installation by following the instructions here.
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;4. Remove certbot-auto and any Certbot OS packages&quot;,&quot;hid&quot;:&quot;remove_certbot-auto_and_any_certbot_os_packages&quot;,&quot;codeblockOffset&quot;:1,&quot;secid&quot;:5,&quot;range&quot;:&quot;604-1240&quot;} -->
+<h2 class="sectionedit6" id="install_certbot">5. Install Certbot</h2>
+<div class="level2">
+
+<p>
+Run this command on the command line on the machine to install Certbot.
+</p>
+<pre class="code">sudo snap install --classic certbot</pre>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;5. Install Certbot&quot;,&quot;hid&quot;:&quot;install_certbot&quot;,&quot;codeblockOffset&quot;:1,&quot;secid&quot;:6,&quot;range&quot;:&quot;1241-1395&quot;} -->
+<h2 class="sectionedit7" id="prepare_the_certbot_command">6. Prepare the Certbot command</h2>
+<div class="level2">
+
+<p>
+Execute the following instruction on the command line on the machine to ensure that the certbot command can be run.
+</p>
+<pre class="code">sudo ln -s /snap/bin/certbot /usr/bin/certbot</pre>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;6. Prepare the Certbot command&quot;,&quot;hid&quot;:&quot;prepare_the_certbot_command&quot;,&quot;codeblockOffset&quot;:2,&quot;secid&quot;:7,&quot;range&quot;:&quot;1396-1616&quot;} -->
+<h2 class="sectionedit8" id="choose_how_you_d_like_to_run_certbot">7. Choose how you&#039;d like to run Certbot</h2>
+<div class="level2">
+
+<p>
+Either get and install your certificates…
+Run this command to get a certificate and have Certbot edit your Nginx configuration automatically to serve it, turning on HTTPS access in a single step.
+</p>
+<pre class="code">sudo certbot --nginx</pre>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;7. Choose how you&#039;d like to run Certbot&quot;,&quot;hid&quot;:&quot;choose_how_you_d_like_to_run_certbot&quot;,&quot;codeblockOffset&quot;:3,&quot;secid&quot;:8,&quot;range&quot;:&quot;1617-1902&quot;} -->
+<h3 class="sectionedit9" id="or_just_get_a_certificate">Or, just get a certificate</h3>
+<div class="level3">
+
+<p>
+If you&#039;re feeling more conservative and would like to make the changes to your Nginx configuration by hand, run this command.
+</p>
+<pre class="code">sudo certbot certonly --nginx</pre>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Or, just get a certificate&quot;,&quot;hid&quot;:&quot;or_just_get_a_certificate&quot;,&quot;codeblockOffset&quot;:4,&quot;secid&quot;:9,&quot;range&quot;:&quot;1903-2114&quot;} -->
+<h2 class="sectionedit10" id="test_automatic_renewal">8. Test automatic renewal</h2>
+<div class="level2">
+
+<p>
+The Certbot packages on your system come with a cron job or systemd timer that will renew your certificates automatically before they expire. You will not need to run Certbot again, unless you change your configuration. You can test automatic renewal for your certificates by running this command:
+</p>
+<pre class="code">sudo certbot renew --dry-run</pre>
+
+<p>
+The command to renew certbot is installed in one of the following locations:
+</p>
+<pre class="code">/etc/crontab/
+/etc/cron.*/*
+systemctl list-timers</pre>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;8. Test automatic renewal&quot;,&quot;hid&quot;:&quot;test_automatic_renewal&quot;,&quot;codeblockOffset&quot;:5,&quot;secid&quot;:10,&quot;range&quot;:&quot;2115-2637&quot;} -->
+<h2 class="sectionedit11" id="confirm_that_certbot_worked">9.Confirm that Certbot worked</h2>
+<div class="level2">
+
+<p>
+To confirm that your site is set up properly, visit <a href="https://yourwebsite.com/" class="urlextern" title="https://yourwebsite.com/" rel="ugc nofollow">https://yourwebsite.com/</a> in your browser and look for the lock icon in the <abbr title="Uniform Resource Locator">URL</abbr> bar.
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;9.Confirm that Certbot worked&quot;,&quot;hid&quot;:&quot;confirm_that_certbot_worked&quot;,&quot;codeblockOffset&quot;:7,&quot;secid&quot;:11,&quot;range&quot;:&quot;2638-&quot;} -->

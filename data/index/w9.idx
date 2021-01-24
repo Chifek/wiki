@@ -61,3 +61,5 @@ exception
 automatic
 scheduler
 container
+snapcraft
+locations

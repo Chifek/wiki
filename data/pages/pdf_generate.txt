@@ -1,0 +1,2 @@
+https://github.com/KnpLabs/snappy , 
+для laravel: https://github.com/barryvdh/laravel-snappy

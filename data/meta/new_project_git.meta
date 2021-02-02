@@ -1,0 +1,12 @@
+a:2:{s:7:"current";a:8:{s:4:"date";a:2:{s:7:"created";i:1612207522;s:8:"modified";i:1612207522;}s:7:"creator";s:6:"ruslan";s:4:"user";s:6:"chifek";s:11:"last_change";a:8:{s:4:"date";i:1612207522;s:2:"ip";s:11:"95.31.13.88";s:4:"type";s:1:"C";s:2:"id";s:15:"new_project_git";s:4:"user";s:6:"chifek";s:3:"sum";s:14:"создано";s:5:"extra";s:0:"";s:10:"sizechange";i:903;}s:5:"title";s:25:"Command line instructions";s:11:"description";a:2:{s:15:"tableofcontents";a:6:{i:0;a:4:{s:3:"hid";s:25:"command_line_instructions";s:5:"title";s:25:"Command line instructions";s:4:"type";s:2:"ul";s:5:"level";i:1;}i:1;a:4:{s:3:"hid";s:82:"you_can_also_upload_existing_files_from_your_computer_using_the_instructions_below";s:5:"title";s:83:"You can also upload existing files from your computer using the instructions below.";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:2;a:4:{s:3:"hid";s:16:"git_global_setup";s:5:"title";s:16:"Git global setup";s:4:"type";s:2:"ul";s:5:"level";i:3;}i:3;a:4:{s:3:"hid";s:23:"create_a_new_repository";s:5:"title";s:23:"Create a new repository";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:4;a:4:{s:3:"hid";s:23:"push_an_existing_folder";s:5:"title";s:23:"Push an existing folder";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:5;a:4:{s:3:"hid";s:31:"push_an_existing_git_repository";s:5:"title";s:31:"Push an existing Git repository";s:4:"type";s:2:"ul";s:5:"level";i:2;}}s:8:"abstract";s:266:"Command line instructions
+
+You can also upload existing files from your computer using the instructions below.
+
+Git global setup
+
+
+git config --global user.name "Ruslan Ismailov"
+git config --global user.email "bkkruslan.ismailov@yandex.ru"
+
+
+Create a new repository";}s:8:"internal";a:2:{s:5:"cache";b:1;s:3:"toc";b:1;}s:8:"relation";a:1:{s:10:"firstimage";s:0:"";}}s:10:"persistent";a:4:{s:4:"date";a:1:{s:7:"created";i:1612207522;}s:7:"creator";s:6:"ruslan";s:4:"user";s:6:"chifek";s:11:"last_change";a:8:{s:4:"date";i:1612207522;s:2:"ip";s:11:"95.31.13.88";s:4:"type";s:1:"C";s:2:"id";s:15:"new_project_git";s:4:"user";s:6:"chifek";s:3:"sum";s:14:"создано";s:5:"extra";s:0:"";s:10:"sizechange";i:903;}}}

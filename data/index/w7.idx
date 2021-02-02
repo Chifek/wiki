@@ -150,3 +150,11 @@ systemd
 crontab
 browser
 knplabs
+require
+scripts
+warning
+authors
+suggest
+current
+remotes
+initial

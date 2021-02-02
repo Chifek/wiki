@@ -29,3 +29,7 @@ authsocial
 rename_branch
 ssl
 pdf_generate
+composer
+remove_remote
+add_remote
+new_project_git

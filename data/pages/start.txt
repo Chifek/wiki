@@ -1,5 +1,7 @@
 [[links|полезные ссылки]]
 
+[[composer|Composer: Шпаргалка команд]]
+
 [[ssh|SSH]]
 
 [[php|PHP]]

@@ -1,0 +1,50 @@
+
+<h1 class="sectionedit1" id="command_line_instructions">Command line instructions</h1>
+<div class="level1">
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Command line instructions&quot;,&quot;hid&quot;:&quot;command_line_instructions&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:1,&quot;range&quot;:&quot;1-41&quot;} -->
+<h2 class="sectionedit2" id="you_can_also_upload_existing_files_from_your_computer_using_the_instructions_below">You can also upload existing files from your computer using the instructions below.</h2>
+<div class="level2">
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;You can also upload existing files from your computer using the instructions below.&quot;,&quot;hid&quot;:&quot;you_can_also_upload_existing_files_from_your_computer_using_the_instructions_below&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:2,&quot;range&quot;:&quot;42-140&quot;} -->
+<h3 class="sectionedit3" id="git_global_setup">Git global setup</h3>
+<div class="level3">
+<pre class="code">git config --global user.name &quot;Ruslan Ismailov&quot;
+git config --global user.email &quot;bkkruslan.ismailov@yandex.ru&quot;</pre>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Git global setup&quot;,&quot;hid&quot;:&quot;git_global_setup&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:3,&quot;range&quot;:&quot;141-294&quot;} -->
+<h2 class="sectionedit4" id="create_a_new_repository">Create a new repository</h2>
+<div class="level2">
+<pre class="code">git clone git@gitlab.com:chifer/sears.git
+cd sears
+touch README.md
+git add README.md
+git commit -m &quot;add README&quot;
+git push -u origin master</pre>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Create a new repository&quot;,&quot;hid&quot;:&quot;create_a_new_repository&quot;,&quot;codeblockOffset&quot;:1,&quot;secid&quot;:4,&quot;range&quot;:&quot;295-485&quot;} -->
+<h2 class="sectionedit5" id="push_an_existing_folder">Push an existing folder</h2>
+<div class="level2">
+<pre class="code">cd existing_folder
+git init
+git remote add origin git@gitlab.com:chifer/sears.git
+git add .
+git commit -m &quot;Initial commit&quot;
+git push -u origin master</pre>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Push an existing folder&quot;,&quot;hid&quot;:&quot;push_an_existing_folder&quot;,&quot;codeblockOffset&quot;:2,&quot;secid&quot;:5,&quot;range&quot;:&quot;486-686&quot;} -->
+<h2 class="sectionedit6" id="push_an_existing_git_repository">Push an existing Git repository</h2>
+<div class="level2">
+<pre class="code">cd existing_repo
+git remote rename origin old-origin
+git remote add origin git@gitlab.com:chifer/sears.git
+git push -u origin --all
+git push -u origin --tags</pre>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Push an existing Git repository&quot;,&quot;hid&quot;:&quot;push_an_existing_git_repository&quot;,&quot;codeblockOffset&quot;:3,&quot;secid&quot;:6,&quot;range&quot;:&quot;687-&quot;} -->

@@ -1,12 +1,3 @@
-1611504708	95.31.13.88	E	start	chifek			13
-1611504799	95.31.13.88	C	ssl	chifek	создано		537
-1611504850	95.31.13.88	E	ssl	chifek			62
-1611504886	95.31.13.88	E	ssl	chifek			639
-1611504927	95.31.13.88	E	ssl	chifek			142
-1611504941	95.31.13.88	E	ssl	chifek			13
-1611504967	95.31.13.88	E	ssl	chifek			208
-1611505005	95.31.13.88	E	ssl	chifek			0
-1611505020	95.31.13.88	E	ssl	chifek			13
 1611505088	95.31.13.88	E	ssl	chifek			484
 1611505105	95.31.13.88	E	ssl	chifek	[7. Choose how you'd like to run Certbot] 		11
 1611505158	95.31.13.88	E	ssl	chifek			526
@@ -18,3 +9,19 @@
 1611509602	95.31.13.88	E	docker	chifek			2
 1611729947	185.116.202.192	E	php	chifek			31
 1611729963	185.116.202.192	C	pdf_generate	chifek	создано		95
+1612173832	185.116.202.192	E	start	chifek			56
+1612173897	185.116.202.192	C	composer	chifek	создано		9532
+1612173920	185.116.202.192	E	composer	chifek			-28
+1612173963	185.116.202.192	E	composer	chifek			11
+1612174031	185.116.202.192	E	composer	chifek			40
+1612174567	185.116.202.192	E	composer	chifek			24
+1612174642	185.116.202.192	E	composer	chifek			21
+1612175782	185.116.202.192	E	composer	chifek			5
+1612175831	185.116.202.192	E	composer	chifek			7
+1612207244	95.31.13.88	E	git	chifek			43
+1612207273	95.31.13.88	C	remove_remote	chifek	создано		490
+1612207328	95.31.13.88	E	git	chifek			45
+1612207365	95.31.13.88	C	add_remote	chifek	создано		57
+1612207381	95.31.13.88	E	add_remote	chifek			9
+1612207438	95.31.13.88	E	git	chifek			37
+1612207522	95.31.13.88	C	new_project_git	chifek	создано		903

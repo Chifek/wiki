@@ -1,0 +1,43 @@
+====== Command line instructions ======
+
+===== You can also upload existing files from your computer using the instructions below. =====
+
+
+
+==== Git global setup ====
+
+<code>
+git config --global user.name "Ruslan Ismailov"
+git config --global user.email "bkkruslan.ismailov@yandex.ru"
+</code>
+
+===== Create a new repository =====
+
+<code>
+git clone git@gitlab.com:chifer/sears.git
+cd sears
+touch README.md
+git add README.md
+git commit -m "add README"
+git push -u origin master
+</code>
+
+===== Push an existing folder =====
+<code>
+cd existing_folder
+git init
+git remote add origin git@gitlab.com:chifer/sears.git
+git add .
+git commit -m "Initial commit"
+git push -u origin master
+</code>
+
+===== Push an existing Git repository =====
+
+<code>
+cd existing_repo
+git remote rename origin old-origin
+git remote add origin git@gitlab.com:chifer/sears.git
+git push -u origin --all
+git push -u origin --tags
+</code>

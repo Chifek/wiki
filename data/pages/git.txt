@@ -1,5 +1,12 @@
 [[rename_branch|Переименование и удаление ветки]]
 
+[[remove_remote|Уделение remote]]
+
+[[add_remote|Добавление remote]]
+
+[[new_project_git|git new project]]
+
+
 ====== Частые команды git ======
 
 <code>git reset HEAD~1</code> где 1 это количество коммитов в которых были удалены файлы. Потом аккуратно убираете удаленные файлы из staging area и пушите все изменения на место.

@@ -1,0 +1,6 @@
+[[https://github.com/fabpot/local-php-security-checker| fabpot/local-php-security-checker]]
+ — Проверяет composer.json на предмет наличия зависимостей с известными уязвимостями. В качестве базы уязвимостей используется[[https://github.com/FriendsOfPHP/security-advisories| FriendsOfPHP/security-advisories]]
+
+
+
+F

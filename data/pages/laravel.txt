@@ -3,3 +3,6 @@
 [[Collections|Collections]]
 
 [[authSocial|Авторизация через соц. сети]]
+
+
+[[artisan_shpargalki|artisan shpargalki]]

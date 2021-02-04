@@ -32,3 +32,5 @@ composer
 remove_remote
 add_remote
 new_project_git
+instruments_php
+artisan_shpargalki

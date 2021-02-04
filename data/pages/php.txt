@@ -3,3 +3,5 @@
 [[phpFilters|PHP Filters]]
 
 [[pdf_generate|PDF Generate]]
+
+[[instruments_php|Инструменты PHP]]

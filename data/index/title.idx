@@ -36,3 +36,4 @@ Command line instructions
 
 
 Пишем простого чат-бота для Telegram на PHP
+debug_print_backtrace - Выводит стек вызовов функций

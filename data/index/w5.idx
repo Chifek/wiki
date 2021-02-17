@@ -139,3 +139,5 @@ photo
 parse
 store
 botan
+debug
+print

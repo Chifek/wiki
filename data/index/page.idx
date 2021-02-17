@@ -36,3 +36,4 @@ instruments_php
 artisan_shpargalki
 telegram
 bot_on_php
+debug_print_backtrace

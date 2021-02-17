@@ -5,3 +5,5 @@
 [[pdf_generate|PDF Generate]]
 
 [[instruments_php|Инструменты PHP]]
+
+[[debug_print_backtrace| debug_print_backtrace();]]

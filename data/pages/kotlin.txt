@@ -1,0 +1,8 @@
+ссылки
+
+[[https://classroom.udacity.com/courses/ud9012|Видеокурсы]]
+
+https://kotlinlang.ru
+
+
+[[osnovnoy_syntacsis|Основной синтаксис]]

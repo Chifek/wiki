@@ -1,0 +1,8 @@
+====== Основные команды ======
+
+
+''brew services stop < name of the server/s active >'' - останавливает сервис
+
+''brew services start < name of the server/s active >'' - запускает сервис
+
+''brew services list'' - список сервисов

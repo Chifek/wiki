@@ -4,6 +4,8 @@
 
 [[add_remote|Добавление remote]]
 
+[[git_squash|git squash]]
+
 [[new_project_git|git new project]]
 
 

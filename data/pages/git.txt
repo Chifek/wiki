@@ -12,7 +12,7 @@
 ====== Частые команды git ======
 
 <code>git reset HEAD~1</code> где 1 это количество коммитов в которых были удалены файлы. Потом аккуратно убираете удаленные файлы из staging area и пушите все изменения на место.
-
+<code>git clean -f -d or git clean -fd</code> удаляет Untracked files
 <code>git remote -v</code>  показывает remote url
 <code>git branch -r</code>  показывает remote ветки
 <code>git branch -a</code>  показывает все ветки

@@ -4,6 +4,8 @@
 
 [[brew|brew]]
 
+[[linux|linux]]
+
 [[sphp|Переключение между версиями PHP]]
 
 [[telegram|telegram]]

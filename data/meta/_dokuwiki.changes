@@ -1,11 +1,3 @@
-1614288173	95.31.13.88	E	sphp	chifek			1169
-1614288220	95.31.13.88	E	sphp	chifek			305
-1614288233	95.31.13.88	E	sphp	chifek			159
-1614288625	95.31.13.88	E	psql	chifek			34
-1614288640	95.31.13.88	C	downgradepsql	chifek	создано		136
-1615207268	95.31.13.88	E	git	chifek			27
-1615207318	95.31.13.88	C	git_squash	chifek	создано		880
-1615207330	95.31.13.88	E	git_squash	chifek			15
 1615207372	95.31.13.88	E	git_squash	chifek			531
 1615207454	95.31.13.88	E	git_squash	chifek			176
 1615207468	95.31.13.88	E	git_squash	chifek	[Как именно делать git squash] 		0
@@ -18,3 +10,15 @@
 1615207885	95.31.13.88	E	git_squash	chifek			397
 1615207986	95.31.13.88	E	git_squash	chifek			856
 1615801641	185.116.202.192	E	git	chifek			76
+1616788118	95.31.13.88	E	start	chifek			17
+1616788194	95.31.13.88	C	linux	chifek	создано		96
+1616788233	95.31.13.88	C	linuxsize	chifek	создано		1434
+1616788301	95.31.13.88	E	linuxsize	chifek			2957
+1616788324	95.31.13.88	E	linuxsize	chifek			31
+1616788368	95.31.13.88	E	linuxsize	chifek			47
+1616788429	95.31.13.88	E	linuxsize	chifek			35
+1616788516	95.31.13.88	E	linuxsize	chifek			-81
+1616801223	95.31.13.88	E	links	chifek			21
+1616801242	95.31.13.88	C	linux_links	chifek	создано		32
+1616801248	95.31.13.88	C	webserver	chifek	создано		76
+1616801263	95.31.13.88	E	webserver	chifek			90

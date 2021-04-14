@@ -33,6 +33,9 @@
 
 [[git|git]]
 
+[[kuberneters|k8s]]
+
+
 [[ssl|ssl]]
 
 [[Laravel|Laravel]]

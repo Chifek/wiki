@@ -1,0 +1,17 @@
+
+
+''kubectl -n <namespace> exec -it <pod_name> bash'' - подключение к поду 
+
+''kubectl get pods -A'' - список подов
+
+''kubectl -n <namespace> get pods''  - список подов для stage/main
+
+''kubectl -n <namespace> logs <pod>'' - логи пода
+
+''kubectl -n <namespace> describe pod <pod>'' - описание пода, описание ошибки
+
+''kubectl apply -f <path_to_yaml>'' - применить изменения в yaml файле
+
+''kubectl -n <namespace> rollout restart deployment <pod>'' - перезапустить под
+
+''kubectl delete pod <pod>'' - убить контейнер (автоматические запуститься если в конфиге не убрать кол-во подов)

@@ -33,7 +33,7 @@
 
 [[git|git]]
 
-[[kuberneters|k8s]]
+[[kubernetes|k8s]]
 
 
 [[ssl|ssl]]

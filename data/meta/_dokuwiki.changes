@@ -18,3 +18,16 @@
 1618480605	185.116.202.192	E	start	chifek			1
 1618480612	185.116.202.192	C	kubernetes	chifek	создано		766
 1618480625	185.116.202.192	E	start	chifek			-21
+1618850912	95.31.13.88	E	linux	chifek			78
+1618850938	95.31.13.88	C	bashrc	chifek	создано		1319
+1618850944	95.31.13.88	E	bashrc	chifek			-1
+1618850962	95.31.13.88	E	bashrc	chifek			0
+1618850971	95.31.13.88	E	bashrc	chifek			-6
+1618851003	95.31.13.88	E	bashrc	chifek			34
+1618851016	95.31.13.88	E	bashrc	chifek			-4
+1618851480	95.31.13.88	E	bashrc	chifek			7
+1618851499	95.31.13.88	E	bashrc	chifek			14
+1618851519	95.31.13.88	E	bashrc	chifek			-8
+1618851577	95.31.13.88	E	bashrc	chifek			197
+1618851625	95.31.13.88	E	bashrc	chifek			-15
+1618851644	95.31.13.88	E	bashrc	chifek			7

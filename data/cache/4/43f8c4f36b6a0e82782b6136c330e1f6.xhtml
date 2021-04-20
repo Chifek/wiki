@@ -1,0 +1,34 @@
+
+<p>
+Редактируем ~/.bashrc
+</p>
+
+<p>
+Начало скрипта:
+</p>
+
+<p>
+function parse_git_branch {
+</p>
+<pre class="code">  git branch --no-color 2&gt; /dev/null | sed -e &#039;/^[^*]/d&#039; -e &#039;s/* \(.*\)/ \[\1\]/&#039;
+    }
+    function prompt {
+            # OPTIONAL - if you want to use any of these other colors:
+                    local        RED=&quot;\[\033[0;31m\]&quot;
+                            local   LIGHT_RED=&quot;\[\033[1;31m\]&quot;
+                                    local      GREEN=&quot;\[\033[0;32m\]&quot;
+                                            local LIGHT_GREEN=&quot;\[\033[01;32m\]&quot;
+                                                    local      WHITE=&quot;\[\033[1;37m\]&quot;
+                                                            local  LIGHT_GRAY=&quot;\[\033[0;37m\]&quot;
+                                                                    local  BLUE=&quot;\[\033[01;34m\]&quot;
+                                                                    # END OPTIONAL
+                                                                            local    DEFAULT=&quot;\[\033[0m\]&quot;
+                                                                                    export PS1=&quot;\u@\h: $BLUE[\w]$LIGHT_RED\$(parse_git_branch) $DEFAULT\$ &quot;
+                                                                            }
+                                                                            prompt
+                                                                            
+                                                                            </pre>
+
+<p>
+конец скрипта!
+</p>

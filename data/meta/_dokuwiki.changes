@@ -1,16 +1,3 @@
-1616788118	95.31.13.88	E	start	chifek			17
-1616788194	95.31.13.88	C	linux	chifek	создано		96
-1616788233	95.31.13.88	C	linuxsize	chifek	создано		1434
-1616788301	95.31.13.88	E	linuxsize	chifek			2957
-1616788324	95.31.13.88	E	linuxsize	chifek			31
-1616788368	95.31.13.88	E	linuxsize	chifek			47
-1616788429	95.31.13.88	E	linuxsize	chifek			35
-1616788516	95.31.13.88	E	linuxsize	chifek			-81
-1616801223	95.31.13.88	E	links	chifek			21
-1616801242	95.31.13.88	C	linux_links	chifek	создано		32
-1616801248	95.31.13.88	C	webserver	chifek	создано		76
-1616801263	95.31.13.88	E	webserver	chifek			90
-1618314665	185.116.202.192	E	start	chifek			22
 1618314711	185.116.202.192	C	kuberneters	chifek	создано		87
 1618314793	185.116.202.192	E	kuberneters	chifek			676
 1618314804	185.116.202.192	E	kuberneters	chifek			3

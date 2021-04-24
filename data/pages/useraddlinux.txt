@@ -1,0 +1,18 @@
+How to Create a New User in Linux #
+To create a new user account, invoke the useradd command followed by the name of the user.
+
+For example to create a new user named username you would run:
+
+''sudo useradd -m username''
+
+
+The command adds an entry to the /etc/passwd, /etc/shadow, /etc/group and /etc/gshadow files.
+
+To be able to log in as the newly created user, you need to set the user password. To do that run the passwd command followed by the username:
+
+''sudo passwd username''
+
+
+DELETE USER
+
+''userdel -r userName''

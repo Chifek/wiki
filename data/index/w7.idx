@@ -185,3 +185,7 @@ emig7fa
 ispanel
 kubectl
 rollout
+account
+useradd
+gshadow
+userdel

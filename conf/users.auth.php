@@ -11,3 +11,4 @@
 # login:passwordhash:Real Name:email:groups,comma,separated
 
 chifek:$2y$10$rtcoaSPAbdp8ke89jWk77OAuSrBBKRDSD6nJ/.meNCFDTYis5wy9O:ruslan:chifek@gmail.com:admin,user
+s.lopareva:$2y$10$Z4sbPLNu6rPJjvOUyMRG8eCGt8Rlv/ixz5Fy.6Fzf07ze1igQEG02:Svetlana:s.lopareva@qsoft.ru:user

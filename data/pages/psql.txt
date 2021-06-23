@@ -1,3 +1,5 @@
 [[SQL|Команды SQL]]
 
 [[downgradePsql|downgrade psql]]
+
+[[free space on sql | freespaceonpsql]]

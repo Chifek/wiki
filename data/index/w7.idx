@@ -191,3 +191,6 @@ gshadow
 userdel
 volumes
 section
+nspname
+relname
+catalog

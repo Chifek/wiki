@@ -239,3 +239,4 @@ unused
 select
 pretty
 schema
+memory

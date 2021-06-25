@@ -7,3 +7,5 @@
 [[instruments_php|Инструменты PHP]]
 
 [[debug_print_backtrace| debug_print_backtrace();]]
+
+[[php_cli|PHP CLI]]

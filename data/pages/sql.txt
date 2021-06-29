@@ -1,1 +1,5 @@
 [[CREATE_DATABASE|CREATE DATABASE]]
+
+[[update_table|update table]]
+
+[[insert_table|insert table]]

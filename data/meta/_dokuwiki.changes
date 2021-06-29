@@ -18,3 +18,11 @@
 1624349969	185.116.202.192	E	free_space_on_sql	chifek			-13
 1624546804	95.31.13.88	E	php	chifek			21
 1624546838	95.31.13.88	C	php_cli	chifek	создано		108
+1624896440	185.116.202.192	E	sql	chifek			31
+1624896468	185.116.202.192	C	update_table	chifek	создано		133
+1624896484	185.116.202.192	E	update_table	chifek			15
+1624896491	185.116.202.192	E	update_table	chifek			2
+1624896502	185.116.202.192	E	update_table	chifek			-14
+1624896511	185.116.202.192	E	update_table	chifek			4
+1624897865	185.116.202.192	E	sql	chifek			31
+1624897874	185.116.202.192	C	insert_table	chifek	создано		97

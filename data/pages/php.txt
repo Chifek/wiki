@@ -9,3 +9,5 @@
 [[debug_print_backtrace| debug_print_backtrace();]]
 
 [[php_cli|PHP CLI]]
+
+[[sphp|SPHP for MacOS]]

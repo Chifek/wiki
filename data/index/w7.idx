@@ -198,3 +198,8 @@ column1
 column2
 bananas
 minutes
+product
+integer
+private
+getname
+setname

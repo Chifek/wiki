@@ -5,3 +5,7 @@ whereinstanceof
 wherenotbetween
 troubleshooting
 freespaceonpsql
+factoryabstract
+registryfactory
+abstractfactory
+getfirstproduct

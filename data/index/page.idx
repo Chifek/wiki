@@ -61,3 +61,4 @@ free_space_on_sql
 php_cli
 update_table
 insert_table
+php_patterns

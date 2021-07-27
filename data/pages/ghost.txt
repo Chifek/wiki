@@ -1,0 +1,20 @@
+====== Ghost on NodeJS ======
+
+
+===== Install Ghost-CLI =====
+
+
+''npm install ghost-cli@latest -g''
+
+
+
+===== Install Ghost =====
+
+In your terminal, cd into an empty directory and run the install command:
+
+''ghost install local''
+
+Once the install is finished you’ll be able to access your new site on http://localhost:2368 and http://localhost:2368/ghost to access Ghost Admin
+
+
+

@@ -18,3 +18,24 @@ Once the install is finished you’ll be able to access your new site on http://
 
 
 
+**That’s it! You’re done.**
+
+  * Your publication is setup in ''development'' mode with less caching
+  * The SQLite3 database is auto-setup and located in ''/content/data/''
+  * Logs only go to ''stdout''
+
+
+===== Starting & Stopping =====
+
+Ghost runs in a separate background process and remains running until you stop it or restart your computer. So you may find these commands useful for taming it:
+
+  * ''ghost stop'' to stop Ghost
+  * ''ghost start'' to start Ghost
+  * ''ghost log'' views logs
+  * ''ghost ls'' to list all running Ghost blogs
+
+Run ''ghost help'' for a list of available commands, or explore the full Ghost-CLI documentation.
+
+==== Troubleshooting ====
+
+For troubleshooting and errors, try searching this documentation and FAQ section to find information about common error messages.

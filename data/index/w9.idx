@@ -94,3 +94,10 @@ classname
 interface
 prototype
 searching
+protocols
+temporary
+permanent
+forbidden
+supported
+bandwidth
+handshake

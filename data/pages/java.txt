@@ -1,1 +1,3 @@
 [[types_java|Типы переменных]]
+
+[[startProjectJAVA|Запуск JAR файла]]

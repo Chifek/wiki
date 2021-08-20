@@ -1,3 +1,7 @@
+[[laravel-mix|Laravel Mix]]
+
+[[laravel-mix-vuejs|Laravel + Laravel Mix + VueJS]]
+
 [[Seeder|Seeder]]
 
 [[Collections|Collections]]

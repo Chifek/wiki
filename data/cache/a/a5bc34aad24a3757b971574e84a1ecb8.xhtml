@@ -1,0 +1,141 @@
+
+<h1 class="sectionedit1" id="laravel_vuejs_laravel_mix">Laravel + VueJS + Laravel Mix</h1>
+<div class="level1">
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Laravel + VueJS + Laravel Mix&quot;,&quot;hid&quot;:&quot;laravel_vuejs_laravel_mix&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:1,&quot;range&quot;:&quot;1-45&quot;} -->
+<h2 class="sectionedit2" id="установка_и_настройка_spa">Установка и настройка SPA</h2>
+<div class="level2">
+
+<p>
+Для работы вам потребуется composer, php, nodejs, npm
+</p>
+
+<p>
+В этой статье я не буду рассказывать как установить PHP, nodejs, npm
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;\u0423\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0430 \u0438 \u043d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0430 SPA&quot;,&quot;hid&quot;:&quot;\u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0430_\u0438_\u043d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0430_spa&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:2,&quot;range&quot;:&quot;46-294&quot;} -->
+<h3 class="sectionedit3" id="установка_laravel">Установка Laravel</h3>
+<div class="level3">
+
+<p>
+<code>composer create-project laravel/laravel laravel-mix</code>
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;\u0423\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0430 Laravel&quot;,&quot;hid&quot;:&quot;\u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0430_laravel&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:3,&quot;range&quot;:&quot;295-389&quot;} -->
+<h3 class="sectionedit4" id="установка_vuejs">Установка VueJS</h3>
+<div class="level3">
+
+<p>
+<code>npm i vue</code>
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;\u0423\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0430 VueJS&quot;,&quot;hid&quot;:&quot;\u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0430_vuejs&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:4,&quot;range&quot;:&quot;390-440&quot;} -->
+<h3 class="sectionedit5" id="установка_всех_зависимостей">Установка всех зависимостей</h3>
+<div class="level3">
+
+<p>
+<code>npm install</code>
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;\u0423\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0430 \u0432\u0441\u0435\u0445 \u0437\u0430\u0432\u0438\u0441\u0438\u043c\u043e\u0441\u0442\u0435\u0439&quot;,&quot;hid&quot;:&quot;\u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0430_\u0432\u0441\u0435\u0445_\u0437\u0430\u0432\u0438\u0441\u0438\u043c\u043e\u0441\u0442\u0435\u0439&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:5,&quot;range&quot;:&quot;441-522&quot;} -->
+<h3 class="sectionedit6" id="установка_bootstrap">Установка bootstrap</h3>
+<div class="level3">
+
+<p>
+<code>npm install bootstrap</code>
+</p>
+
+<p>
+После установки, ваш файл package.json должен выглядеть примерно таким образом:
+</p>
+
+<p>
+<a href="/lib/exe/detail.php?id=laravel-mix-vuejs&amp;media=ebce88e301.jpg" class="media" title="ebce88e301.jpg"><img src="/lib/exe/fetch.php?w=600&amp;tok=7f86e6&amp;media=ebce88e301.jpg" class="media" alt="" width="600" /></a>
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;\u0423\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0430 bootstrap&quot;,&quot;hid&quot;:&quot;\u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0430_bootstrap&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:6,&quot;range&quot;:&quot;523-754&quot;} -->
+<h3 class="sectionedit7" id="настройка_приложения">Настройка приложения</h3>
+<div class="level3">
+
+<p>
+<strong>!!!В этом приложении маршрутизация будет не на стороне Laravel, в файле web.php напишем единую точку входа:</strong>
+</p>
+
+<p>
+<code>Route::get(&#039;/{any&#039;, &#039;SpaController@index&#039;)→where(&#039;any&#039;, &#039;.*&#039;);</code>
+</p>
+
+<p>
+Все остальные пути будут через пакет Vue Router
+</p>
+
+<p>
+Далее создаем контроллер:
+</p>
+
+<p>
+<code>php artisan make:controller SpaController</code>
+</p>
+
+<p>
+и пишем туда:
+</p>
+<pre class="code">&lt;?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+
+class SpaController extends Controller
+{
+    public function index()
+    {
+        return view(&#039;index&#039;);
+    }
+}</pre>
+
+<p>
+След.шагом создаем сам файл index.blade.php в дерриктории resources/views/
+</p>
+
+<p>
+наполняем его след.содержимым:
+</p>
+<pre class="code">&lt;!doctype html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot;
+          content=&quot;width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0&quot;&gt;
+    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;ie=edge&quot;&gt;
+    &lt;title&gt;SPA Laravel&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;div id=&quot;app&quot;&gt;
+
+    &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+<p>
+Весь javascript будем писать в resources/js/app.js
+</p>
+<pre class="code">require(&#039;./bootstrap&#039;);
+
+import Vue from &#039;vue&#039;
+
+const app = new Vue({
+    el: &#039;#app&#039;,
+})
+</pre>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;\u041d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0430 \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u044f&quot;,&quot;hid&quot;:&quot;\u043d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0430_\u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u044f&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:7,&quot;range&quot;:&quot;755-&quot;} -->

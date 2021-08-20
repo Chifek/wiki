@@ -1,0 +1,143 @@
+
+<h1 class="sectionedit1" id="что_такое_laravel_mix">Что такое Laravel Mix?</h1>
+<div class="level1">
+
+<p>
+Офф.сайт <a href="https://laravel-mix.com" class="urlextern" target="_blank" title="https://laravel-mix.com" rel="ugc nofollow noopener">https://laravel-mix.com</a>
+</p>
+
+<p>
+<a href="/lib/exe/detail.php?id=laravel-mix&amp;media=ccbecb77ee.jpg" class="media" title="ccbecb77ee.jpg"><img src="/lib/exe/fetch.php?w=600&amp;tok=cdb53b&amp;media=ccbecb77ee.jpg" class="media" alt="" width="600" /></a>
+</p>
+
+<p>
+Это специальная надстройка над сборщиком Webpack являющиеся частью фреймворка Laravel
+Ранее этот инструмент носил название Elixir (Эликсир), который был отдельным плагином и требовал отдельной установки.
+</p>
+
+<p>
+На данных момент Laravel Mix доступен из коробки.
+</p>
+
+<p>
+Так же Laravel Mix можно использовать вне проекта Laravel. Ниже разберём установку и настройку Laravel Mix шаг за шагом
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;\u0427\u0442\u043e \u0442\u0430\u043a\u043e\u0435 Laravel Mix?&quot;,&quot;hid&quot;:&quot;\u0447\u0442\u043e_\u0442\u0430\u043a\u043e\u0435_laravel_mix&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:1,&quot;range&quot;:&quot;1-755&quot;} -->
+<h2 class="sectionedit2" id="установка">Установка</h2>
+<div class="level2">
+
+<p>
+В пустой каталог инициализируем npm
+</p>
+
+<p>
+<code>npm init -y</code>
+</p>
+
+<p>
+Далее устанавливаем сам Laravel Mix
+</p>
+
+<p>
+<code>npm install laravel-mix –save-dev</code>
+</p>
+
+<p>
+Затем создаем в корне проекта файл webpack.mix.js
+</p>
+
+<p>
+<code>touch webpack.mix.js</code>
+</p>
+
+<p>
+и помещаем туда след.код:
+</p>
+<pre class="code">
+// подключение laravel-mix
+let mix = require(&#039;laravel-mix&#039;);
+
+// настройка для нативного JS
+// mix.js(&#039;src/js/app.js&#039;, &#039;js&#039;);
+
+// настройка для VueJS
+mix.js(&#039;src/js/app.js&#039;, &#039;js&#039;).vue();
+
+// настройка для CSS файла
+// mix.css(&#039;src/css/main.css&#039;, &#039;css&#039;);
+
+// настройка для SCSS файла
+mix.sass(&#039;src/sass/app.scss&#039;, &#039;css&#039;);
+
+// Настройка директории, в данный момент помещает в папку dist
+mix.setPublicPath(&#039;dist&#039;);
+
+</pre>
+
+<p>
+По итогу у вас должна быть структура след.:
+</p>
+
+<p>
+<a href="/lib/exe/detail.php?id=laravel-mix&amp;media=81efc3a35e.jpg" class="media" title="81efc3a35e.jpg"><img src="/lib/exe/fetch.php?w=600&amp;tok=184c9c&amp;media=81efc3a35e.jpg" class="media" alt="" width="600" /></a>
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;\u0423\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0430&quot;,&quot;hid&quot;:&quot;\u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0430&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:2,&quot;range&quot;:&quot;756-1787&quot;} -->
+<h2 class="sectionedit3" id="запускаем_сборку_в_dev_mode">Запускаем сборку в dev mode</h2>
+<div class="level2">
+
+<p>
+<code>npx mix</code>
+</p>
+
+<p>
+Чтобы постоянно не перезапускать сборку, есть команда, которая будет отслеживать ваши изменения:
+</p>
+
+<p>
+<code>npx mix watch</code>
+</p>
+
+<p>
+и открываем файл index.html через браузер
+</p>
+
+<p>
+Если вы сделали все правильно, то у вас должны отображаться ваши изменения
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;\u0417\u0430\u043f\u0443\u0441\u043a\u0430\u0435\u043c \u0441\u0431\u043e\u0440\u043a\u0443 \u0432 dev mode&quot;,&quot;hid&quot;:&quot;\u0437\u0430\u043f\u0443\u0441\u043a\u0430\u0435\u043c_\u0441\u0431\u043e\u0440\u043a\u0443_\u0432_dev_mode&quot;,&quot;codeblockOffset&quot;:1,&quot;secid&quot;:3,&quot;range&quot;:&quot;1788-2264&quot;} -->
+<h2 class="sectionedit4" id="запускаем_сборку_в_production_mode">Запускаем сборку в production mode</h2>
+<div class="level2">
+
+<p>
+<code>npx mix –production</code>
+</p>
+
+<p>
+Чтобы постоянно не перезапускать сборку, есть команда, которая будет отслеживать ваши изменения:
+</p>
+
+<p>
+<code>npx mix watch</code>
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;\u0417\u0430\u043f\u0443\u0441\u043a\u0430\u0435\u043c \u0441\u0431\u043e\u0440\u043a\u0443 \u0432 production mode&quot;,&quot;hid&quot;:&quot;\u0437\u0430\u043f\u0443\u0441\u043a\u0430\u0435\u043c_\u0441\u0431\u043e\u0440\u043a\u0443_\u0432_production_mode&quot;,&quot;codeblockOffset&quot;:1,&quot;secid&quot;:4,&quot;range&quot;:&quot;2265-2555&quot;} -->
+<h2 class="sectionedit5" id="ссылки">Ссылки</h2>
+<div class="level2">
+
+<p>
+Этот проект на Github <a href="https://github.com/Chifek/laravel-mix" class="urlextern" target="_blank" title="https://github.com/Chifek/laravel-mix" rel="ugc nofollow noopener">https://github.com/Chifek/laravel-mix</a>
+</p>
+
+<p>
+Офф.сайт <a href="https://laravel-mix.com" class="urlextern" target="_blank" title="https://laravel-mix.com" rel="ugc nofollow noopener">https://laravel-mix.com</a>
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;\u0421\u0441\u044b\u043b\u043a\u0438&quot;,&quot;hid&quot;:&quot;\u0441\u0441\u044b\u043b\u043a\u0438&quot;,&quot;codeblockOffset&quot;:1,&quot;secid&quot;:5,&quot;range&quot;:&quot;2556-&quot;} -->

@@ -101,3 +101,5 @@ forbidden
 supported
 bandwidth
 handshake
+bootstrap
+resources

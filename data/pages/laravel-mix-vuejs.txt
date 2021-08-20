@@ -1,0 +1,99 @@
+====== Laravel + VueJS + Laravel Mix ======
+
+===== Установка и настройка SPA =====
+
+Для работы вам потребуется composer, php, nodejs, npm
+
+В этой статье я не буду рассказывать как установить PHP, nodejs, npm
+
+==== Установка Laravel ====
+
+''composer create-project laravel/laravel laravel-mix''
+
+==== Установка VueJS ====
+
+''npm i vue''
+
+==== Установка всех зависимостей ====
+
+''npm install''
+
+
+==== Установка bootstrap ====
+
+''npm install bootstrap''
+
+
+После установки, ваш файл package.json должен выглядеть примерно таким образом:
+
+{{:ebce88e301.jpg?600|}}
+
+
+==== Настройка приложения ====
+
+**!!!В этом приложении маршрутизация будет не на стороне Laravel, в файле web.php напишем единую точку входа:**
+
+''Route::get('/{any', 'SpaController@index')->where('any', '.*');''
+
+Все остальные пути будут через пакет Vue Router
+
+Далее создаем контроллер:
+
+''php artisan make:controller SpaController''
+
+и пишем туда:
+
+<code>
+<?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+
+class SpaController extends Controller
+{
+    public function index()
+    {
+        return view('index');
+    }
+}
+</code>
+
+
+
+След.шагом создаем сам файл index.blade.php в дерриктории resources/views/
+
+наполняем его след.содержимым:
+
+<code>
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SPA Laravel</title>
+</head>
+<body>
+    <div id="app">
+
+    </div>
+</body>
+</html>
+
+</code>
+
+
+Весь javascript будем писать в resources/js/app.js
+
+<code>
+require('./bootstrap');
+
+import Vue from 'vue'
+
+const app = new Vue({
+    el: '#app',
+})
+
+</code>

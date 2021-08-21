@@ -198,3 +198,13 @@ width
 scale
 equiv
 const
+asset
+build
+steps
+qsoft
+style
+cdnjs
+react
+utils
+rules
+babel

@@ -1,0 +1,1132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- generator="FeedCreator 1.8" -->
+<?xml-stylesheet href="https://wiki.chifek.ru/lib/exe/css.php?s=feed" type="text/css"?>
+<rdf:RDF
+    xmlns="http://purl.org/rss/1.0/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel rdf:about="https://wiki.chifek.ru/feed.php">
+        <title>kn0wledge_l1brary</title>
+        <description></description>
+        <link>https://wiki.chifek.ru/</link>
+        <image rdf:resource="https://wiki.chifek.ru/lib/tpl/dokuwiki/images/favicon.ico" />
+       <dc:date>2021-08-20T18:46:35+00:00</dc:date>
+        <items>
+            <rdf:Seq>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=30_examples&amp;rev=1608494958&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=add_remote&amp;rev=1612207381&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=ahghsghad&amp;rev=1619185060&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=artisan_shpargalki&amp;rev=1612333613&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=authsocial&amp;rev=1611042191&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=bash&amp;rev=1608495473&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=bashrc&amp;rev=1618851644&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=bot_on_php&amp;rev=1613334836&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=brew&amp;rev=1614287206&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=collections&amp;rev=1608751280&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=composer&amp;rev=1612175831&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=create_database&amp;rev=1610226146&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=debug_print_backtrace&amp;rev=1613461782&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=docker&amp;rev=1611509602&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=downgradepsql&amp;rev=1614288640&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=free_space_on_sql&amp;rev=1624349969&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=ghost&amp;rev=1627389021&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=git&amp;rev=1615801641&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=git_squash&amp;rev=1615207986&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=gitterminal&amp;rev=1620117112&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=how_to_remove_images_and_containers_in_docker&amp;rev=1622809923&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=httpstatuses&amp;rev=1629224669&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=insert_table&amp;rev=1624897874&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=instruments_php&amp;rev=1612333407&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=java&amp;rev=1629238920&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=javasript&amp;rev=1629468342&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=kotlin&amp;rev=1613681459&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=kuberneters&amp;rev=1618314804&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=kubernetes&amp;rev=1618480612&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=laravel-mix-vuejs&amp;rev=1629450920&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=laravel-mix&amp;rev=1629450929&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=laravel&amp;rev=1629373496&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=links&amp;rev=1616801223&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=linux&amp;rev=1620116693&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=linux_links&amp;rev=1616801242&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=linuxsize&amp;rev=1616788516&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=new_project_git&amp;rev=1612207522&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=npm&amp;rev=1608199817&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=npm_shrinkwrap&amp;rev=1608199823&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=osnovnoy_syntacsis&amp;rev=1613681955&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=pdf_generate&amp;rev=1611729963&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=php&amp;rev=1625048302&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=php_cli&amp;rev=1624546838&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=php_links&amp;rev=1608751639&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=php_patterns&amp;rev=1625660199&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=phpdoc&amp;rev=1607603107&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=phpfilters&amp;rev=1611033878&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=psql&amp;rev=1624347168&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=remove_remote&amp;rev=1612207273&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=rename_branch&amp;rev=1611156427&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=roadmap&amp;rev=1614087458&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=roadmapbackend&amp;rev=1614087394&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=roadmapdevops&amp;rev=1614087556&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=roadmapfronted&amp;rev=1614087328&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=rsync&amp;rev=1610462149&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=seeder&amp;rev=1608750811&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=sphp&amp;rev=1614288233&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=sql&amp;rev=1624897865&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=ssh&amp;rev=1608484855&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=ssh_keys&amp;rev=1608486012&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=ssh_server&amp;rev=1608486401&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=ssl&amp;rev=1611505181&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=start&amp;rev=1629468329&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=startprojectjava&amp;rev=1629238850&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=telegram&amp;rev=1613333254&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=types_java&amp;rev=1627421310&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=ufw&amp;rev=1604988359&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=update_table&amp;rev=1624896511&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=useraddlinux&amp;rev=1619181231&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=webpack&amp;rev=1629470373&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=webserver&amp;rev=1616801263&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=work-space&amp;rev=1608972814&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=yarn&amp;rev=1627391524&amp;do=diff"/>
+            </rdf:Seq>
+        </items>
+    </channel>
+    <image rdf:about="https://wiki.chifek.ru/lib/tpl/dokuwiki/images/favicon.ico">
+        <title>kn0wledge_l1brary</title>
+        <link>https://wiki.chifek.ru/</link>
+        <url>https://wiki.chifek.ru/lib/tpl/dokuwiki/images/favicon.ico</url>
+    </image>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=30_examples&amp;rev=1608494958&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2020-12-20T23:09:18+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>30_examples</title>
+        <link>https://wiki.chifek.ru/doku.php?id=30_examples&amp;rev=1608494958&amp;do=diff</link>
+        <description>asdasdas30 Bash Script Examples
+
+&lt;https://linuxhint.com/30_bash_script_examples/#t3&gt;
+
+asdasdas
+da
+sd
+as
+d
+asd</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=add_remote&amp;rev=1612207381&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-02-01T22:23:01+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>add_remote</title>
+        <link>https://wiki.chifek.ru/doku.php?id=add_remote&amp;rev=1612207381&amp;do=diff</link>
+        <description>git remote add origin git@gitlab.com:chifer/sears.git</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=ahghsghad&amp;rev=1619185060&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-04-23T16:37:40+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>ahghsghad</title>
+        <link>https://wiki.chifek.ru/doku.php?id=ahghsghad&amp;rev=1619185060&amp;do=diff</link>
+        <description>&lt;CODE&gt;
+sdfgjdsgfjgsdf
+
+&lt;/CODE&gt;</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=artisan_shpargalki&amp;rev=1612333613&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-02-03T09:26:53+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>artisan_shpargalki</title>
+        <link>https://wiki.chifek.ru/doku.php?id=artisan_shpargalki&amp;rev=1612333613&amp;do=diff</link>
+        <description>Шпаргалки Artisan - &lt;https://artisan.page/&gt;</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=authsocial&amp;rev=1611042191&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-01-19T10:43:11+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>authsocial</title>
+        <link>https://wiki.chifek.ru/doku.php?id=authsocial&amp;rev=1611042191&amp;do=diff</link>
+        <description>Пока только ссылка
+
+http://www.voerro.com/ru/tutorials/r/autentifikatsiya-cherez-sotsialnye-seti-v-laravel-5-s-pomoshchyu-socialite/1</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=bash&amp;rev=1608495473&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2020-12-20T23:17:53+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>bash</title>
+        <link>https://wiki.chifek.ru/doku.php?id=bash&amp;rev=1608495473&amp;do=diff</link>
+        <description>30 Bash Script Examples</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=bashrc&amp;rev=1618851644&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-04-19T20:00:44+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>bashrc</title>
+        <link>https://wiki.chifek.ru/doku.php?id=bashrc&amp;rev=1618851644&amp;do=diff</link>
+        <description>Редактируем ~/.bashrc
+
+Начало скрипта:
+
+function parse_git_branch {
+  git branch --no-color 2&gt; /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ \[\1\]/'
+    }
+    function prompt {
+            # OPTIONAL - if you want to use any of these other colors:
+                    local        RED=&quot;\[\033[0;31m\]&quot;
+                            local   LIGHT_RED=&quot;\[\033[1;31m\]&quot;
+                                    local      GREEN=&quot;\[\033[0;32m\]&quot;
+                                            local LIGHT_GREEN=&quot;\…</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=bot_on_php&amp;rev=1613334836&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-02-14T23:33:56+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>bot_on_php</title>
+        <link>https://wiki.chifek.ru/doku.php?id=bot_on_php&amp;rev=1613334836&amp;do=diff</link>
+        <description>Пишем простого чат-бота для Telegram на PHP
+
+24 июня 2015 года разработчики Telegram открыли платформу для создания ботов (программ, которые выполняют определенные действия по заданному алгоритму).</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=brew&amp;rev=1614287206&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-02-26T00:06:46+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>brew</title>
+        <link>https://wiki.chifek.ru/doku.php?id=brew&amp;rev=1614287206&amp;do=diff</link>
+        <description>Основные команды
+
+brew services stop &lt; name of the server/s active &gt; - останавливает сервис
+
+brew services start &lt; name of the server/s active &gt; - запускает сервис
+
+brew services list - список сервисов</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=collections&amp;rev=1608751280&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2020-12-23T22:21:20+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>collections</title>
+        <link>https://wiki.chifek.ru/doku.php?id=collections&amp;rev=1608751280&amp;do=diff</link>
+        <description>Collections
+
+Introduction
+
+The Illuminate\Support\Collection class provides a fluent, convenient wrapper for working with arrays of data. For example, check out the following code. We'll use the collect helper to create a new collection instance from the array, run the strtoupper function on each element, and then remove all empty elements:</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=composer&amp;rev=1612175831&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-02-01T13:37:11+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>composer</title>
+        <link>https://wiki.chifek.ru/doku.php?id=composer&amp;rev=1612175831&amp;do=diff</link>
+        <description>Composer: Шпаргалка команд
+
+источник: тут
+
+Коротко и ясно обо всех командах Composer.
+
+composer require vendor/package	Добавляет требуемый пакет в файл composer.json и устанавливает его в ваш проект.</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=create_database&amp;rev=1610226146&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-01-10T00:02:26+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>create_database</title>
+        <link>https://wiki.chifek.ru/doku.php?id=create_database&amp;rev=1610226146&amp;do=diff</link>
+        <description>CREATE DATABASE
+
+CREATE DATABASE — создать базу данных
+
+Синтаксис
+
+
+CREATE DATABASE имя
+    [ [ WITH ] [ OWNER [=] имя_пользователя ]
+           [ TEMPLATE [=] шаблон ]
+           [ ENCODING [=] кодировка ]
+           [ LC_COLLATE [=] категория_сортировки ]
+           [ LC_CTYPE [=] категория_типов_символов ]
+           [ TABLESPACE [=] табл_пространство ]
+           [ ALLOW_CONNECTIONS [=] разр_подключения ]
+           [ CONNECTION LIMIT [=] предел_подключений ]
+           [ IS_TEMPLATE [=] это…</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=debug_print_backtrace&amp;rev=1613461782&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-02-16T10:49:42+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>debug_print_backtrace</title>
+        <link>https://wiki.chifek.ru/doku.php?id=debug_print_backtrace&amp;rev=1613461782&amp;do=diff</link>
+        <description>debug_print_backtrace - Выводит стек вызовов функций
+
+(PHP 5, PHP 7)
+debug_print_backtrace — Выводит стек вызовов функций
+
+Описание
+
+void debug_print_backtrace ([ int $options = 0 [, int $limit = 0 ]] )
+debug_print_backtrace() выводит стек вызовов функций. Выводит вызовы функций, имена включенных/требуемых файлов и другую информацию из функций (eval()).…</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=docker&amp;rev=1611509602&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-01-24T20:33:22+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>docker</title>
+        <link>https://wiki.chifek.ru/doku.php?id=docker&amp;rev=1611509602&amp;do=diff</link>
+        <description>TODO need to add that articule &gt;&gt;
+
+https://nodejs.org/ru/docs/guides/nodejs-docker-webapp/
+
+Основные команды
+
+How to Remove Images and Containers in Docker
+
+Laravel Scheduler task in the docker container</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=downgradepsql&amp;rev=1614288640&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-02-26T00:30:40+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>downgradepsql</title>
+        <link>https://wiki.chifek.ru/doku.php?id=downgradepsql&amp;rev=1614288640&amp;do=diff</link>
+        <description>brew uninstall postgresql
+brew install postgresql@9.6
+brew services start postgresql@9.6
+brew link postgresql@9.6 --force</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=free_space_on_sql&amp;rev=1624349969&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-06-22T11:19:29+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>free_space_on_sql</title>
+        <link>https://wiki.chifek.ru/doku.php?id=free_space_on_sql&amp;rev=1624349969&amp;do=diff</link>
+        <description>Узнать размер всех таблиц
+
+Запрос выведет размер всех таблиц в базе.
+SELECT nspname || '.' || relname AS &quot;relation&quot;,
+  pg_size_pretty(pg_relation_size(C.oid)) AS &quot;size&quot;
+FROM pg_class C
+LEFT JOIN pg_namespace N ON (N.oid = C.relnamespace)
+WHERE nspname NOT IN ('pg_catalog', 'information_schema')
+ORDER BY pg_relation_size(C.oid) DESC;</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=ghost&amp;rev=1627389021&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-07-27T15:30:21+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>ghost</title>
+        <link>https://wiki.chifek.ru/doku.php?id=ghost&amp;rev=1627389021&amp;do=diff</link>
+        <description>Ghost on NodeJS
+
+Install Ghost-CLI
+
+npm install ghost-cli@latest -g
+
+Install Ghost
+
+In your terminal, cd into an empty directory and run the install command:
+
+ghost install local
+
+Once the install is finished you’ll be able to access your new site on</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=git&amp;rev=1615801641&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-03-15T12:47:21+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>git</title>
+        <link>https://wiki.chifek.ru/doku.php?id=git&amp;rev=1615801641&amp;do=diff</link>
+        <description>Переименование и удаление ветки
+
+Уделение remote
+
+Добавление remote
+
+git squash
+
+git new project
+
+Частые команды git
+
+git reset HEAD~1
+
+ где 1 это количество коммитов в которых были удалены файлы. Потом аккуратно убираете удаленные файлы из staging area и пушите все изменения на место.</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=git_squash&amp;rev=1615207986&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-03-08T15:53:06+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>git_squash</title>
+        <link>https://wiki.chifek.ru/doku.php?id=git_squash&amp;rev=1615207986&amp;do=diff</link>
+        <description>Как сжимать коммиты в Git с помощью git squash
+
+Для начала давайте разберемся: что же это вообще такое — ''git squash''
+
+Git squash — это прием, который помогает взять серию коммитов и уплотнить ее. Например, предположим: у вас есть серия из N коммитов и вы можете путем сжатия преобразовать ее в один-единственный коммит. Сжатие через…</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=gitterminal&amp;rev=1620117112&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-05-04T11:31:52+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>gitterminal</title>
+        <link>https://wiki.chifek.ru/doku.php?id=gitterminal&amp;rev=1620117112&amp;do=diff</link>
+        <description>function parse_git_branch {
+              git branch --no-color 2&gt; /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ \[\1\]/'
+      }
+
+      function prompt {
+              # OPTIONAL - if you want to use any of these other colors:
+                      local        RED=&quot;\[\033[0;31m\]&quot;
+                              local   LIGHT_RED=&quot;\[\033[1;31m\]&quot;
+                                      local      GREEN=&quot;\[\033[0;32m\]&quot;
+                                              local LIGHT_GREEN=&quot;\[\033[01;32m\…</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=how_to_remove_images_and_containers_in_docker&amp;rev=1622809923&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-06-04T15:32:03+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>how_to_remove_images_and_containers_in_docker</title>
+        <link>https://wiki.chifek.ru/doku.php?id=how_to_remove_images_and_containers_in_docker&amp;rev=1622809923&amp;do=diff</link>
+        <description>How to Remove Images and Containers in Docker
+
+docker system prune
+
+Extended description
+
+Remove all unused containers, networks, images (both dangling and unreferenced), and optionally, volumes.
+
+For example uses of this command, refer to the examples section below.</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=httpstatuses&amp;rev=1629224669&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-08-17T21:24:29+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>httpstatuses</title>
+        <link>https://wiki.chifek.ru/doku.php?id=httpstatuses&amp;rev=1629224669&amp;do=diff</link>
+        <description>Обзорный список
+
+Ниже представлен обзорный список всех описанных в данной статье кодов ответа:
+
+1xx: Informational (информационные):
+
+100 Continue («продолжай»)</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=insert_table&amp;rev=1624897874&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-06-28T19:31:14+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>insert_table</title>
+        <link>https://wiki.chifek.ru/doku.php?id=insert_table&amp;rev=1624897874&amp;do=diff</link>
+        <description>INSERT INTO films VALUES
+    ('UA502', 'Bananas', 105, '1971-07-13', 'Comedy', '82 minutes');</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=instruments_php&amp;rev=1612333407&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-02-03T09:23:27+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>instruments_php</title>
+        <link>https://wiki.chifek.ru/doku.php?id=instruments_php&amp;rev=1612333407&amp;do=diff</link>
+        <description>fabpot/local-php-security-checker
+ — Проверяет composer.json на предмет наличия зависимостей с известными уязвимостями. В качестве базы уязвимостей используется FriendsOfPHP/security-advisories
+
+F</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=java&amp;rev=1629238920&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-08-18T01:22:00+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>java</title>
+        <link>https://wiki.chifek.ru/doku.php?id=java&amp;rev=1629238920&amp;do=diff</link>
+        <description>Типы переменных
+
+Запуск JAR файла</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=javasript&amp;rev=1629468342&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-08-20T17:05:42+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>javasript</title>
+        <link>https://wiki.chifek.ru/doku.php?id=javasript&amp;rev=1629468342&amp;do=diff</link>
+        <description>webpack</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=kotlin&amp;rev=1613681459&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-02-18T23:50:59+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>kotlin</title>
+        <link>https://wiki.chifek.ru/doku.php?id=kotlin&amp;rev=1613681459&amp;do=diff</link>
+        <description>ссылки
+
+Видеокурсы
+
+&lt;https://kotlinlang.ru&gt;
+
+Основной синтаксис</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=kuberneters&amp;rev=1618314804&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-04-13T14:53:24+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>kuberneters</title>
+        <link>https://wiki.chifek.ru/doku.php?id=kuberneters&amp;rev=1618314804&amp;do=diff</link>
+        <description>kubectl -n &lt;namespace&gt; exec -it &lt;pod_name&gt; bash - подключение к поду 
+
+kubectl get pods -A - список подов
+
+kubectl -n &lt;namespace&gt; get pods  - список подов для stage/main
+
+kubectl -n &lt;namespace&gt; logs &lt;pod&gt; - логи пода</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=kubernetes&amp;rev=1618480612&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-04-15T12:56:52+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>kubernetes</title>
+        <link>https://wiki.chifek.ru/doku.php?id=kubernetes&amp;rev=1618480612&amp;do=diff</link>
+        <description>kubectl -n &lt;namespace&gt; exec -it &lt;pod_name&gt; bash - подключение к поду 
+
+kubectl get pods -A - список подов
+
+kubectl -n &lt;namespace&gt; get pods  - список подов для stage/main
+
+kubectl -n &lt;namespace&gt; logs &lt;pod&gt; - логи пода</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=laravel-mix-vuejs&amp;rev=1629450920&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-08-20T12:15:20+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>laravel-mix-vuejs</title>
+        <link>https://wiki.chifek.ru/doku.php?id=laravel-mix-vuejs&amp;rev=1629450920&amp;do=diff</link>
+        <description>Laravel + VueJS + Laravel Mix
+
+Установка и настройка SPA
+
+Для работы вам потребуется composer, php, nodejs, npm
+
+В этой статье я не буду рассказывать как установить PHP, nodejs, npm</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=laravel-mix&amp;rev=1629450929&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-08-20T12:15:29+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>laravel-mix</title>
+        <link>https://wiki.chifek.ru/doku.php?id=laravel-mix&amp;rev=1629450929&amp;do=diff</link>
+        <description>Что такое Laravel Mix?
+
+Офф.сайт &lt;https://laravel-mix.com&gt;
+
+
+
+Это специальная надстройка над сборщиком Webpack являющиеся частью фреймворка Laravel
+Ранее этот инструмент носил название Elixir (Эликсир), который был отдельным плагином и требовал отдельной установки.</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=laravel&amp;rev=1629373496&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-08-19T14:44:56+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>laravel</title>
+        <link>https://wiki.chifek.ru/doku.php?id=laravel&amp;rev=1629373496&amp;do=diff</link>
+        <description>Laravel Mix
+
+Laravel + Laravel Mix + VueJS
+
+Seeder
+
+Collections
+
+Авторизация через соц. сети
+
+artisan shpargalki</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=links&amp;rev=1616801223&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-03-27T02:27:03+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>links</title>
+        <link>https://wiki.chifek.ru/doku.php?id=links&amp;rev=1616801223&amp;do=diff</link>
+        <description>PHP
+
+docker
+
+linux</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=linux&amp;rev=1620116693&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-05-04T11:24:53+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>linux</title>
+        <link>https://wiki.chifek.ru/doku.php?id=linux&amp;rev=1620116693&amp;do=diff</link>
+        <description>Ubuntu Server. Как узнать свободное место на диске?
+
+подсветка веток в командной строке
+
+Добавление юзера в Linux
+
+Отображает текущую ветку в терминале</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=linux_links&amp;rev=1616801242&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-03-27T02:27:22+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>linux_links</title>
+        <link>https://wiki.chifek.ru/doku.php?id=linux_links&amp;rev=1616801242&amp;do=diff</link>
+        <description>web server ISPanel</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=linuxsize&amp;rev=1616788516&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-03-26T22:55:16+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>linuxsize</title>
+        <link>https://wiki.chifek.ru/doku.php?id=linuxsize&amp;rev=1616788516&amp;do=diff</link>
+        <description>Сколько осталось свободного места? Кто его занял? С этими двумя вопросами сталкиваться приходится постоянно, особенно администраторам файловых серверов. Если на платформе Windows, в графическом окружении выяснить это не составляет особого труда, то консоль серверных версий Linux способна многих привести в замешательство. Однако не стоит пугаться, получить интересующую информацию в среде Linux тоже довольно просто.…</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=new_project_git&amp;rev=1612207522&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-02-01T22:25:22+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>new_project_git</title>
+        <link>https://wiki.chifek.ru/doku.php?id=new_project_git&amp;rev=1612207522&amp;do=diff</link>
+        <description>Command line instructions
+
+You can also upload existing files from your computer using the instructions below.
+
+Git global setup
+
+
+git config --global user.name &quot;Ruslan Ismailov&quot;
+git config --global user.email &quot;bkkruslan.ismailov@yandex.ru&quot;
+
+
+Create a new repository</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=npm&amp;rev=1608199817&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2020-12-17T13:10:17+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>npm</title>
+        <link>https://wiki.chifek.ru/doku.php?id=npm&amp;rev=1608199817&amp;do=diff</link>
+        <description>npm shrinkwrap</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=npm_shrinkwrap&amp;rev=1608199823&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2020-12-17T13:10:23+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>npm_shrinkwrap</title>
+        <link>https://wiki.chifek.ru/doku.php?id=npm_shrinkwrap&amp;rev=1608199823&amp;do=diff</link>
+        <description>What Is Npm Shrinkwrap And Why You Should Start Using It Right Now?
+
+I've recently talked to people who are mostly PHP developers and want to try Node.js. For installing and managing dependencies, they use Composer. Composer creates 2 files, composer.json and composer.lock. Composer.json file is similar to package.json in Node.js but what's composer.lock? Here comes npm shrinkwrap.</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=osnovnoy_syntacsis&amp;rev=1613681955&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-02-18T23:59:15+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>osnovnoy_syntacsis</title>
+        <link>https://wiki.chifek.ru/doku.php?id=osnovnoy_syntacsis&amp;rev=1613681955&amp;do=diff</link>
+        <description>Основной синтаксис
+
+// TODO докопировать https://kotlinlang.ru/docs/reference/basic-syntax.html
+
+Определение имени пакета
+
+Имя пакета указывается в начале исходного файла, так же как и в Java:</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=pdf_generate&amp;rev=1611729963&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-01-27T09:46:03+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>pdf_generate</title>
+        <link>https://wiki.chifek.ru/doku.php?id=pdf_generate&amp;rev=1611729963&amp;do=diff</link>
+        <description>&lt;https://github.com/KnpLabs/snappy&gt; , 
+для laravel: &lt;https://github.com/barryvdh/laravel-snappy&gt;</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=php&amp;rev=1625048302&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-06-30T13:18:22+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>php</title>
+        <link>https://wiki.chifek.ru/doku.php?id=php&amp;rev=1625048302&amp;do=diff</link>
+        <description>PHPDoc
+
+PHP Filters
+
+PDF Generate
+
+Инструменты PHP
+
+ debug_print_backtrace();
+
+PHP CLI
+
+SPHP for MacOS</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=php_cli&amp;rev=1624546838&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-06-24T18:00:38+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>php_cli</title>
+        <link>https://wiki.chifek.ru/doku.php?id=php_cli&amp;rev=1624546838&amp;do=diff</link>
+        <description>php -d memory_limit=1000M artisan ... запуск команды с повышенной паматью</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=php_links&amp;rev=1608751639&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2020-12-23T22:27:19+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>php_links</title>
+        <link>https://wiki.chifek.ru/doku.php?id=php_links&amp;rev=1608751639&amp;do=diff</link>
+        <description>PHP 8 — Что нового?</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=php_patterns&amp;rev=1625660199&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-07-07T15:16:39+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>php_patterns</title>
+        <link>https://wiki.chifek.ru/doku.php?id=php_patterns&amp;rev=1625660199&amp;do=diff</link>
+        <description>Реестр (Registry)
+
+Хотелось бы начать с этого шаблона. Он немного выбивается из общего ряда, потому что не является порождающим, но в дальнейшем нам потребуется его знание. Итак, реестр – это хэш, доступ к данным у которого осуществляется через статические методы:</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=phpdoc&amp;rev=1607603107&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2020-12-10T15:25:07+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>phpdoc</title>
+        <link>https://wiki.chifek.ru/doku.php?id=phpdoc&amp;rev=1607603107&amp;do=diff</link>
+        <description>Синтаксис
+
+@api
+
+@author [имя] [&lt;адрес электронной почты]]
+
+@copyright &lt;описание&gt;
+
+@deprecated [&lt;«Семантическая версия»&gt;] [: &lt;«Семантическая версия»&gt;] [&lt;description&gt;]</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=phpfilters&amp;rev=1611033878&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-01-19T08:24:38+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>phpfilters</title>
+        <link>https://wiki.chifek.ru/doku.php?id=phpfilters&amp;rev=1611033878&amp;do=diff</link>
+        <description>PHP Filters
+
+Validating data = Determine if the data is in proper form.
+
+Sanitizing data = Remove any illegal character from the data.
+
+The PHP Filter Extension
+
+PHP filters are used to validate and sanitize external input.
+
+The PHP filter extension has many of the functions needed for checking user input, and is designed to make data validation easier and quicker.</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=psql&amp;rev=1624347168&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-06-22T10:32:48+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>psql</title>
+        <link>https://wiki.chifek.ru/doku.php?id=psql&amp;rev=1624347168&amp;do=diff</link>
+        <description>Команды SQL
+
+downgrade psql
+
+ freespaceonpsql</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=remove_remote&amp;rev=1612207273&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-02-01T22:21:13+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>remove_remote</title>
+        <link>https://wiki.chifek.ru/doku.php?id=remove_remote&amp;rev=1612207273&amp;do=diff</link>
+        <description>$ git remote -v
+# View current remotes
+&gt; origin  https://github.com/OWNER/REPOSITORY.git (fetch)
+&gt; origin  https://github.com/OWNER/REPOSITORY.git (push)
+&gt; destination  https://github.com/FORKER/REPOSITORY.git (fetch)
+&gt; destination  https://github.com/FORKER/REPOSITORY.git (push)
+
+$ git remote rm destination
+# Remove remote
+$ git remote -v
+# Verify it's gone
+&gt; origin  https://github.com/OWNER/REPOSITORY.git (fetch)
+&gt; origin  https://github.com/OWNER/REPOSITORY.git (push)</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=rename_branch&amp;rev=1611156427&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-01-20T18:27:07+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>rename_branch</title>
+        <link>https://wiki.chifek.ru/doku.php?id=rename_branch&amp;rev=1611156427&amp;do=diff</link>
+        <description>Try to disable the branch protection in the settings/repository page. Check the sections Default Branch and Protected Branches
+
+After that:
+
+Checkout the branch locally.
+
+git checkout branch
+
+Rename it locally
+
+git checkout -b branch_old
+
+delete remote branch</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=roadmap&amp;rev=1614087458&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-02-23T16:37:38+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>roadmap</title>
+        <link>https://wiki.chifek.ru/doku.php?id=roadmap&amp;rev=1614087458&amp;do=diff</link>
+        <description>roadmap frontend
+
+roadmap backend
+
+roadmap devops</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=roadmapbackend&amp;rev=1614087394&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-02-23T16:36:34+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>roadmapbackend</title>
+        <link>https://wiki.chifek.ru/doku.php?id=roadmapbackend&amp;rev=1614087394&amp;do=diff</link>
+        <description></description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=roadmapdevops&amp;rev=1614087556&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-02-23T16:39:16+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>roadmapdevops</title>
+        <link>https://wiki.chifek.ru/doku.php?id=roadmapdevops&amp;rev=1614087556&amp;do=diff</link>
+        <description></description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=roadmapfronted&amp;rev=1614087328&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-02-23T16:35:28+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>roadmapfronted</title>
+        <link>https://wiki.chifek.ru/doku.php?id=roadmapfronted&amp;rev=1614087328&amp;do=diff</link>
+        <description></description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=rsync&amp;rev=1610462149&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-01-12T17:35:49+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>rsync</title>
+        <link>https://wiki.chifek.ru/doku.php?id=rsync&amp;rev=1610462149&amp;do=diff</link>
+        <description>Using rsync to Transfer Files over SSH #
+
+With rsync, you can transfer files and directories over SSH from and to remote servers.
+
+The general syntax for transferring files with rsync is as follows:
+
+Local to Remote: rsync [OPTION]... -e ssh [SRC]... [USER@]HOST:DEST
+Remote to Local: rsync [OPTION]... -e ssh [USER@]HOST:SRC... [DEST]</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=seeder&amp;rev=1608750811&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2020-12-23T22:13:31+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>seeder</title>
+        <link>https://wiki.chifek.ru/doku.php?id=seeder&amp;rev=1608750811&amp;do=diff</link>
+        <description>Seeders Laravel
+
+Introduction
+
+Laravel includes the ability to seed your database with test data using seed classes. All seed classes are stored in the `database/seeders` directory. By default, a `DatabaseSeeder` class is defined for you. From this class, you may use the `call` method to run other seed classes, allowing you to control the seeding order.</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=sphp&amp;rev=1614288233&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-02-26T00:23:53+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>sphp</title>
+        <link>https://wiki.chifek.ru/doku.php?id=sphp&amp;rev=1614288233&amp;do=diff</link>
+        <description>Switch between PHP versions in Mac with Homebrew &amp; sphp
+
+Many times I found me in the scenario where I need to use different versions for PHP at the same time for different projects. So here is a tiny guide of how to do this in the easy way.
+
+First install different versions for php using Homebrew (If you haven’t installed Homebrew, just follow the at</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=sql&amp;rev=1624897865&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-06-28T19:31:05+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>sql</title>
+        <link>https://wiki.chifek.ru/doku.php?id=sql&amp;rev=1624897865&amp;do=diff</link>
+        <description>CREATE DATABASE
+
+update table
+
+insert table</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=ssh&amp;rev=1608484855&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2020-12-20T20:20:55+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>ssh</title>
+        <link>https://wiki.chifek.ru/doku.php?id=ssh&amp;rev=1608484855&amp;do=diff</link>
+        <description>ssh_keys
+
+ssh_server</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=ssh_keys&amp;rev=1608486012&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2020-12-20T20:40:12+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>ssh_keys</title>
+        <link>https://wiki.chifek.ru/doku.php?id=ssh_keys&amp;rev=1608486012&amp;do=diff</link>
+        <description>Linux/MacOS
+
+Создание/Добавление ключей, отключение root доступа, отключение парольной аутентификации
+
+Откройте терминал и выполните команду:
+
+ssh-keygen -t rsa</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=ssh_server&amp;rev=1608486401&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2020-12-20T20:46:41+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>ssh_server</title>
+        <link>https://wiki.chifek.ru/doku.php?id=ssh_server&amp;rev=1608486401&amp;do=diff</link>
+        <description>Enabling SSH on Ubuntu
+
+
+sudo apt update
+sudo apt install openssh-server
+
+
+Enter the password when prompted and enter Y to continue with the installation.
+
+sudo systemctl status ssh
+
+You should see something like Active: active (running)
+
+Ubuntu comes with a firewall configuration tool called UFW. If the firewall is enabled on your system, make sure to open the SSH port:</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=ssl&amp;rev=1611505181&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-01-24T19:19:41+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>ssl</title>
+        <link>https://wiki.chifek.ru/doku.php?id=ssl&amp;rev=1611505181&amp;do=diff</link>
+        <description>certbot instructions
+
+1. SSH into the server
+
+SSH into the server running your HTTP website as a user with sudo privileges.
+
+2. Install snapd
+
+You'll need to install snapd and make sure you follow any instructions to enable classic snap support.
+Follow these instructions on snapcraft's site to install snapd.</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=start&amp;rev=1629468329&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-08-20T17:05:29+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>start</title>
+        <link>https://wiki.chifek.ru/doku.php?id=start&amp;rev=1629468329&amp;do=diff</link>
+        <description>About me
+
+JAVA
+
+JavaScript
+
+Список кодов состояния HTTP
+
+Шаблоны проектирования PHP. Часть 1. Порождающие
+
+ROADMAP
+
+brew
+
+linux
+
+Ghost
+
+Переключение между версиями PHP
+
+telegram
+
+yarn
+
+полезные ссылки
+
+Composer: Шпаргалка команд
+
+SSH
+
+PHP
+
+Kotlin
+
+docker
+
+ufw firewall
+
+npm
+
+RSYNC
+
+ /bin/bash
+
+git
+
+k8s
+
+ssl
+
+Laravel
+
+Установка раб.среды
+
+psql
+
+Group</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=startprojectjava&amp;rev=1629238850&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-08-18T01:20:50+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>startprojectjava</title>
+        <link>https://wiki.chifek.ru/doku.php?id=startprojectjava&amp;rev=1629238850&amp;do=diff</link>
+        <description>nohup java -jar MyBot.jar</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=telegram&amp;rev=1613333254&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-02-14T23:07:34+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>telegram</title>
+        <link>https://wiki.chifek.ru/doku.php?id=telegram&amp;rev=1613333254&amp;do=diff</link>
+        <description>Пишем простого чат-бота для Telegram на PHP</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=types_java&amp;rev=1627421310&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-07-28T00:28:30+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>types_java</title>
+        <link>https://wiki.chifek.ru/doku.php?id=types_java&amp;rev=1627421310&amp;do=diff</link>
+        <description>Типы переменных в Java.
+
+	*  Целочисленные (к ним относятся byte, short, int, long)
+	*  С плавающей точкой (к ним относятся float, double)
+	*  Символы (char)
+	*  Логические (boolean)</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=ufw&amp;rev=1604988359&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2020-11-10T09:05:59+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>ufw</title>
+        <link>https://wiki.chifek.ru/doku.php?id=ufw&amp;rev=1604988359&amp;do=diff</link>
+        <description>Использование утилиты UFW на Linux
+
+В инструкции описаны основы работы с утилитой ufw на виртуальных серверах под управлением Linux.
+
+Что это такое?
+UFW (Uncomplicated Firewall) - является самым простым и довольно популярным в инструментарием командной строки для настройки и управления брандмауэром в дистрибутивах Ubuntu и Debian. Правильно функционирующий брандмауэр является наиболее важной частью полной безопасности системы Linux. UFW позволяет сделать базовые настройки, для более сложных наст…</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=update_table&amp;rev=1624896511&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-06-28T19:08:31+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>update_table</title>
+        <link>https://wiki.chifek.ru/doku.php?id=update_table&amp;rev=1624896511&amp;do=diff</link>
+        <description>UPDATE table_name
+SET column1 = value1,
+    column2 = value2,
+    ...
+WHERE condition
+RETURNING * | output_expression AS output_name;</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=useraddlinux&amp;rev=1619181231&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-04-23T15:33:51+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>useraddlinux</title>
+        <link>https://wiki.chifek.ru/doku.php?id=useraddlinux&amp;rev=1619181231&amp;do=diff</link>
+        <description>How to Create a New User in Linux #
+To create a new user account, invoke the useradd command followed by the name of the user.
+
+For example to create a new user named username you would run:
+
+sudo useradd -m username
+
+The command adds an entry to the /etc/passwd, /etc/shadow, /etc/group and /etc/gshadow files.</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=webpack&amp;rev=1629470373&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-08-20T17:39:33+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>webpack</title>
+        <link>https://wiki.chifek.ru/doku.php?id=webpack&amp;rev=1629470373&amp;do=diff</link>
+        <description>Webpack
+
+Официальный сайт webpack &lt;https://webpack.js.org&gt;
+
+
+
+Зачем нужен вебпак?
+
+Вебпак — это сборщик модулей. Он анализирует модули приложения, создает граф зависимостей, затем собирает модули в правильном порядке в один или более бандл (bundle), на который может ссылаться файл «index.html».</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=webserver&amp;rev=1616801263&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-03-27T02:27:43+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>webserver</title>
+        <link>https://wiki.chifek.ru/doku.php?id=webserver&amp;rev=1616801263&amp;do=diff</link>
+        <description>Автоматическая установка хостинг панели ISPConfig 3.1
+&lt;https://pupi-boy.ru/web-server/ispconfig-3-1-avtomaticheskaya-ustanovka.html&gt;</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=work-space&amp;rev=1608972814&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2020-12-26T11:53:34+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>work-space</title>
+        <link>https://wiki.chifek.ru/doku.php?id=work-space&amp;rev=1608972814&amp;do=diff</link>
+        <description>#!/bin/bash
+
+#git
+sudo apt-get install git -y
+
+#php7.3
+sudo apt-get install software-properties-common
+sudo add-apt-repository ppa:ondrej/php
+sudo apt-get update
+sudo apt-get install -y php7.3
+
+#postgreSQL
+sudo apt-get update
+sudo apt-get install postgresql postgresql-contrib -y
+
+#nodeJS
+sudo apt-get update
+sudo apt-get install nodejs -y
+
+#npm
+sudo apt-get install npm -y
+
+#curl
+sudo apt-get update
+sudo apt-get install curl -y
+
+#nvm
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/in…</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=yarn&amp;rev=1627391524&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-07-27T16:12:04+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>yarn</title>
+        <link>https://wiki.chifek.ru/doku.php?id=yarn&amp;rev=1627391524&amp;do=diff</link>
+        <description>Installation
+
+Install via npm
+
+It is recommended to install Yarn through the npm package manager, which comes bundled with Node.js when you install it on your system.
+
+Once you have npm installed you can run the following both to install and upgrade Yarn:</description>
+    </item>
+</rdf:RDF>

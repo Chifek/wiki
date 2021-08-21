@@ -1,16 +1,3 @@
-1627420953	95.31.13.88	E	start	chifek			15
-1627421029	95.31.13.88	C	java	chifek	создано		190
-1627421048	95.31.13.88	E	java	chifek			7
-1627421086	95.31.13.88	E	java	chifek			9
-1627421129	95.31.13.88	E	java	chifek			31
-1627421141	95.31.13.88	E	java	chifek			2
-1627421155	95.31.13.88	E	java	chifek			-6
-1627421171	95.31.13.88	E	java	chifek			4
-1627421227	95.31.13.88	E	java	chifek			46
-1627421256	95.31.13.88	C	types_java	chifek	создано		286
-1627421266	95.31.13.88	E	java	chifek			-238
-1627421273	95.31.13.88	E	types_java	chifek			238
-1627421310	95.31.13.88	E	types_java	chifek			14
 1629224522	95.31.13.88	E	start	chifek			66
 1629224619	95.31.13.88	C	httpstatuses	chifek	создано		5774
 1629224641	95.31.13.88	E	httpstatuses	chifek			42
@@ -62,3 +49,43 @@
 1629375332	83.220.236.119	E	laravel-mix-vuejs	chifek			51
 1629375683	83.220.236.119	E	laravel-mix-vuejs	chifek			184
 1629375703	83.220.236.119	E	laravel-mix-vuejs	chifek			-9
+1629447777	185.116.202.192	E	laravel-mix-vuejs	chifek			711
+1629447850	185.116.202.192	E	laravel-mix-vuejs	chifek			160
+1629447871	185.116.202.192	E	laravel-mix-vuejs	chifek			30
+1629449349	185.116.202.192	E	laravel-mix-vuejs	chifek			1
+1629450331	185.116.202.192	E	laravel-mix-vuejs	chifek			123
+1629450360	185.116.202.192	E	laravel-mix-vuejs	chifek			61
+1629450386	185.116.202.192	E	laravel-mix-vuejs	chifek			-17
+1629450475	185.116.202.192	E	laravel-mix-vuejs	chifek			290
+1629450538	185.116.202.192	E	laravel-mix-vuejs	chifek			83
+1629450605	185.116.202.192	E	laravel-mix-vuejs	chifek			31
+1629450643	185.116.202.192	E	laravel-mix-vuejs	chifek			150
+1629450905	185.116.202.192	E	laravel-mix-vuejs	chifek			14
+1629450920	185.116.202.192	E	laravel-mix-vuejs	chifek			12
+1629450929	185.116.202.192	E	laravel-mix	chifek			12
+1629468329	185.116.202.192	E	start	chifek			26
+1629468342	185.116.202.192	C	javasript	chifek	создано		19
+1629468369	185.116.202.192	C	webpack	chifek	создано		66
+1629468410	185.116.202.192	E	webpack	chifek			23
+1629468445	185.116.202.192	E	webpack	chifek			280
+1629468522	185.116.202.192	E	webpack	chifek			519
+1629468581	185.116.202.192	E	webpack	chifek			749
+1629468619	185.116.202.192	E	webpack	chifek			679
+1629468646	185.116.202.192	E	webpack	chifek			537
+1629468694	185.116.202.192	E	webpack	chifek			283
+1629468769	185.116.202.192	E	webpack	chifek			938
+1629468826	185.116.202.192	E	webpack	chifek			507
+1629468867	185.116.202.192	E	webpack	chifek			457
+1629469639	185.116.202.192	E	webpack	chifek			88
+1629469700	185.116.202.192	E	webpack	chifek			706
+1629469769	185.116.202.192	E	webpack	chifek			1037
+1629469803	185.116.202.192	E	webpack	chifek			501
+1629469846	185.116.202.192	E	webpack	chifek			419
+1629469886	185.116.202.192	E	webpack	chifek			929
+1629469928	185.116.202.192	E	webpack	chifek			1354
+1629469996	185.116.202.192	E	webpack	chifek			1351
+1629470095	185.116.202.192	E	webpack	chifek			31
+1629470118	185.116.202.192	E	webpack	chifek			2
+1629470168	185.116.202.192	E	webpack	chifek			93
+1629470345	185.116.202.192	E	webpack	chifek			25
+1629470373	185.116.202.192	E	webpack	chifek			-279

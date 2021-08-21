@@ -90,4 +90,4 @@ mix.setPublicPath('dist');
 
 Этот проект на Github [[https://github.com/Chifek/laravel-mix]]
 
-Офф.сайт [[https://laravel-mix.com]]
+Офф.сайт Laravel Mix [[https://laravel-mix.com]]

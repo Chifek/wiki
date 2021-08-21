@@ -33,7 +33,7 @@
 
 **!!!В этом приложении маршрутизация будет не на стороне Laravel, в файле web.php напишем единую точку входа:**
 
-''Route::get('/{any', 'SpaController@index')->where('any', '.*');''
+''Route::get('/{any}', 'SpaController@index')->where('any', '.*');''
 
 Все остальные пути будут через пакет Vue Router
 
@@ -74,13 +74,16 @@ class SpaController extends Controller
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>SPA Laravel</title>
+    <link rel="stylesheet" href="{{mix('css/app.css')}}">
 </head>
 <body>
     <div id="app">
-
+        <app></app>
     </div>
+<script src="{{mix('js/app.js')}}"></script>
 </body>
 </html>
+
 
 </code>
 
@@ -92,8 +95,76 @@ require('./bootstrap');
 
 import Vue from 'vue'
 
+Vue.component('app', require('../components/App').default)
+
 const app = new Vue({
     el: '#app',
 })
 
+
 </code>
+
+
+Так же надо настроить webpack.mix.js, который должен лежать в корне проекта:
+<code>
+const mix = require('laravel-mix');
+
+/*
+ |--------------------------------------------------------------------------
+ | Mix Asset Management
+ |--------------------------------------------------------------------------
+ |
+ | Mix provides a clean, fluent API for defining some Webpack build steps
+ | for your Laravel applications. By default, we are compiling the CSS
+ | file for the application as well as bundling up all the JS files.
+ |
+ */
+
+mix.js('resources/js/app.js', 'public/js').vue();
+mix.css('resources/css/app.css', 'public/css').vue();
+
+</code>
+
+Внимание! Чтобы использовать Laravel Mix с VueJS, необходимо дописать к подключаемым файла .vue() (см.выше на код)
+
+
+Следующим шагом будет создание файла resources/components/App.vue
+
+<code>
+
+<template>
+    <div class="container">
+        <h1>Qsoft Company</h1>
+    </div>
+</template>
+
+<script>
+export default {
+    name: "app"
+}
+</script>
+
+<style scoped>
+
+</style>
+
+
+</code>
+
+
+==== Запуск и проверка ====
+
+
+''php artisan serve''
+
+
+''npx mix''
+
+http://joxi.ru/l2Zy3dEcR7GpOm
+
+
+===== Ссылки  =====
+
+Этот проект на Github [[https://github.com/Chifek/Laravel-VueJS-Laravel-Mix]]
+
+Офф.сайт Laravel Mix [[https://laravel-mix.com]]

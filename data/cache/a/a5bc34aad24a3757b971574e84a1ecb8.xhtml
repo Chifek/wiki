@@ -69,7 +69,7 @@
 </p>
 
 <p>
-<code>Route::get(&#039;/{any&#039;, &#039;SpaController@index&#039;)→where(&#039;any&#039;, &#039;.*&#039;);</code>
+<code>Route::get(&#039;/{any}&#039;, &#039;SpaController@index&#039;)→where(&#039;any&#039;, &#039;.*&#039;);</code>
 </p>
 
 <p>
@@ -116,13 +116,16 @@ class SpaController extends Controller
           content=&quot;width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0&quot;&gt;
     &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;ie=edge&quot;&gt;
     &lt;title&gt;SPA Laravel&lt;/title&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;{{mix(&#039;css/app.css&#039;)}}&quot;&gt;
 &lt;/head&gt;
 &lt;body&gt;
     &lt;div id=&quot;app&quot;&gt;
-
+        &lt;app&gt;&lt;/app&gt;
     &lt;/div&gt;
+&lt;script src=&quot;{{mix(&#039;js/app.js&#039;)}}&quot;&gt;&lt;/script&gt;
 &lt;/body&gt;
 &lt;/html&gt;
+
 </pre>
 
 <p>
@@ -132,10 +135,89 @@ class SpaController extends Controller
 
 import Vue from &#039;vue&#039;
 
+Vue.component(&#039;app&#039;, require(&#039;../components/App&#039;).default)
+
 const app = new Vue({
     el: &#039;#app&#039;,
 })
+
+</pre>
+
+<p>
+Так же надо настроить webpack.mix.js, который должен лежать в корне проекта:
+</p>
+<pre class="code">const mix = require(&#039;laravel-mix&#039;);
+
+/*
+ |--------------------------------------------------------------------------
+ | Mix Asset Management
+ |--------------------------------------------------------------------------
+ |
+ | Mix provides a clean, fluent API for defining some Webpack build steps
+ | for your Laravel applications. By default, we are compiling the CSS
+ | file for the application as well as bundling up all the JS files.
+ |
+ */
+
+mix.js(&#039;resources/js/app.js&#039;, &#039;public/js&#039;).vue();
+mix.css(&#039;resources/css/app.css&#039;, &#039;public/css&#039;).vue();
+</pre>
+
+<p>
+Внимание! Чтобы использовать Laravel Mix с VueJS, необходимо дописать к подключаемым файла .vue() (см.выше на код)
+</p>
+
+<p>
+Следующим шагом будет создание файла resources/components/App.vue
+</p>
+<pre class="code">
+&lt;template&gt;
+    &lt;div class=&quot;container&quot;&gt;
+        &lt;h1&gt;Qsoft Company&lt;/h1&gt;
+    &lt;/div&gt;
+&lt;/template&gt;
+
+&lt;script&gt;
+export default {
+    name: &quot;app&quot;
+}
+&lt;/script&gt;
+
+&lt;style scoped&gt;
+
+&lt;/style&gt;
+
 </pre>
 
 </div>
-<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;\u041d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0430 \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u044f&quot;,&quot;hid&quot;:&quot;\u043d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0430_\u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u044f&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:7,&quot;range&quot;:&quot;755-&quot;} -->
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;\u041d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0430 \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u044f&quot;,&quot;hid&quot;:&quot;\u043d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0430_\u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u044f&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:7,&quot;range&quot;:&quot;755-3542&quot;} -->
+<h3 class="sectionedit8" id="запуск_и_проверка">Запуск и проверка</h3>
+<div class="level3">
+
+<p>
+<code>php artisan serve</code>
+</p>
+
+<p>
+<code>npx mix</code>
+</p>
+
+<p>
+<a href="http://joxi.ru/l2Zy3dEcR7GpOm" class="urlextern" target="_blank" title="http://joxi.ru/l2Zy3dEcR7GpOm" rel="ugc nofollow noopener">http://joxi.ru/l2Zy3dEcR7GpOm</a>
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;\u0417\u0430\u043f\u0443\u0441\u043a \u0438 \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430&quot;,&quot;hid&quot;:&quot;\u0437\u0430\u043f\u0443\u0441\u043a_\u0438_\u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430&quot;,&quot;codeblockOffset&quot;:5,&quot;secid&quot;:8,&quot;range&quot;:&quot;3543-3656&quot;} -->
+<h2 class="sectionedit9" id="ссылки">Ссылки</h2>
+<div class="level2">
+
+<p>
+Этот проект на Github <a href="https://github.com/Chifek/Laravel-VueJS-Laravel-Mix" class="urlextern" target="_blank" title="https://github.com/Chifek/Laravel-VueJS-Laravel-Mix" rel="ugc nofollow noopener">https://github.com/Chifek/Laravel-VueJS-Laravel-Mix</a>
+</p>
+
+<p>
+Офф.сайт Laravel Mix <a href="https://laravel-mix.com" class="urlextern" target="_blank" title="https://laravel-mix.com" rel="ugc nofollow noopener">https://laravel-mix.com</a>
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;\u0421\u0441\u044b\u043b\u043a\u0438&quot;,&quot;hid&quot;:&quot;\u0441\u0441\u044b\u043b\u043a\u0438&quot;,&quot;codeblockOffset&quot;:5,&quot;secid&quot;:9,&quot;range&quot;:&quot;3657-&quot;} -->

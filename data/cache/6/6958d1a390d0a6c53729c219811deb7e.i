@@ -1,0 +1,26 @@
+a:58:{i:0;a:3:{i:0;s:14:"document_start";i:1;a:0:{}i:2;i:0;}i:1;a:3:{i:0;s:6:"header";i:1;a:3:{i:0;s:55:"Switch between PHP versions in Mac with Homebrew & sphp";i:1;i:1;i:2;i:1;}i:2;i:1;}i:2;a:3:{i:0;s:12:"section_open";i:1;a:1:{i:0;i:1;}i:2;i:1;}i:3;a:3:{i:0;s:6:"p_open";i:1;a:0:{}i:2;i:1;}i:4;a:3:{i:0;s:5:"cdata";i:1;a:1:{i:0;s:184:"Many times I found me in the scenario where I need to use different versions for PHP at the same time for different projects. So here is a tiny guide of how to do this in the easy way.";}i:2;i:73;}i:5;a:3:{i:0;s:7:"p_close";i:1;a:0:{}i:2;i:257;}i:6;a:3:{i:0;s:6:"p_open";i:1;a:0:{}i:2;i:257;}i:7;a:3:{i:0;s:5:"cdata";i:1;a:1:{i:0;s:113:"First install different versions for php using Homebrew (If you haven’t installed Homebrew, just follow the at ";}i:2;i:259;}i:8;a:3:{i:0;s:12:"externallink";i:1;a:2:{i:0;s:16:"https://brew.sh/";i:1;N;}i:2;i:372;}i:9;a:3:{i:0;s:5:"cdata";i:1;a:1:{i:0;s:23:"), to install this use:";}i:2;i:388;}i:10;a:3:{i:0;s:7:"p_close";i:1;a:0:{}i:2;i:411;}i:11;a:3:{i:0;s:4:"code";i:1;a:3:{i:0;s:85:"
+brew install php@7.1
+brew install php@7.2
+brew install php@7.3
+brew install php@7.4
+";i:1;N;i:2;N;}i:2;i:418;}i:12;a:3:{i:0;s:6:"p_open";i:1;a:0:{}i:2;i:418;}i:13;a:3:{i:0;s:5:"cdata";i:1;a:1:{i:0;s:63:"Now you have to install sphp, you can do this with this script:";}i:2;i:514;}i:14;a:3:{i:0;s:7:"p_close";i:1;a:0:{}i:2;i:577;}i:15;a:3:{i:0;s:6:"p_open";i:1;a:0:{}i:2;i:577;}i:16;a:3:{i:0;s:14:"monospace_open";i:1;a:0:{}i:2;i:580;}i:17;a:3:{i:0;s:5:"cdata";i:1;a:1:{i:0;s:8:"curl -L ";}i:2;i:582;}i:18;a:3:{i:0;s:12:"externallink";i:1;a:2:{i:0;s:80:"https://gist.githubusercontent.com/rhukster/f4c04f1bf59e0b74e335ee5d186a98e2/raw";i:1;N;}i:2;i:590;}i:19;a:3:{i:0;s:5:"cdata";i:1;a:1:{i:0;s:22:" > /usr/local/bin/sphp";}i:2;i:670;}i:20;a:3:{i:0;s:15:"monospace_close";i:1;a:0:{}i:2;i:692;}i:21;a:3:{i:0;s:7:"p_close";i:1;a:0:{}i:2;i:694;}i:22;a:3:{i:0;s:6:"p_open";i:1;a:0:{}i:2;i:694;}i:23;a:3:{i:0;s:5:"cdata";i:1;a:1:{i:0;s:63:"Once it is downloaded in your computer just make it executable:";}i:2;i:696;}i:24;a:3:{i:0;s:7:"p_close";i:1;a:0:{}i:2;i:759;}i:25;a:3:{i:0;s:6:"p_open";i:1;a:0:{}i:2;i:759;}i:26;a:3:{i:0;s:14:"monospace_open";i:1;a:0:{}i:2;i:761;}i:27;a:3:{i:0;s:5:"cdata";i:1;a:1:{i:0;s:28:"chmod +x /usr/local/bin/sphp";}i:2;i:763;}i:28;a:3:{i:0;s:15:"monospace_close";i:1;a:0:{}i:2;i:791;}i:29;a:3:{i:0;s:7:"p_close";i:1;a:0:{}i:2;i:793;}i:30;a:3:{i:0;s:6:"p_open";i:1;a:0:{}i:2;i:793;}i:31;a:3:{i:0;s:5:"cdata";i:1;a:1:{i:0;s:71:"Cool, now restart your terminal and try to switch between versions with";}i:2;i:795;}i:32;a:3:{i:0;s:7:"p_close";i:1;a:0:{}i:2;i:866;}i:33;a:3:{i:0;s:6:"p_open";i:1;a:0:{}i:2;i:866;}i:34;a:3:{i:0;s:14:"monospace_open";i:1;a:0:{}i:2;i:868;}i:35;a:3:{i:0;s:5:"cdata";i:1;a:1:{i:0;s:8:"sphp 7.4";}i:2;i:870;}i:36;a:3:{i:0;s:15:"monospace_close";i:1;a:0:{}i:2;i:878;}i:37;a:3:{i:0;s:7:"p_close";i:1;a:0:{}i:2;i:880;}i:38;a:3:{i:0;s:4:"code";i:1;a:3:{i:0;s:529:"
+Switching to php@7.4
+Switching your shell
+Unlinking /usr/local/Cellar/php@5.6/5.6.36… 0 symlinks removed
+Unlinking /usr/local/Cellar/php@7.0/7.0.30… 0 symlinks removed
+Unlinking /usr/local/Cellar/php@7.1/7.1.32_1… 0 symlinks removed
+Unlinking /usr/local/Cellar/php@7.2/7.2.30_1… 0 symlinks removed
+Unlinking /usr/local/Cellar/php@7.3/7.3.18… 25 symlinks removed
+Unlinking /usr/local/Cellar/php/7.4.6… 0 symlinks removed
+Linking /usr/local/Cellar/php/7.4.6… 24 symlinks created
+You will need sudo power from now on
+";i:1;N;i:2;N;}i:2;i:887;}i:39;a:3:{i:0;s:6:"p_open";i:1;a:0:{}i:2;i:887;}i:40;a:3:{i:0;s:5:"cdata";i:1;a:1:{i:0;s:22:"Test your php version:";}i:2;i:1426;}i:41;a:3:{i:0;s:7:"p_close";i:1;a:0:{}i:2;i:1448;}i:42;a:3:{i:0;s:4:"code";i:1;a:3:{i:0;s:215:"
+php --version
+
+PHP 7.4.6 (cli) (built: May 14 2020 10:40:11) ( NTS )
+Copyright (c) The PHP Group
+Zend Engine v3.4.0, Copyright (c) Zend Technologies
+    with Zend OPcache v7.4.6, Copyright (c), by Zend Technologies";i:1;N;i:2;N;}i:2;i:1455;}i:43;a:3:{i:0;s:6:"p_open";i:1;a:0:{}i:2;i:1455;}i:44;a:3:{i:0;s:5:"cdata";i:1;a:1:{i:0;s:91:"I will be updating this article if I found some issues and some other troubleshooting tips.";}i:2;i:1680;}i:45;a:3:{i:0;s:7:"p_close";i:1;a:0:{}i:2;i:1771;}i:46;a:3:{i:0;s:13:"section_close";i:1;a:0:{}i:2;i:1773;}i:47;a:3:{i:0;s:6:"header";i:1;a:3:{i:0;s:15:"Troubleshooting";i:1;i:2;i:2;i:1773;}i:2;i:1773;}i:48;a:3:{i:0;s:12:"section_open";i:1;a:1:{i:0;i:2;}i:2;i:1773;}i:49;a:3:{i:0;s:6:"p_open";i:1;a:0:{}i:2;i:1773;}i:50;a:3:{i:0;s:5:"cdata";i:1;a:1:{i:0;s:137:"If the php version has not changed check first where does your php executable came from with, to work it should show something like this:";}i:2;i:1803;}i:51;a:3:{i:0;s:7:"p_close";i:1;a:0:{}i:2;i:1940;}i:52;a:3:{i:0;s:4:"code";i:1;a:3:{i:0;s:30:"
+which php
+/usr/local/bin/php
+";i:1;N;i:2;N;}i:2;i:1947;}i:53;a:3:{i:0;s:6:"p_open";i:1;a:0:{}i:2;i:1947;}i:54;a:3:{i:0;s:5:"cdata";i:1;a:1:{i:0;s:157:"Check your ~/.bash_profile to be sure there no other php version loading after sphp. If there is some PHP loading just comment it, and restart your Terminal.";}i:2;i:1987;}i:55;a:3:{i:0;s:7:"p_close";i:1;a:0:{}i:2;i:2144;}i:56;a:3:{i:0;s:13:"section_close";i:1;a:0:{}i:2;i:2144;}i:57;a:3:{i:0;s:12:"document_end";i:1;a:0:{}i:2;i:2144;}}

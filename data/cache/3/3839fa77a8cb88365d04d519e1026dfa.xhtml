@@ -1,0 +1,108 @@
+
+<h1 class="sectionedit1" id="gulp">Gulp</h1>
+<div class="level1">
+
+<p>
+Gulp – это менеджер задач и сборщик проектов.
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Gulp&quot;,&quot;hid&quot;:&quot;gulp&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:1,&quot;range&quot;:&quot;1-102&quot;} -->
+<h2 class="sectionedit2" id="что_умеет_gulp_4">Что умеет Gulp 4?</h2>
+<div class="level2">
+<ul>
+<li class="level1"><div class="li"> Самостоятельно конвертирует и подключает шрифты.</div>
+</li>
+<li class="level1"><div class="li"> Обновляет браузер.</div>
+</li>
+<li class="level1"><div class="li"> Собирает в один несколько <abbr title="HyperText Markup Language">HTML</abbr> файлов.</div>
+</li>
+<li class="level1"><div class="li"> Работает с <abbr title="Cascading Style Sheets">CSS</abbr> препроцессорами, например SCSS и оптимизирует их. </div>
+</li>
+<li class="level1"><div class="li"> Не только сжимает изображения но и конвертирует их в современный формат WEBP, а также самостоятельно подключает результат к <abbr title="HyperText Markup Language">HTML</abbr> и <abbr title="Cascading Style Sheets">CSS</abbr> файлам. </div>
+</li>
+<li class="level1"><div class="li"> Собирает в один несколько JavaScript файлов, оптимизирует и сжимать их. </div>
+</li>
+<li class="level1"><div class="li"> Умеет создавать SVG спрайты и многое другое!</div>
+</li>
+</ul>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;\u0427\u0442\u043e \u0443\u043c\u0435\u0435\u0442 Gulp 4?&quot;,&quot;hid&quot;:&quot;\u0447\u0442\u043e_\u0443\u043c\u0435\u0435\u0442_gulp_4&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:2,&quot;range&quot;:&quot;103-932&quot;} -->
+<h2 class="sectionedit3" id="установка_и_настройка_gulp_4">Установка и настройка Gulp 4?</h2>
+<div class="level2">
+
+<p>
+Для корректной работы Gulp нужен:
+</p>
+<ul>
+<li class="level1"><div class="li"> NodeJs</div>
+</li>
+<li class="level1"><div class="li"> NPM</div>
+</li>
+</ul>
+
+<p>
+После установки npm, nodejs запускаем установку самого gulp через npm глобально:
+</p>
+<pre class="code">npm install --global gulp-cli</pre>
+
+<p>
+Инициализируем проект
+</p>
+<pre class="code">npm init</pre>
+
+<p>
+Ставим gulp в проект
+</p>
+<pre class="code">npm install --save-dev gulp</pre>
+
+<p>
+Проверяем установленную версию gulp
+</p>
+
+<p>
+<code>gulp –version</code>
+</p>
+
+<p>
+Если установка прошла успешно, то отобразит след.:
+</p>
+
+<p>
+<a href="/lib/exe/detail.php?id=gulp&amp;media=docs-gulp-version-command.png" class="media" title="docs-gulp-version-command.png"><img src="/lib/exe/fetch.php?w=600&amp;tok=f86b32&amp;media=docs-gulp-version-command.png" class="media" alt="" width="600" /></a>
+</p>
+
+<p>
+Далее нужно создать файл gulpfile.js в корне вашего проекта и вписать туда:
+</p>
+<pre class="code">function defaultTask(cb) {
+  // place code for your default task here
+  cb();
+}
+
+exports.default = defaultTask</pre>
+
+<p>
+Теперь можно проверить работу gulp запустив его
+</p>
+
+<p>
+<code>gulp</code>
+</p>
+
+<p>
+<a href="/lib/exe/detail.php?id=gulp&amp;media=docs-gulp-command.png" class="media" title="docs-gulp-command.png"><img src="/lib/exe/fetch.php?w=600&amp;tok=8a4968&amp;media=docs-gulp-command.png" class="media" alt="" width="600" /></a>
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;\u0423\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0430 \u0438 \u043d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0430 Gulp 4?&quot;,&quot;hid&quot;:&quot;\u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0430_\u0438_\u043d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0430_gulp_4&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:3,&quot;range&quot;:&quot;933-2003&quot;} -->
+<h2 class="sectionedit4" id="ссылки">Ссылки</h2>
+<div class="level2">
+
+<p>
+Официальный сайт gulp <a href="https://gulpjs.com" class="urlextern" target="_blank" title="https://gulpjs.com" rel="ugc nofollow noopener">https://gulpjs.com</a>
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;\u0421\u0441\u044b\u043b\u043a\u0438&quot;,&quot;hid&quot;:&quot;\u0441\u0441\u044b\u043b\u043a\u0438&quot;,&quot;codeblockOffset&quot;:4,&quot;secid&quot;:4,&quot;range&quot;:&quot;2004-&quot;} -->

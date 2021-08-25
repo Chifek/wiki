@@ -3,3 +3,5 @@
 [[downgradePsql|downgrade psql]]
 
 [[free space on sql | freespaceonpsql]]
+
+[[15_sovetov|15 полезных команд PSQL]]

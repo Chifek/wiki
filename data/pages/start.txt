@@ -53,6 +53,4 @@
 
 [[work-space|Установка раб.среды]]
 
-[[psql|psql]]
-
-Group
+[[psql|PostgreSQL]]

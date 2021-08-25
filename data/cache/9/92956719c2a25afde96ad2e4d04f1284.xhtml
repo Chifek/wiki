@@ -1,0 +1,465 @@
+
+<h1 class="sectionedit1" id="полезных_команд_postgresql">15 полезных команд PostgreSQL</h1>
+<div class="level1">
+
+<p>
+В сети много руководств по PostgreSQL, которые описывают основные команды. Но при погружении глубже в работу возникают такие практические вопросы, для которых требуются продвинутые команды.
+</p>
+
+<p>
+Такие команды, или сниппеты, редко описаны в документации. Рассмотрим несколько на примерах, полезных как для разработчиков, так и для администраторов баз данных.
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;15 \u043f\u043e\u043b\u0435\u0437\u043d\u044b\u0445 \u043a\u043e\u043c\u0430\u043d\u0434 PostgreSQL&quot;,&quot;hid&quot;:&quot;\u043f\u043e\u043b\u0435\u0437\u043d\u044b\u0445_\u043a\u043e\u043c\u0430\u043d\u0434_postgresql&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:1,&quot;range&quot;:&quot;1-702&quot;} -->
+<h2 class="sectionedit2" id="получение_информации_о_базе_данных">Получение информации о базе данных</h2>
+<div class="level2">
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;\u041f\u043e\u043b\u0443\u0447\u0435\u043d\u0438\u0435 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u0438 \u043e \u0431\u0430\u0437\u0435 \u0434\u0430\u043d\u043d\u044b\u0445&quot;,&quot;hid&quot;:&quot;\u043f\u043e\u043b\u0443\u0447\u0435\u043d\u0438\u0435_\u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u0438_\u043e_\u0431\u0430\u0437\u0435_\u0434\u0430\u043d\u043d\u044b\u0445&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:2,&quot;range&quot;:&quot;703-781&quot;} -->
+<h3 class="sectionedit3" id="размер_базы_данных">Размер базы данных</h3>
+<div class="level3">
+
+<p>
+Чтобы получить физический размер файлов (хранилища) базы данных, используем следующий запрос:
+</p>
+<pre class="code">SELECT pg_database_size(current_database());</pre>
+
+<p>
+Результат будет представлен как число вида 41809016.
+</p>
+
+<p>
+current_database() — функция, которая возвращает имя текущей базы данных. Вместо неё можно ввести имя текстом:
+</p>
+<pre class="code">SELECT pg_database_size(&#039;my_database&#039;);</pre>
+
+<p>
+Для того, чтобы получить информацию в человекочитаемом виде, используем функцию pg_size_pretty:
+</p>
+<pre class="code">SELECT pg_size_pretty(pg_database_size(current_database()));</pre>
+
+<p>
+В результате получим информацию вида 40 Mb.
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;\u0420\u0430\u0437\u043c\u0435\u0440 \u0431\u0430\u0437\u044b \u0434\u0430\u043d\u043d\u044b\u0445&quot;,&quot;hid&quot;:&quot;\u0440\u0430\u0437\u043c\u0435\u0440_\u0431\u0430\u0437\u044b_\u0434\u0430\u043d\u043d\u044b\u0445&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:3,&quot;range&quot;:&quot;782-1717&quot;} -->
+<h3 class="sectionedit4" id="перечень_таблиц">Перечень таблиц</h3>
+<div class="level3">
+
+<p>
+Иногда требуется получить перечень таблиц базы данных. Для этого используем следующий запрос:
+</p>
+<pre class="code">SELECT table_name FROM information_schema.tables
+WHERE table_schema NOT IN (&#039;information_schema&#039;,&#039;pg_catalog&#039;);</pre>
+
+<p>
+information_schema — стандартная схема базы данных, которая содержит коллекции представлений (views), таких как таблицы, поля и т.д. Представления таблиц содержат информацию обо всех таблицах баз данных.
+</p>
+
+<p>
+Запрос, описанный ниже, выберет все таблицы из указанной схемы текущей базы данных:
+</p>
+<pre class="code">SELECT table_name FROM information_schema.tables
+WHERE table_schema NOT IN (&#039;information_schema&#039;, &#039;pg_catalog&#039;)
+AND table_schema IN(&#039;public&#039;, &#039;myschema&#039;);</pre>
+
+<p>
+В последнем условии IN можно указать имя определенной схемы.
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;\u041f\u0435\u0440\u0435\u0447\u0435\u043d\u044c \u0442\u0430\u0431\u043b\u0438\u0446&quot;,&quot;hid&quot;:&quot;\u043f\u0435\u0440\u0435\u0447\u0435\u043d\u044c_\u0442\u0430\u0431\u043b\u0438\u0446&quot;,&quot;codeblockOffset&quot;:3,&quot;secid&quot;:4,&quot;range&quot;:&quot;1718-2852&quot;} -->
+<h3 class="sectionedit5" id="размер_таблицы">Размер таблицы</h3>
+<div class="level3">
+
+<p>
+По аналогии с получением размера базы данных размер данных таблицы можно вычислить с помощью соответствующей функции:
+</p>
+<pre class="code">SELECT pg_relation_size(&#039;accounts&#039;);</pre>
+
+<p>
+Функция pg_relation_size возвращает объём, который занимает на диске указанный слой заданной таблицы или индекса.
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;\u0420\u0430\u0437\u043c\u0435\u0440 \u0442\u0430\u0431\u043b\u0438\u0446\u044b&quot;,&quot;hid&quot;:&quot;\u0440\u0430\u0437\u043c\u0435\u0440_\u0442\u0430\u0431\u043b\u0438\u0446\u044b&quot;,&quot;codeblockOffset&quot;:5,&quot;secid&quot;:5,&quot;range&quot;:&quot;2853-3363&quot;} -->
+<h3 class="sectionedit6" id="имя_самой_большой_таблицы">Имя самой большой таблицы</h3>
+<div class="level3">
+
+<p>
+Для того, чтобы вывести список таблиц текущей базы данных, отсортированный по размеру таблицы, выполним следующий запрос:
+</p>
+<pre class="code">SELECT relname, relpages FROM pg_class ORDER BY relpages DESC;</pre>
+
+<p>
+Для того, чтобы вывести информацию о самой большой таблице, ограничим запрос с помощью LIMIT:
+</p>
+<pre class="code">SELECT relname, relpages FROM pg_class ORDER BY relpages DESC LIMIT 1;</pre>
+
+<p>
+relname — имя таблицы, индекса, представления и т.п.
+</p>
+
+<p>
+relpages — размер представления этой таблицы на диске в количествах страниц (по умолчанию одна страницы равна 8 Кб).
+</p>
+
+<p>
+pg_class — системная таблица, которая содержит информацию о связях таблиц базы данных.
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;\u0418\u043c\u044f \u0441\u0430\u043c\u043e\u0439 \u0431\u043e\u043b\u044c\u0448\u043e\u0439 \u0442\u0430\u0431\u043b\u0438\u0446\u044b&quot;,&quot;hid&quot;:&quot;\u0438\u043c\u044f_\u0441\u0430\u043c\u043e\u0439_\u0431\u043e\u043b\u044c\u0448\u043e\u0439_\u0442\u0430\u0431\u043b\u0438\u0446\u044b&quot;,&quot;codeblockOffset&quot;:6,&quot;secid&quot;:6,&quot;range&quot;:&quot;3364-4429&quot;} -->
+<h3 class="sectionedit7" id="перечень_подключенных_пользователей">Перечень подключенных пользователей</h3>
+<div class="level3">
+
+<p>
+Чтобы узнать имя, IP и используемый порт подключенных пользователей, выполним следующий запрос:
+</p>
+<pre class="code">SELECT datname,usename,client_addr,client_port FROM pg_stat_activity;</pre>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;\u041f\u0435\u0440\u0435\u0447\u0435\u043d\u044c \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0435\u043d\u043d\u044b\u0445 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u0435\u0439&quot;,&quot;hid&quot;:&quot;\u043f\u0435\u0440\u0435\u0447\u0435\u043d\u044c_\u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0435\u043d\u043d\u044b\u0445_\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u0435\u0439&quot;,&quot;codeblockOffset&quot;:8,&quot;secid&quot;:7,&quot;range&quot;:&quot;4430-4772&quot;} -->
+<h3 class="sectionedit8" id="активность_пользователя">Активность пользователя</h3>
+<div class="level3">
+
+<p>
+Чтобы узнать активность соединения конкретного пользователя, используем следующий запрос:
+</p>
+<pre class="code">SELECT datname FROM pg_stat_activity WHERE usename = &#039;devuser&#039;;</pre>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;\u0410\u043a\u0442\u0438\u0432\u043d\u043e\u0441\u0442\u044c \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f&quot;,&quot;hid&quot;:&quot;\u0430\u043a\u0442\u0438\u0432\u043d\u043e\u0441\u0442\u044c_\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f&quot;,&quot;codeblockOffset&quot;:9,&quot;secid&quot;:8,&quot;range&quot;:&quot;4773-5080&quot;} -->
+<h2 class="sectionedit9" id="работа_с_данными_и_полями_таблиц">Работа с данными и полями таблиц</h2>
+<div class="level2">
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;\u0420\u0430\u0431\u043e\u0442\u0430 \u0441 \u0434\u0430\u043d\u043d\u044b\u043c\u0438 \u0438 \u043f\u043e\u043b\u044f\u043c\u0438 \u0442\u0430\u0431\u043b\u0438\u0446&quot;,&quot;hid&quot;:&quot;\u0440\u0430\u0431\u043e\u0442\u0430_\u0441_\u0434\u0430\u043d\u043d\u044b\u043c\u0438_\u0438_\u043f\u043e\u043b\u044f\u043c\u0438_\u0442\u0430\u0431\u043b\u0438\u0446&quot;,&quot;codeblockOffset&quot;:10,&quot;secid&quot;:9,&quot;range&quot;:&quot;5081-5154&quot;} -->
+<h3 class="sectionedit10" id="удаление_одинаковых_строк">Удаление одинаковых строк</h3>
+<div class="level3">
+
+<p>
+Если так получилось, что в таблице нет первичного ключа (primary key), то наверняка среди записей найдутся дубликаты. Если для такой таблицы, особенно большого размера, необходимо поставить ограничения (constraint) для проверки целостности, то удалим следующие элементы:
+</p>
+
+<p>
+дублирующиеся строки,
+ситуации, когда одна или более колонок дублируются (если эти колонки предполагается использовать в качестве первичного ключа).
+Рассмотрим таблицу с данными покупателей, где задублирована целая строка (вторая по счёту).
+</p>
+
+<p>
+<a href="/lib/exe/detail.php?id=15_sovetov&amp;media=postgre_01.png" class="media" title="postgre_01.png"><img src="/lib/exe/fetch.php?w=600&amp;tok=6daaa8&amp;media=postgre_01.png" class="media" alt="" width="600" /></a>
+</p>
+
+<p>
+Удалить все дубликаты поможет следующий запрос:
+</p>
+<pre class="code">DELETE FROM customers WHERE ctid NOT IN
+(SELECT max(ctid) FROM customers GROUP BY customers.*);</pre>
+
+<p>
+Уникальное для каждой записи поле ctid по умолчанию скрыто, но оно есть в каждой таблице.
+</p>
+
+<p>
+Последний запрос требователен к ресурсам, поэтому будьте аккуратны при его выполнении на рабочем проекте.
+</p>
+
+<p>
+Теперь рассмотрим случай, когда повторяются значения полей.
+</p>
+
+<p>
+<a href="/lib/exe/detail.php?id=15_sovetov&amp;media=postgre_02.png" class="media" title="postgre_02.png"><img src="/lib/exe/fetch.php?w=600&amp;tok=b7a9c5&amp;media=postgre_02.png" class="media" alt="" width="600" /></a>
+</p>
+
+<p>
+Если допустимо удаление дубликатов без сохранения всех данных, выполним такой запрос:
+</p>
+<pre class="code">DELETE FROM customers WHERE ctid NOT IN
+(SELECT max(ctid) FROM customers GROUP BY customer_id);</pre>
+
+<p>
+Если данные важны, то сначала нужно найти записи с дубликатами:
+</p>
+<pre class="code">SELECT * FROM customers WHERE ctid NOT IN
+(SELECT max(ctid) FROM customers GROUP BY customer_id);</pre>
+
+<p>
+<a href="/lib/exe/detail.php?id=15_sovetov&amp;media=postgre_03.png" class="media" title="postgre_03.png"><img src="/lib/exe/fetch.php?w=600&amp;tok=96921f&amp;media=postgre_03.png" class="media" alt="" width="600" /></a>
+</p>
+
+<p>
+Перед удалением такие записи можно перенести во временную таблицу или заменить в них значение customer_id на другое.
+</p>
+
+<p>
+Общая форма запроса на удаление описанных выше записей выглядит следующим образом:
+</p>
+<pre class="code">DELETE FROM table_name WHERE ctid NOT IN (SELECT max(ctid) FROM table_name GROUP BY column1, [column 2,] );</pre>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;\u0423\u0434\u0430\u043b\u0435\u043d\u0438\u0435 \u043e\u0434\u0438\u043d\u0430\u043a\u043e\u0432\u044b\u0445 \u0441\u0442\u0440\u043e\u043a&quot;,&quot;hid&quot;:&quot;\u0443\u0434\u0430\u043b\u0435\u043d\u0438\u0435_\u043e\u0434\u0438\u043d\u0430\u043a\u043e\u0432\u044b\u0445_\u0441\u0442\u0440\u043e\u043a&quot;,&quot;codeblockOffset&quot;:10,&quot;secid&quot;:10,&quot;range&quot;:&quot;5155-7878&quot;} -->
+<h3 class="sectionedit11" id="безопасное_изменение_типа_поля">Безопасное изменение типа поля</h3>
+<div class="level3">
+
+<p>
+Может возникнуть вопрос о включении в этот список такой задачи. Ведь в PostgreSQL изменить тип поля очень просто с помощью команды ALTER. Давайте для примера снова рассмотрим таблицу с покупателями.
+</p>
+
+<p>
+Для поля customer_id используется строковый тип данных varchar. Это ошибка, так как в этом поле предполагается хранить идентификаторы покупателей, которые имеют целочисленный формат integer. Использование varchar неоправданно. Попробуем исправить это недоразумение с помощью команды ALTER:
+</p>
+<pre class="code">ALTER TABLE customers ALTER COLUMN customer_id TYPE integer;</pre>
+
+<p>
+Но в результате выполнения получим ошибку:
+</p>
+<pre class="code">ERROR: column “customer_id” cannot be cast automatically to type integer
+SQL state: 42804
+Hint: Specify a USING expression to perform the conversion.</pre>
+
+<p>
+Это значит, что нельзя просто так взять и изменить тип поля при наличии данных в таблице. Так как использовался тип varchar, СУБД не может определить принадлежность значения к integer. Хотя данные соответствуют именно этому типу. Для того, чтобы уточнить этот момент, в сообщении об ошибке предлагается использовать выражение USING, чтобы корректно преобразовать наши данные в integer:
+</p>
+<pre class="code">ALTER TABLE customers ALTER COLUMN customer_id TYPE integer USING (customer_id::integer);</pre>
+
+<p>
+В результате всё прошло без ошибок:
+</p>
+
+<p>
+<a href="/lib/exe/detail.php?id=15_sovetov&amp;media=postgre_04.png" class="media" title="postgre_04.png"><img src="/lib/exe/fetch.php?w=600&amp;tok=39c069&amp;media=postgre_04.png" class="media" alt="" width="600" /></a>
+</p>
+
+<p>
+Обратите внимание, что при использовании USING кроме конкретного выражения возможно использование функций, других полей и операторов.
+</p>
+
+<p>
+Например, преобразуем поле customer_id обратно в varchar, но с преобразованием формата данных:
+</p>
+<pre class="code">ALTER TABLE customers ALTER COLUMN customer_id TYPE varchar USING (customer_id || &#039;-&#039; || first_name);</pre>
+
+<p>
+В результате таблица примет следующий вид:
+</p>
+
+<p>
+<a href="/lib/exe/detail.php?id=15_sovetov&amp;media=postgre_05.png" class="media" title="postgre_05.png"><img src="/lib/exe/fetch.php?w=600&amp;tok=82f1b0&amp;media=postgre_05.png" class="media" alt="" width="600" /></a>
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;\u0411\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e\u0435 \u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u0435 \u0442\u0438\u043f\u0430 \u043f\u043e\u043b\u044f&quot;,&quot;hid&quot;:&quot;\u0431\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e\u0435_\u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u0435_\u0442\u0438\u043f\u0430_\u043f\u043e\u043b\u044f&quot;,&quot;codeblockOffset&quot;:14,&quot;secid&quot;:11,&quot;range&quot;:&quot;7879-10636&quot;} -->
+<h3 class="sectionedit12" id="поиск_потерянных_значений">Поиск «потерянных» значений</h3>
+<div class="level3">
+
+<p>
+Будьте внимательны при использовании последовательностей (sequence) в качестве первичного ключа (primary key): при назначении некоторые элементы последовательности случайно пропускаются, в результате работы с таблицей некоторые записи удаляются. Такие значения можно использовать снова, но найти их в больших таблицах сложно.
+</p>
+
+<p>
+<a href="/lib/exe/detail.php?id=15_sovetov&amp;media=postgre_06.png" class="media" title="postgre_06.png"><img src="/lib/exe/fetch.php?w=600&amp;tok=737479&amp;media=postgre_06.png" class="media" alt="" width="600" /></a>
+</p>
+
+<p>
+Рассмотрим два варианта поиска.
+</p>
+
+<p>
+<strong>Первый способ</strong>
+</p>
+
+<p>
+Выполним следующий запрос, чтобы найти начало интервала с «потерянным» значением:
+</p>
+<pre class="code">SELECT customer_id + 1
+FROM customers mo
+WHERE NOT EXISTS
+(
+SELECT NULL
+FROM customers mi
+WHERE mi.customer_id = mo.customer_id + 1
+)
+ORDER BY customer_id;</pre>
+
+<p>
+В результате получим значения: 5, 9 и 11.
+</p>
+
+<p>
+Если нужно найти не только первое вхождение, а все пропущенные значения, используем следующий (ресурсоёмкий!) запрос:
+</p>
+<pre class="code">WITH seq_max AS (
+SELECT max(customer_id) FROM customers
+),
+seq_min AS (
+SELECT min(customer_id) FROM customers
+)
+SELECT * FROM generate_series((SELECT min FROM seq_min),(SELECT max FROM seq_max))
+EXCEPT
+SELECT customer_id FROM customers;</pre>
+
+<p>
+В результате видим следующий результат: 5, 9 и 6.
+</p>
+
+<p>
+<strong>Второй способ</strong>
+</p>
+
+<p>
+Получаем имя последовательности, связанной с customer_id:
+</p>
+<pre class="code">SELECT pg_get_serial_sequence(&#039;customers&#039;, &#039;customer_id&#039;);</pre>
+
+<p>
+И находим все пропущенные идентификаторы:
+</p>
+<pre class="code">WITH sequence_info AS (
+SELECT start_value, last_value FROM &quot;SchemaName&quot;.&quot;SequenceName&quot;
+)
+SELECT generate_series ((sequence_info.start_value), (sequence_info.last_value))
+FROM sequence_info
+EXCEPT
+SELECT customer_id FROM customers;</pre>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;\u041f\u043e\u0438\u0441\u043a \u00ab\u043f\u043e\u0442\u0435\u0440\u044f\u043d\u043d\u044b\u0445\u00bb \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0439&quot;,&quot;hid&quot;:&quot;\u043f\u043e\u0438\u0441\u043a_\u043f\u043e\u0442\u0435\u0440\u044f\u043d\u043d\u044b\u0445_\u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0439&quot;,&quot;codeblockOffset&quot;:18,&quot;secid&quot;:12,&quot;range&quot;:&quot;10637-12889&quot;} -->
+<h3 class="sectionedit13" id="подсчёт_количества_строк_в_таблице">Подсчёт количества строк в таблице</h3>
+<div class="level3">
+
+<p>
+Количество строк вычисляется стандартной функцией count, но её можно использовать с дополнительными условиями.
+</p>
+
+<p>
+Общее количество строк в таблице:
+</p>
+<pre class="code">SELECT count(*) FROM table;</pre>
+
+<p>
+Количество строк при условии, что указанное поле не содержит NULL:
+</p>
+<pre class="code">SELECT count(col_name) FROM table;</pre>
+
+<p>
+Количество уникальных строк по указанному полю:
+</p>
+<pre class="code">SELECT count(distinct col_name) FROM table;</pre>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;\u041f\u043e\u0434\u0441\u0447\u0451\u0442 \u043a\u043e\u043b\u0438\u0447\u0435\u0441\u0442\u0432\u0430 \u0441\u0442\u0440\u043e\u043a \u0432 \u0442\u0430\u0431\u043b\u0438\u0446\u0435&quot;,&quot;hid&quot;:&quot;\u043f\u043e\u0434\u0441\u0447\u0451\u0442_\u043a\u043e\u043b\u0438\u0447\u0435\u0441\u0442\u0432\u0430_\u0441\u0442\u0440\u043e\u043a_\u0432_\u0442\u0430\u0431\u043b\u0438\u0446\u0435&quot;,&quot;codeblockOffset&quot;:22,&quot;secid&quot;:13,&quot;range&quot;:&quot;12890-13596&quot;} -->
+<h3 class="sectionedit14" id="использование_транзакций">Использование транзакций</h3>
+<div class="level3">
+
+<p>
+Транзакция объединяет последовательность действий в одну операцию. Её особенность в том, что при ошибке в выполнении транзакции ни один из результатов действий не сохранится в базе данных.
+</p>
+
+<p>
+Начнём транзакцию с помощью команды BEGIN.
+</p>
+
+<p>
+Для того, чтобы откатить все операции, расположенные после BEGIN, используем команду ROLLBACK.
+</p>
+
+<p>
+А чтобы применить — команду COMMIT.
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;\u0418\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u0435 \u0442\u0440\u0430\u043d\u0437\u0430\u043a\u0446\u0438\u0439&quot;,&quot;hid&quot;:&quot;\u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u0435_\u0442\u0440\u0430\u043d\u0437\u0430\u043a\u0446\u0438\u0439&quot;,&quot;codeblockOffset&quot;:25,&quot;secid&quot;:14,&quot;range&quot;:&quot;13597-14303&quot;} -->
+<h3 class="sectionedit15" id="просмотр_и_завершение_исполняемых_запросов">Просмотр и завершение исполняемых запросов</h3>
+<div class="level3">
+
+<p>
+Для того, чтобы получить информацию о запросах, выполним следующую команду:
+</p>
+<pre class="code">SELECT pid, age(query_start, clock_timestamp()), usename, query
+FROM pg_stat_activity
+WHERE query != &#039;&lt;IDLE&gt;&#039; AND query NOT ILIKE &#039;%pg_stat_activity%&#039;
+ORDER BY query_start desc;</pre>
+
+<p>
+Для того, чтобы остановить конкретный запрос, выполним следующую команду, с указанием id процесса (pid):
+</p>
+<pre class="code">SELECT pg_cancel_backend(procpid);</pre>
+
+<p>
+Для того, чтобы прекратить работу запроса, выполним:
+</p>
+<pre class="code">SELECT pg_terminate_backend(procpid);</pre>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;\u041f\u0440\u043e\u0441\u043c\u043e\u0442\u0440 \u0438 \u0437\u0430\u0432\u0435\u0440\u0448\u0435\u043d\u0438\u0435 \u0438\u0441\u043f\u043e\u043b\u043d\u044f\u0435\u043c\u044b\u0445 \u0437\u0430\u043f\u0440\u043e\u0441\u043e\u0432&quot;,&quot;hid&quot;:&quot;\u043f\u0440\u043e\u0441\u043c\u043e\u0442\u0440_\u0438_\u0437\u0430\u0432\u0435\u0440\u0448\u0435\u043d\u0438\u0435_\u0438\u0441\u043f\u043e\u043b\u043d\u044f\u0435\u043c\u044b\u0445_\u0437\u0430\u043f\u0440\u043e\u0441\u043e\u0432&quot;,&quot;codeblockOffset&quot;:25,&quot;secid&quot;:15,&quot;range&quot;:&quot;14304-15119&quot;} -->
+<h2 class="sectionedit16" id="работа_с_конфигурацией">Работа с конфигурацией</h2>
+<div class="level2">
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;\u0420\u0430\u0431\u043e\u0442\u0430 \u0441 \u043a\u043e\u043d\u0444\u0438\u0433\u0443\u0440\u0430\u0446\u0438\u0435\u0439&quot;,&quot;hid&quot;:&quot;\u0440\u0430\u0431\u043e\u0442\u0430_\u0441_\u043a\u043e\u043d\u0444\u0438\u0433\u0443\u0440\u0430\u0446\u0438\u0435\u0439&quot;,&quot;codeblockOffset&quot;:28,&quot;secid&quot;:16,&quot;range&quot;:&quot;15120-15175&quot;} -->
+<h3 class="sectionedit17" id="поиск_и_изменение_расположения_экземпляра_кластера">Поиск и изменение расположения экземпляра кластера</h3>
+<div class="level3">
+
+<p>
+Возможна ситуация, когда на одной операционной системе настроено несколько экземпляров PostgreSQL, которые «сидят» на различных портах. В этом случае поиск пути к физическому размещению каждого экземпляра — достаточно нервная задача. Для того, чтобы получить эту информацию, выполним следующий запрос для любой базы данных интересующего кластера:
+</p>
+<pre class="code">SHOW data_directory;</pre>
+
+<p>
+Изменим расположение на другое с помощью команды:
+</p>
+<pre class="code">SET data_directory to new_directory_path;</pre>
+
+<p>
+Но для того, чтобы изменения вступили в силу, требуется перезагрузка.
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;\u041f\u043e\u0438\u0441\u043a \u0438 \u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u0435 \u0440\u0430\u0441\u043f\u043e\u043b\u043e\u0436\u0435\u043d\u0438\u044f \u044d\u043a\u0437\u0435\u043c\u043f\u043b\u044f\u0440\u0430 \u043a\u043b\u0430\u0441\u0442\u0435\u0440\u0430&quot;,&quot;hid&quot;:&quot;\u043f\u043e\u0438\u0441\u043a_\u0438_\u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u0435_\u0440\u0430\u0441\u043f\u043e\u043b\u043e\u0436\u0435\u043d\u0438\u044f_\u044d\u043a\u0437\u0435\u043c\u043f\u043b\u044f\u0440\u0430_\u043a\u043b\u0430\u0441\u0442\u0435\u0440\u0430&quot;,&quot;codeblockOffset&quot;:28,&quot;secid&quot;:17,&quot;range&quot;:&quot;15176-16232&quot;} -->
+<h3 class="sectionedit18" id="получение_перечня_доступных_типов_данных">Получение перечня доступных типов данных</h3>
+<div class="level3">
+
+<p>
+Получим перечень доступных типов данных с помощью команды:
+</p>
+<pre class="code">SELECT typname, typlen from pg_type where typtype=&#039;b&#039;;</pre>
+
+<p>
+typname — имя типа данных.
+typlen — размер типа данных.
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;\u041f\u043e\u043b\u0443\u0447\u0435\u043d\u0438\u0435 \u043f\u0435\u0440\u0435\u0447\u043d\u044f \u0434\u043e\u0441\u0442\u0443\u043f\u043d\u044b\u0445 \u0442\u0438\u043f\u043e\u0432 \u0434\u0430\u043d\u043d\u044b\u0445&quot;,&quot;hid&quot;:&quot;\u043f\u043e\u043b\u0443\u0447\u0435\u043d\u0438\u0435_\u043f\u0435\u0440\u0435\u0447\u043d\u044f_\u0434\u043e\u0441\u0442\u0443\u043f\u043d\u044b\u0445_\u0442\u0438\u043f\u043e\u0432_\u0434\u0430\u043d\u043d\u044b\u0445&quot;,&quot;codeblockOffset&quot;:30,&quot;secid&quot;:18,&quot;range&quot;:&quot;16233-16593&quot;} -->
+<h3 class="sectionedit19" id="изменение_настроек_субд_без_перезагрузки">Изменение настроек СУБД без перезагрузки</h3>
+<div class="level3">
+
+<p>
+Настройки PostgreSQL находятся в специальных файлах вроде postgresql.conf и pg_hba.conf. После изменения этих файлов нужно, чтобы СУБД снова получила настройки. Для этого производится перезагрузка сервера баз данных. Понятно, что приходится это делать, но на продакшн-версии проекта, которым пользуются тысячи пользователей, это очень нежелательно. Поэтому в PostgreSQL есть функция, с помощью которой можно применить изменения без перезагрузки сервера:
+</p>
+<pre class="code">SELECT pg_reload_conf();</pre>
+
+<p>
+Но, к сожалению, она применима не ко всем параметрам. В некоторых случаях для применения настроек перезагрузка обязательна.
+</p>
+
+<p>
+Мы рассмотрели команды, которые помогут упростить работу разработчикам и администраторам баз данных, использующим PostgreSQL. Но это далеко не все возможные приёмы. Если вы сталкивались с интересными задачами, напишите о них в комментариях. Поделимся полезным опытом!
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;\u0418\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u0435 \u043d\u0430\u0441\u0442\u0440\u043e\u0435\u043a \u0421\u0423\u0411\u0414 \u0431\u0435\u0437 \u043f\u0435\u0440\u0435\u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438&quot;,&quot;hid&quot;:&quot;\u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u0435_\u043d\u0430\u0441\u0442\u0440\u043e\u0435\u043a_\u0441\u0443\u0431\u0434_\u0431\u0435\u0437_\u043f\u0435\u0440\u0435\u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438&quot;,&quot;codeblockOffset&quot;:31,&quot;secid&quot;:19,&quot;range&quot;:&quot;16594-18230&quot;} -->
+<h2 class="sectionedit20" id="ссылки">Ссылки</h2>
+<div class="level2">
+
+<p>
+Источник <a href="https://tproger.ru/translations/useful-postgresql-commands/" class="urlextern" target="_blank" title="https://tproger.ru/translations/useful-postgresql-commands/" rel="ugc nofollow noopener">https://tproger.ru/translations/useful-postgresql-commands/</a>
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;\u0421\u0441\u044b\u043b\u043a\u0438&quot;,&quot;hid&quot;:&quot;\u0441\u0441\u044b\u043b\u043a\u0438&quot;,&quot;codeblockOffset&quot;:32,&quot;secid&quot;:20,&quot;range&quot;:&quot;18231-&quot;} -->

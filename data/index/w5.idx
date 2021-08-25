@@ -214,3 +214,5 @@ state
 begin
 clock
 ilike
+xcode
+tools

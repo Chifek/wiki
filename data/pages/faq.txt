@@ -1,0 +1,3 @@
+====== Частые проблемы, которые встречаются в macOS ======
+
+[[NoXcode|gyp: No Xcode or CLT version detected!]]

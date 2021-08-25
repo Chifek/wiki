@@ -1,56 +1,77 @@
-[[https://chifek.ru|About me]]
+====== kn0wledge_l1brary ======
 
-[[java|JAVA]]
+Wiki справочник для IT. 
+Тут я делюсь своими знаниями и использую шпаргалки, чтобы не держать все в голове.
 
-[[javasript|JavaScript]]
 
-[[httpStatuses|Список кодов состояния HTTP]]
+[[https://chifek.ru|Про меня]]
+
+
+===== PHP =====
+
+[[composer|Composer: Шпаргалка команд]]
+
+[[php|PHP]]
 
 [[php_patterns|Шаблоны проектирования PHP. Часть 1. Порождающие]]
 
-[[roadMap|ROADMAP]]
+[[Laravel|Laravel]]
+
+[[sphp|Переключение между версиями PHP]]
+
+===== JavaScript =====
+
+[[javasript|JavaScript]]
+
+[[npm|npm]]
+
+[[yarn|yarn]]
+
+[[ghost|Ghost]]
+
+===== Database =====
+
+[[psql|PostgreSQL]]
+
+===== Other dev languages =====
+
+[[java|JAVA]]
+
+[[kotlin|Kotlin]]
+
+===== OS and administrative =====
 
 [[brew|brew]]
 
 [[linux|linux]]
 
-[[ghost|Ghost]]
-
-[[sphp|Переключение между версиями PHP]]
-
-[[telegram|telegram]]
-
-[[yarn|yarn]]
-
-[[links|полезные ссылки]]
-
-[[composer|Composer: Шпаргалка команд]]
-
 [[ssh|SSH]]
-
-[[php|PHP]]
-
-[[kotlin|Kotlin]]
-
-[[docker|docker]]
-
-[[ufw|ufw firewall]]
-
-[[npm|npm]]
-
-[[rsync|RSYNC]]
 
 [[bash| /bin/bash]]
 
-[[git|git]]
+[[docker|docker]]
+
+[[rsync|RSYNC]]
+
+[[ufw|ufw firewall]]
 
 [[kubernetes|k8s]]
 
-
 [[ssl|ssl]]
-
-[[Laravel|Laravel]]
 
 [[work-space|Установка раб.среды]]
 
-[[psql|PostgreSQL]]
+[[MacBook|MacBook]]
+
+
+===== WEB Tools =====
+
+[[git|git]]
+
+[[httpStatuses|Список кодов состояния HTTP]]
+
+[[roadMap|ROADMAP]]
+
+[[telegram|telegram]]
+
+[[links|полезные ссылки]]

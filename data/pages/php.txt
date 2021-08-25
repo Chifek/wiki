@@ -11,3 +11,5 @@
 [[php_cli|PHP CLI]]
 
 [[sphp|SPHP for MacOS]]
+
+[[laravel|Laravel]]

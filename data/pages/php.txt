@@ -13,3 +13,7 @@
 [[sphp|SPHP for MacOS]]
 
 [[laravel|Laravel]]
+
+[[php_patterns_solid|SOLID]]
+
+[[dry|DRY]]

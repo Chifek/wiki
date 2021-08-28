@@ -2,6 +2,8 @@
 
 Официальный сайт webpack [[https://webpack.js.org]]
 
+Презентация Webpack
+{{:webpack.pptx}}
 
 {{:74de6adc11.jpg?600|}}
 

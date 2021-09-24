@@ -20,3 +20,32 @@ or example, to transfer a single file /opt/file.zip from the local system to the
 
 
 The -a option stands for archive mode which will syncs directories recursively, transfer special and block devices, preserve symbolic links, modification times, group, ownership, and permissions.
+
+
+===== Copying files using rsync from remote server to local machine =====
+
+From your local machine:
+
+
+<code>
+rsync -chavzP --stats user@remote.host:/path/to/copy /path/to/local/storage
+</code>
+
+
+From your local machine with a non standard ssh port:
+
+
+<code>
+rsync -chavzP -e "ssh -p $portNumber" user@remote.host:/path/to/copy /local/path
+</code>
+
+
+Or from the remote host, assuming you really want to work this way and your local machine is listening on SSH:
+
+
+<code>
+rsync -chavzP --stats /path/to/copy user@host.remoted.from:/path/to/local/storage
+</code>
+
+
+

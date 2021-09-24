@@ -30,3 +30,24 @@ The -a option stands for archive mode which will syncs directories recursively, 
 </p>
 
 </div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Using rsync to Transfer Files over SSH #&quot;,&quot;hid&quot;:&quot;using_rsync_to_transfer_files_over_ssh&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:1,&quot;range&quot;:&quot;1-1051&quot;} -->
+<h2 class="sectionedit2" id="copying_files_using_rsync_from_remote_server_to_local_machine">Copying files using rsync from remote server to local machine</h2>
+<div class="level2">
+
+<p>
+From your local machine:
+</p>
+<pre class="code">rsync -chavzP --stats user@remote.host:/path/to/copy /path/to/local/storage</pre>
+
+<p>
+From your local machine with a non standard ssh port:
+</p>
+<pre class="code">rsync -chavzP -e &quot;ssh -p $portNumber&quot; user@remote.host:/path/to/copy /local/path</pre>
+
+<p>
+Or from the remote host, assuming you really want to work this way and your local machine is listening on SSH:
+</p>
+<pre class="code">rsync -chavzP --stats /path/to/copy user@host.remoted.from:/path/to/local/storage</pre>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Copying files using rsync from remote server to local machine&quot;,&quot;hid&quot;:&quot;copying_files_using_rsync_from_remote_server_to_local_machine&quot;,&quot;codeblockOffset&quot;:2,&quot;secid&quot;:2,&quot;range&quot;:&quot;1052-&quot;} -->

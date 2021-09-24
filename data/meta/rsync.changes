@@ -1,2 +1,5 @@
 1610462104	185.116.202.192	C	rsync	chifek	создано		628
 1610462149	185.116.202.192	E	rsync	chifek			420
+1632419829	95.31.13.88	E	rsync	chifek			195
+1632419846	95.31.13.88	E	rsync	chifek	[Copying files using rsync from remote server to local machine] 		3
+1632419902	95.31.13.88	E	rsync	chifek	[Copying files using rsync from remote server to local machine] 		367

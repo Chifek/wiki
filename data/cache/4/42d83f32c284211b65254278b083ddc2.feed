@@ -11,7 +11,7 @@
         <description></description>
         <link>https://wiki.chifek.ru/</link>
         <image rdf:resource="https://wiki.chifek.ru/lib/tpl/dokuwiki/images/favicon.ico" />
-       <dc:date>2021-09-14T06:10:03+00:00</dc:date>
+       <dc:date>2021-09-23T20:22:20+00:00</dc:date>
         <items>
             <rdf:Seq>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=webpack&amp;rev=1630048113&amp;do=diff"/>

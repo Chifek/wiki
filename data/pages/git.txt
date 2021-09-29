@@ -1,3 +1,6 @@
+[[git_config|git config]]
+
+
 [[rename_branch|Переименование и удаление ветки]]
 
 [[remove_remote|Уделение remote]]

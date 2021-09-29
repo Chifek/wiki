@@ -1,0 +1,5 @@
+openVPN config
+
+<code>
+sudo openvpn --config '/home/jglerner/Desktop/vpnbook-us1-tcp443.ovpn'
+</code>

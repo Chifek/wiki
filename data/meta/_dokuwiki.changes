@@ -18,3 +18,7 @@
 1632419829	95.31.13.88	E	rsync	chifek			195
 1632419846	95.31.13.88	E	rsync	chifek	[Copying files using rsync from remote server to local machine] 		3
 1632419902	95.31.13.88	E	rsync	chifek	[Copying files using rsync from remote server to local machine] 		367
+1632864758	95.31.13.88	E	start	chifek	[OS and administrative] 		21
+1632864797	95.31.13.88	C	openvpn	chifek	создано		101
+1632866186	95.31.13.88	E	git	chifek			28
+1632866203	95.31.13.88	C	git_config	chifek	создано		106

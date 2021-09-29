@@ -53,6 +53,8 @@ Wiki справочник для IT.
 
 [[rsync|RSYNC]]
 
+[[openvpn|openVPN]]
+
 [[ufw|ufw firewall]]
 
 [[kubernetes|k8s]]

@@ -11,15 +11,19 @@
         <description></description>
         <link>https://wiki.chifek.ru/</link>
         <image rdf:resource="https://wiki.chifek.ru/lib/tpl/dokuwiki/images/favicon.ico" />
-       <dc:date>2021-09-23T20:22:20+00:00</dc:date>
+       <dc:date>2021-09-29T18:50:39+00:00</dc:date>
         <items>
             <rdf:Seq>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=git_config&amp;rev=1632866203&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=git&amp;rev=1632866186&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=openvpn&amp;rev=1632864797&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=start&amp;rev=1632864758&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=rsync&amp;rev=1632419902&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=webpack&amp;rev=1630048113&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=webpack.pptx&amp;ns=&amp;rev=1630048070&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=dry&amp;rev=1629923633&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=php&amp;rev=1629922373&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=php_patterns_solid&amp;rev=1629922183&amp;do=diff"/>
-                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=start&amp;rev=1629883296&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=postgre_06.png&amp;ns=&amp;rev=1629797385&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=postgre_05.png&amp;ns=&amp;rev=1629797342&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=postgre_04.png&amp;ns=&amp;rev=1629797301&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
@@ -30,10 +34,6 @@
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=docs-gulp-version-command.png&amp;ns=&amp;rev=1629711852&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=74de6adc11.jpg&amp;ns=&amp;rev=1629470339&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=ebce88e301.jpg&amp;ns=&amp;rev=1629374512&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
-                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=81efc3a35e.jpg&amp;ns=&amp;rev=1629370511&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
-                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=ccbecb77ee.jpg&amp;ns=&amp;rev=1629363442&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
-                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=1_jiu1q7jwercneobst4rf4q.png&amp;ns=&amp;rev=1615207879&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
-                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=1_ouvpxartj-ad_f4ckdrnwq.png&amp;ns=&amp;rev=1615207768&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
             </rdf:Seq>
         </items>
     </channel>
@@ -42,6 +42,102 @@
         <link>https://wiki.chifek.ru/</link>
         <url>https://wiki.chifek.ru/lib/tpl/dokuwiki/images/favicon.ico</url>
     </image>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=git_config&amp;rev=1632866203&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-09-29T00:56:43+00:00</dc:date>
+        <dc:creator>chifek (chifek@undisclosed.example.com)</dc:creator>
+        <title>git_config - создано</title>
+        <link>https://wiki.chifek.ru/doku.php?id=git_config&amp;rev=1632866203&amp;do=diff</link>
+        <description>git config --global user.name &quot;John Doe&quot;
+git config --global user.email johndoe@example.com</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=git&amp;rev=1632866186&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-09-29T00:56:26+00:00</dc:date>
+        <dc:creator>chifek (chifek@undisclosed.example.com)</dc:creator>
+        <title>git</title>
+        <link>https://wiki.chifek.ru/doku.php?id=git&amp;rev=1632866186&amp;do=diff</link>
+        <description>git config
+
+Переименование и удаление ветки
+
+Уделение remote
+
+Добавление remote
+
+git squash
+
+git new project
+
+Частые команды git
+
+git reset HEAD~1
+
+ где 1 это количество коммитов в которых были удалены файлы. Потом аккуратно убираете удаленные файлы из staging area и пушите все изменения на место.</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=openvpn&amp;rev=1632864797&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-09-29T00:33:17+00:00</dc:date>
+        <dc:creator>chifek (chifek@undisclosed.example.com)</dc:creator>
+        <title>openvpn - создано</title>
+        <link>https://wiki.chifek.ru/doku.php?id=openvpn&amp;rev=1632864797&amp;do=diff</link>
+        <description>openVPN config
+
+
+sudo openvpn --config '/home/jglerner/Desktop/vpnbook-us1-tcp443.ovpn'</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=start&amp;rev=1632864758&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-09-29T00:32:38+00:00</dc:date>
+        <dc:creator>chifek (chifek@undisclosed.example.com)</dc:creator>
+        <title>start - [OS and administrative] </title>
+        <link>https://wiki.chifek.ru/doku.php?id=start&amp;rev=1632864758&amp;do=diff</link>
+        <description>kn0wledge_l1brary
+
+Wiki справочник для IT. 
+Тут я делюсь своими знаниями и использую шпаргалки, чтобы не держать все в голове.
+
+Про меня
+
+PHP
+
+Composer: Шпаргалка команд
+
+PHP
+
+Шаблоны проектирования PHP. Часть 1. Порождающие
+
+Laravel
+
+Переключение между версиями PHP
+
+JavaScript
+
+JavaScript
+
+npm
+
+yarn
+
+Ghost
+
+Database</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=rsync&amp;rev=1632419902&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-09-23T20:58:22+00:00</dc:date>
+        <dc:creator>chifek (chifek@undisclosed.example.com)</dc:creator>
+        <title>rsync - [Copying files using rsync from remote server to local machine] </title>
+        <link>https://wiki.chifek.ru/doku.php?id=rsync&amp;rev=1632419902&amp;do=diff</link>
+        <description>Using rsync to Transfer Files over SSH #
+
+With rsync, you can transfer files and directories over SSH from and to remote servers.
+
+The general syntax for transferring files with rsync is as follows:
+
+Local to Remote: rsync [OPTION]... -e ssh [SRC]... [USER@]HOST:DEST
+Remote to Local: rsync [OPTION]... -e ssh [USER@]HOST:SRC... [DEST]</description>
+    </item>
     <item rdf:about="https://wiki.chifek.ru/doku.php?id=webpack&amp;rev=1630048113&amp;do=diff">
         <dc:format>text/html</dc:format>
         <dc:date>2021-08-27T10:08:33+00:00</dc:date>
@@ -120,43 +216,6 @@ DRY</description>
 Существует лишь одна причина, приводящая к изменению класса.
 
 Один класс должен решать только какую-то одну задачу. Он может иметь несколько методов, но они должны использоваться лишь для решения общей задачи. Все методы и свойства должны служить одной цели. Если класс имеет несколько назначений, его нужно разделить на отдельные классы.…</description>
-    </item>
-    <item rdf:about="https://wiki.chifek.ru/doku.php?id=start&amp;rev=1629883296&amp;do=diff">
-        <dc:format>text/html</dc:format>
-        <dc:date>2021-08-25T12:21:36+00:00</dc:date>
-        <dc:creator>chifek (chifek@undisclosed.example.com)</dc:creator>
-        <title>start</title>
-        <link>https://wiki.chifek.ru/doku.php?id=start&amp;rev=1629883296&amp;do=diff</link>
-        <description>kn0wledge_l1brary
-
-Wiki справочник для IT. 
-Тут я делюсь своими знаниями и использую шпаргалки, чтобы не держать все в голове.
-
-Про меня
-
-PHP
-
-Composer: Шпаргалка команд
-
-PHP
-
-Шаблоны проектирования PHP. Часть 1. Порождающие
-
-Laravel
-
-Переключение между версиями PHP
-
-JavaScript
-
-JavaScript
-
-npm
-
-yarn
-
-Ghost
-
-Database</description>
     </item>
     <item rdf:about="https://wiki.chifek.ru/doku.php?image=postgre_06.png&amp;ns=&amp;rev=1629797385&amp;tab_details=history&amp;mediado=diff&amp;do=media">
         <dc:format>text/html</dc:format>
@@ -237,37 +296,5 @@ Database</description>
         <title>ebce88e301.jpg - создано</title>
         <link>https://wiki.chifek.ru/doku.php?image=ebce88e301.jpg&amp;ns=&amp;rev=1629374512&amp;tab_details=history&amp;mediado=diff&amp;do=media</link>
         <description>&lt;img src=&quot;https://wiki.chifek.ru/lib/exe/fetch.php?w=500&amp;h=439&amp;t=1629374512&amp;amp;tok=ed9186&amp;amp;media=ebce88e301.jpg&quot; alt=&quot;ebce88e301.jpg&quot; /&gt;</description>
-    </item>
-    <item rdf:about="https://wiki.chifek.ru/doku.php?image=81efc3a35e.jpg&amp;ns=&amp;rev=1629370511&amp;tab_details=history&amp;mediado=diff&amp;do=media">
-        <dc:format>text/html</dc:format>
-        <dc:date>2021-08-19T13:55:11+00:00</dc:date>
-        <dc:creator>chifek (chifek@undisclosed.example.com)</dc:creator>
-        <title>81efc3a35e.jpg - создано</title>
-        <link>https://wiki.chifek.ru/doku.php?image=81efc3a35e.jpg&amp;ns=&amp;rev=1629370511&amp;tab_details=history&amp;mediado=diff&amp;do=media</link>
-        <description>&lt;img src=&quot;https://wiki.chifek.ru/lib/exe/fetch.php?w=351&amp;h=285&amp;t=1629370511&amp;amp;tok=e51f5e&amp;amp;media=81efc3a35e.jpg&quot; alt=&quot;81efc3a35e.jpg&quot; /&gt;</description>
-    </item>
-    <item rdf:about="https://wiki.chifek.ru/doku.php?image=ccbecb77ee.jpg&amp;ns=&amp;rev=1629363442&amp;tab_details=history&amp;mediado=diff&amp;do=media">
-        <dc:format>text/html</dc:format>
-        <dc:date>2021-08-19T11:57:22+00:00</dc:date>
-        <dc:creator>chifek (chifek@undisclosed.example.com)</dc:creator>
-        <title>ccbecb77ee.jpg - создано</title>
-        <link>https://wiki.chifek.ru/doku.php?image=ccbecb77ee.jpg&amp;ns=&amp;rev=1629363442&amp;tab_details=history&amp;mediado=diff&amp;do=media</link>
-        <description>&lt;img src=&quot;https://wiki.chifek.ru/lib/exe/fetch.php?w=500&amp;h=323&amp;t=1629363442&amp;amp;tok=f9db6e&amp;amp;media=ccbecb77ee.jpg&quot; alt=&quot;ccbecb77ee.jpg&quot; /&gt;</description>
-    </item>
-    <item rdf:about="https://wiki.chifek.ru/doku.php?image=1_jiu1q7jwercneobst4rf4q.png&amp;ns=&amp;rev=1615207879&amp;tab_details=history&amp;mediado=diff&amp;do=media">
-        <dc:format>text/html</dc:format>
-        <dc:date>2021-03-08T15:51:19+00:00</dc:date>
-        <dc:creator>chifek (chifek@undisclosed.example.com)</dc:creator>
-        <title>1_jiu1q7jwercneobst4rf4q.png - создано</title>
-        <link>https://wiki.chifek.ru/doku.php?image=1_jiu1q7jwercneobst4rf4q.png&amp;ns=&amp;rev=1615207879&amp;tab_details=history&amp;mediado=diff&amp;do=media</link>
-        <description>&lt;img src=&quot;https://wiki.chifek.ru/lib/exe/fetch.php?w=500&amp;h=62&amp;t=1615207879&amp;amp;tok=e835ff&amp;amp;media=1_jiu1q7jwercneobst4rf4q.png&quot; alt=&quot;1_jiu1q7jwercneobst4rf4q.png&quot; /&gt;</description>
-    </item>
-    <item rdf:about="https://wiki.chifek.ru/doku.php?image=1_ouvpxartj-ad_f4ckdrnwq.png&amp;ns=&amp;rev=1615207768&amp;tab_details=history&amp;mediado=diff&amp;do=media">
-        <dc:format>text/html</dc:format>
-        <dc:date>2021-03-08T15:49:28+00:00</dc:date>
-        <dc:creator>chifek (chifek@undisclosed.example.com)</dc:creator>
-        <title>1_ouvpxartj-ad_f4ckdrnwq.png - создано</title>
-        <link>https://wiki.chifek.ru/doku.php?image=1_ouvpxartj-ad_f4ckdrnwq.png&amp;ns=&amp;rev=1615207768&amp;tab_details=history&amp;mediado=diff&amp;do=media</link>
-        <description>&lt;img src=&quot;https://wiki.chifek.ru/lib/exe/fetch.php?w=500&amp;h=440&amp;t=1615207768&amp;amp;tok=3b7c36&amp;amp;media=1_ouvpxartj-ad_f4ckdrnwq.png&quot; alt=&quot;1_ouvpxartj-ad_f4ckdrnwq.png&quot; /&gt;</description>
     </item>
 </rdf:RDF>

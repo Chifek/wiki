@@ -11,7 +11,7 @@
         <description></description>
         <link>https://wiki.chifek.ru/</link>
         <image rdf:resource="https://wiki.chifek.ru/lib/tpl/dokuwiki/images/favicon.ico" />
-       <dc:date>2021-09-23T10:36:47+00:00</dc:date>
+       <dc:date>2021-10-02T21:07:14+00:00</dc:date>
         <items>
             <rdf:Seq>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=15_sovetov&amp;rev=1629797866&amp;do=diff"/>
@@ -34,7 +34,8 @@
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=faq&amp;rev=1629882513&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=free_space_on_sql&amp;rev=1624349969&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=ghost&amp;rev=1627389021&amp;do=diff"/>
-                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=git&amp;rev=1615801641&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=git&amp;rev=1632866186&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=git_config&amp;rev=1632866203&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=git_squash&amp;rev=1615207986&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=gitterminal&amp;rev=1620117112&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=gulp&amp;rev=1629712620&amp;do=diff"/>
@@ -59,6 +60,7 @@
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=noxcode&amp;rev=1629882572&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=npm&amp;rev=1608199817&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=npm_shrinkwrap&amp;rev=1608199823&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=openvpn&amp;rev=1632864797&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=osnovnoy_syntacsis&amp;rev=1613681955&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=pdf_generate&amp;rev=1611729963&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=php&amp;rev=1629922373&amp;do=diff"/>
@@ -75,7 +77,7 @@
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=roadmapbackend&amp;rev=1614087394&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=roadmapdevops&amp;rev=1614087556&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=roadmapfronted&amp;rev=1614087328&amp;do=diff"/>
-                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=rsync&amp;rev=1610462149&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=rsync&amp;rev=1632419902&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=seeder&amp;rev=1608750811&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=sphp&amp;rev=1614288233&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=sql&amp;rev=1624897865&amp;do=diff"/>
@@ -83,7 +85,7 @@
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=ssh_keys&amp;rev=1608486012&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=ssh_server&amp;rev=1608486401&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=ssl&amp;rev=1611505181&amp;do=diff"/>
-                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=start&amp;rev=1629883296&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=start&amp;rev=1632864758&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=startprojectjava&amp;rev=1629238850&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=telegram&amp;rev=1613333254&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=types_java&amp;rev=1627421310&amp;do=diff"/>
@@ -369,13 +371,15 @@ ghost install local
 
 Once the install is finished you’ll be able to access your new site on</description>
     </item>
-    <item rdf:about="https://wiki.chifek.ru/doku.php?id=git&amp;rev=1615801641&amp;do=diff">
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=git&amp;rev=1632866186&amp;do=diff">
         <dc:format>text/html</dc:format>
-        <dc:date>2021-03-15T12:47:21+00:00</dc:date>
+        <dc:date>2021-09-29T00:56:26+00:00</dc:date>
         <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
         <title>git</title>
-        <link>https://wiki.chifek.ru/doku.php?id=git&amp;rev=1615801641&amp;do=diff</link>
-        <description>Переименование и удаление ветки
+        <link>https://wiki.chifek.ru/doku.php?id=git&amp;rev=1632866186&amp;do=diff</link>
+        <description>git config
+
+Переименование и удаление ветки
 
 Уделение remote
 
@@ -390,6 +394,15 @@ git new project
 git reset HEAD~1
 
  где 1 это количество коммитов в которых были удалены файлы. Потом аккуратно убираете удаленные файлы из staging area и пушите все изменения на место.</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=git_config&amp;rev=1632866203&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-09-29T00:56:43+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>git_config</title>
+        <link>https://wiki.chifek.ru/doku.php?id=git_config&amp;rev=1632866203&amp;do=diff</link>
+        <description>git config --global user.name &quot;John Doe&quot;
+git config --global user.email johndoe@example.com</description>
     </item>
     <item rdf:about="https://wiki.chifek.ru/doku.php?id=git_squash&amp;rev=1615207986&amp;do=diff">
         <dc:format>text/html</dc:format>
@@ -702,6 +715,17 @@ xcode-select --install</description>
 
 I've recently talked to people who are mostly PHP developers and want to try Node.js. For installing and managing dependencies, they use Composer. Composer creates 2 files, composer.json and composer.lock. Composer.json file is similar to package.json in Node.js but what's composer.lock? Here comes npm shrinkwrap.</description>
     </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=openvpn&amp;rev=1632864797&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-09-29T00:33:17+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>openvpn</title>
+        <link>https://wiki.chifek.ru/doku.php?id=openvpn&amp;rev=1632864797&amp;do=diff</link>
+        <description>openVPN config
+
+
+sudo openvpn --config '/home/jglerner/Desktop/vpnbook-us1-tcp443.ovpn'</description>
+    </item>
     <item rdf:about="https://wiki.chifek.ru/doku.php?id=osnovnoy_syntacsis&amp;rev=1613681955&amp;do=diff">
         <dc:format>text/html</dc:format>
         <dc:date>2021-02-18T23:59:15+00:00</dc:date>
@@ -915,12 +939,12 @@ roadmap devops</description>
         <link>https://wiki.chifek.ru/doku.php?id=roadmapfronted&amp;rev=1614087328&amp;do=diff</link>
         <description></description>
     </item>
-    <item rdf:about="https://wiki.chifek.ru/doku.php?id=rsync&amp;rev=1610462149&amp;do=diff">
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=rsync&amp;rev=1632419902&amp;do=diff">
         <dc:format>text/html</dc:format>
-        <dc:date>2021-01-12T17:35:49+00:00</dc:date>
+        <dc:date>2021-09-23T20:58:22+00:00</dc:date>
         <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
         <title>rsync</title>
-        <link>https://wiki.chifek.ru/doku.php?id=rsync&amp;rev=1610462149&amp;do=diff</link>
+        <link>https://wiki.chifek.ru/doku.php?id=rsync&amp;rev=1632419902&amp;do=diff</link>
         <description>Using rsync to Transfer Files over SSH #
 
 With rsync, you can transfer files and directories over SSH from and to remote servers.
@@ -1028,12 +1052,12 @@ SSH into the server running your HTTP website as a user with sudo privileges.
 You'll need to install snapd and make sure you follow any instructions to enable classic snap support.
 Follow these instructions on snapcraft's site to install snapd.</description>
     </item>
-    <item rdf:about="https://wiki.chifek.ru/doku.php?id=start&amp;rev=1629883296&amp;do=diff">
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=start&amp;rev=1632864758&amp;do=diff">
         <dc:format>text/html</dc:format>
-        <dc:date>2021-08-25T12:21:36+00:00</dc:date>
+        <dc:date>2021-09-29T00:32:38+00:00</dc:date>
         <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
         <title>start</title>
-        <link>https://wiki.chifek.ru/doku.php?id=start&amp;rev=1629883296&amp;do=diff</link>
+        <link>https://wiki.chifek.ru/doku.php?id=start&amp;rev=1632864758&amp;do=diff</link>
         <description>kn0wledge_l1brary
 
 Wiki справочник для IT. 

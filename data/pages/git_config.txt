@@ -1,4 +1,10 @@
 <code>
-git config --global user.name "John Doe"
-git config --global user.email johndoe@example.com
+git config --global user.name "Ruslan Ismailov"
+git config --global user.email "chifek@gmail.com"
+git config --global core.filemode false
 </code>
+
+Git будет игнорировать изменения режима файла (chmod)
+
+
+''git config --global core.filemode false''

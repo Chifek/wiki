@@ -11,10 +11,10 @@
         <description></description>
         <link>https://wiki.chifek.ru/</link>
         <image rdf:resource="https://wiki.chifek.ru/lib/tpl/dokuwiki/images/favicon.ico" />
-       <dc:date>2021-09-29T18:50:39+00:00</dc:date>
+       <dc:date>2021-10-05T08:27:47+00:00</dc:date>
         <items>
             <rdf:Seq>
-                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=git_config&amp;rev=1632866203&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=git_config&amp;rev=1633335531&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=git&amp;rev=1632866186&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=openvpn&amp;rev=1632864797&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=start&amp;rev=1632864758&amp;do=diff"/>
@@ -42,14 +42,20 @@
         <link>https://wiki.chifek.ru/</link>
         <url>https://wiki.chifek.ru/lib/tpl/dokuwiki/images/favicon.ico</url>
     </image>
-    <item rdf:about="https://wiki.chifek.ru/doku.php?id=git_config&amp;rev=1632866203&amp;do=diff">
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=git_config&amp;rev=1633335531&amp;do=diff">
         <dc:format>text/html</dc:format>
-        <dc:date>2021-09-29T00:56:43+00:00</dc:date>
+        <dc:date>2021-10-04T11:18:51+00:00</dc:date>
         <dc:creator>chifek (chifek@undisclosed.example.com)</dc:creator>
-        <title>git_config - создано</title>
-        <link>https://wiki.chifek.ru/doku.php?id=git_config&amp;rev=1632866203&amp;do=diff</link>
-        <description>git config --global user.name &quot;John Doe&quot;
-git config --global user.email johndoe@example.com</description>
+        <title>git_config</title>
+        <link>https://wiki.chifek.ru/doku.php?id=git_config&amp;rev=1633335531&amp;do=diff</link>
+        <description>git config --global user.name &quot;Ruslan Ismailov&quot;
+git config --global user.email &quot;chifek@gmail.com&quot;
+git config --global core.filemode false
+
+
+Git будет игнорировать изменения режима файла (chmod)
+
+git config --global core.filemode false</description>
     </item>
     <item rdf:about="https://wiki.chifek.ru/doku.php?id=git&amp;rev=1632866186&amp;do=diff">
         <dc:format>text/html</dc:format>

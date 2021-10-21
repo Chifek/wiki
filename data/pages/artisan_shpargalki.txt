@@ -1,1 +1,39 @@
-Шпаргалки Artisan - https://artisan.page/
+====== Шпаргалки Artisan ======
+
+
+ - https://artisan.page/
+
+
+===== auth:clear-resets =====
+
+
+Flush expired password reset tokens
+
+**Arguments:**
+
+name - The name of the password broker "Optional"
+
+<code>
+php artisan auth:clear-resets
+</code>
+
+
+
+===== cache:clear =====
+
+
+Flush the application cache
+
+**Options:**
+
+tags - The cache tags you would like to clear Optional
+
+**Arguments:**
+
+store - The name of the store you would like to clear Optional
+
+
+
+<code>
+php artisan cache:clear
+</code>

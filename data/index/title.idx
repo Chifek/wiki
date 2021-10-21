@@ -33,7 +33,7 @@ Composer: Шпаргалка команд
 
 Command line instructions
 
-
+Шпаргалки Artisan
 
 Пишем простого чат-бота для Telegram на PHP
 debug_print_backtrace - Выводит стек вызовов функций

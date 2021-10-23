@@ -11,14 +11,14 @@
         <description></description>
         <link>https://wiki.chifek.ru/</link>
         <image rdf:resource="https://wiki.chifek.ru/lib/tpl/dokuwiki/images/favicon.ico" />
-       <dc:date>2021-10-10T10:40:25+00:00</dc:date>
+       <dc:date>2021-10-22T21:15:08+00:00</dc:date>
         <items>
             <rdf:Seq>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=15_sovetov&amp;rev=1629797866&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=30_examples&amp;rev=1608494958&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=add_remote&amp;rev=1612207381&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=ahghsghad&amp;rev=1619185060&amp;do=diff"/>
-                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=artisan_shpargalki&amp;rev=1612333613&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=artisan_shpargalki&amp;rev=1634764278&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=authsocial&amp;rev=1611042191&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=bash&amp;rev=1608495473&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=bashrc&amp;rev=1618851644&amp;do=diff"/>
@@ -150,13 +150,35 @@ sdfgjdsgfjgsdf
 
 &lt;/CODE&gt;</description>
     </item>
-    <item rdf:about="https://wiki.chifek.ru/doku.php?id=artisan_shpargalki&amp;rev=1612333613&amp;do=diff">
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=artisan_shpargalki&amp;rev=1634764278&amp;do=diff">
         <dc:format>text/html</dc:format>
-        <dc:date>2021-02-03T09:26:53+00:00</dc:date>
+        <dc:date>2021-10-21T00:11:18+00:00</dc:date>
         <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
         <title>artisan_shpargalki</title>
-        <link>https://wiki.chifek.ru/doku.php?id=artisan_shpargalki&amp;rev=1612333613&amp;do=diff</link>
-        <description>Шпаргалки Artisan - &lt;https://artisan.page/&gt;</description>
+        <link>https://wiki.chifek.ru/doku.php?id=artisan_shpargalki&amp;rev=1634764278&amp;do=diff</link>
+        <description>Шпаргалки Artisan
+
+ - &lt;https://artisan.page/&gt;
+
+auth:clear-resets
+
+Flush expired password reset tokens
+
+Arguments:
+
+name - The name of the password broker «Optional»
+
+
+php artisan auth:clear-resets
+
+
+cache:clear
+
+Flush the application cache
+
+Options:
+
+tags - The cache tags you would like to clear Optional</description>
     </item>
     <item rdf:about="https://wiki.chifek.ru/doku.php?id=authsocial&amp;rev=1611042191&amp;do=diff">
         <dc:format>text/html</dc:format>

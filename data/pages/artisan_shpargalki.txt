@@ -37,3 +37,43 @@ store - The name of the store you would like to clear Optional
 <code>
 php artisan cache:clear
 </code>
+
+
+===== cache:forget =====
+
+Remove an item from the cache
+
+**Arguments:**
+
+key - The key to remove Required
+store - The store to remove the key from Optional
+
+<code>
+php artisan cache:forget
+</code>
+
+
+===== cache:table =====
+
+Create a migration for the cache database table
+
+<code>
+php artisan cache:table
+</code>
+
+===== clear-compiled =====
+
+Remove the compiled class file
+
+<code>
+php artisan clear-compiled
+</code>
+
+===== config:cache =====
+
+Create a cache file for faster configuration loading
+
+<code>
+php artisan config:cache
+</code>
+

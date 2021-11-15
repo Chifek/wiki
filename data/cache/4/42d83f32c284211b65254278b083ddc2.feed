@@ -11,16 +11,16 @@
         <description></description>
         <link>https://wiki.chifek.ru/</link>
         <image rdf:resource="https://wiki.chifek.ru/lib/tpl/dokuwiki/images/favicon.ico" />
-       <dc:date>2021-10-26T00:31:21+00:00</dc:date>
+       <dc:date>2021-11-15T05:04:22+00:00</dc:date>
         <items>
             <rdf:Seq>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=start&amp;rev=1635245671&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=asdas&amp;rev=1635245634&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=artisan_shpargalki&amp;rev=1634983999&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=git_config&amp;rev=1633335531&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=git&amp;rev=1632866186&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=openvpn&amp;rev=1632864797&amp;do=diff"/>
-                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=start&amp;rev=1632864758&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=rsync&amp;rev=1632419902&amp;do=diff"/>
-                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=webpack&amp;rev=1630048113&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=webpack.pptx&amp;ns=&amp;rev=1630048070&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=postgre_06.png&amp;ns=&amp;rev=1629797385&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=postgre_05.png&amp;ns=&amp;rev=1629797342&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
@@ -42,6 +42,51 @@
         <link>https://wiki.chifek.ru/</link>
         <url>https://wiki.chifek.ru/lib/tpl/dokuwiki/images/favicon.ico</url>
     </image>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=start&amp;rev=1635245671&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-10-26T13:54:31+00:00</dc:date>
+        <dc:creator>a.manerova (a.manerova@undisclosed.example.com)</dc:creator>
+        <title>start</title>
+        <link>https://wiki.chifek.ru/doku.php?id=start&amp;rev=1635245671&amp;do=diff</link>
+        <description>kn0wledge_l1brary
+
+Wiki справочник для IT. 
+Тут я делюсь своими знаниями и использую шпаргалки, чтобы не держать все в голове.
+
+Про меня
+
+PHP
+
+Composer: Шпаргалка команд
+
+PHP
+
+Шаблоны проектирования PHP. Часть 1. Порождающие
+
+Laravel
+
+Переключение между версиями PHP
+
+JavaScript
+
+JavaScript
+
+npm
+
+yarn
+
+Ghost
+
+Database</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=asdas&amp;rev=1635245634&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-10-26T13:53:54+00:00</dc:date>
+        <dc:creator>a.manerova (a.manerova@undisclosed.example.com)</dc:creator>
+        <title>asdas - создано</title>
+        <link>https://wiki.chifek.ru/doku.php?id=asdas&amp;rev=1635245634&amp;do=diff</link>
+        <description>vxcvxcvxcv</description>
+    </item>
     <item rdf:about="https://wiki.chifek.ru/doku.php?id=artisan_shpargalki&amp;rev=1634983999&amp;do=diff">
         <dc:format>text/html</dc:format>
         <dc:date>2021-10-23T13:13:19+00:00</dc:date>
@@ -122,43 +167,6 @@ git reset HEAD~1
 
 sudo openvpn --config '/home/jglerner/Desktop/vpnbook-us1-tcp443.ovpn'</description>
     </item>
-    <item rdf:about="https://wiki.chifek.ru/doku.php?id=start&amp;rev=1632864758&amp;do=diff">
-        <dc:format>text/html</dc:format>
-        <dc:date>2021-09-29T00:32:38+00:00</dc:date>
-        <dc:creator>chifek (chifek@undisclosed.example.com)</dc:creator>
-        <title>start - [OS and administrative] </title>
-        <link>https://wiki.chifek.ru/doku.php?id=start&amp;rev=1632864758&amp;do=diff</link>
-        <description>kn0wledge_l1brary
-
-Wiki справочник для IT. 
-Тут я делюсь своими знаниями и использую шпаргалки, чтобы не держать все в голове.
-
-Про меня
-
-PHP
-
-Composer: Шпаргалка команд
-
-PHP
-
-Шаблоны проектирования PHP. Часть 1. Порождающие
-
-Laravel
-
-Переключение между версиями PHP
-
-JavaScript
-
-JavaScript
-
-npm
-
-yarn
-
-Ghost
-
-Database</description>
-    </item>
     <item rdf:about="https://wiki.chifek.ru/doku.php?id=rsync&amp;rev=1632419902&amp;do=diff">
         <dc:format>text/html</dc:format>
         <dc:date>2021-09-23T20:58:22+00:00</dc:date>
@@ -173,25 +181,6 @@ The general syntax for transferring files with rsync is as follows:
 
 Local to Remote: rsync [OPTION]... -e ssh [SRC]... [USER@]HOST:DEST
 Remote to Local: rsync [OPTION]... -e ssh [USER@]HOST:SRC... [DEST]</description>
-    </item>
-    <item rdf:about="https://wiki.chifek.ru/doku.php?id=webpack&amp;rev=1630048113&amp;do=diff">
-        <dc:format>text/html</dc:format>
-        <dc:date>2021-08-27T10:08:33+00:00</dc:date>
-        <dc:creator>chifek (chifek@undisclosed.example.com)</dc:creator>
-        <title>webpack</title>
-        <link>https://wiki.chifek.ru/doku.php?id=webpack&amp;rev=1630048113&amp;do=diff</link>
-        <description>Webpack
-
-Официальный сайт webpack &lt;https://webpack.js.org&gt;
-
-Презентация Webpack
-
-
-
-
-Зачем нужен вебпак?
-
-Вебпак — это сборщик модулей. Он анализирует модули приложения, создает граф зависимостей, затем собирает модули в правильном порядке в один или более бандл (bundle), на который может ссылаться файл «index.html».…</description>
     </item>
     <item rdf:about="https://wiki.chifek.ru/doku.php?image=webpack.pptx&amp;ns=&amp;rev=1630048070&amp;tab_details=history&amp;mediado=diff&amp;do=media">
         <dc:format>text/html</dc:format>

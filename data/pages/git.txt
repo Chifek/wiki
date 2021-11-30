@@ -5,6 +5,8 @@
 
 [[remove_remote|Уделение remote]]
 
+[[git_hook|Проверки перед коммитом]]
+
 [[add_remote|Добавление remote]]
 
 [[git_squash|git squash]]

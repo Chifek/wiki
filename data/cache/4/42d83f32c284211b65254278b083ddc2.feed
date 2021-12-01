@@ -11,14 +11,15 @@
         <description></description>
         <link>https://wiki.chifek.ru/</link>
         <image rdf:resource="https://wiki.chifek.ru/lib/tpl/dokuwiki/images/favicon.ico" />
-       <dc:date>2021-11-15T05:04:22+00:00</dc:date>
+       <dc:date>2021-11-30T21:55:35+00:00</dc:date>
         <items>
             <rdf:Seq>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=git_hook&amp;rev=1638174700&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=git&amp;rev=1638174692&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=start&amp;rev=1635245671&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=asdas&amp;rev=1635245634&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=artisan_shpargalki&amp;rev=1634983999&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=git_config&amp;rev=1633335531&amp;do=diff"/>
-                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=git&amp;rev=1632866186&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=openvpn&amp;rev=1632864797&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=rsync&amp;rev=1632419902&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=webpack.pptx&amp;ns=&amp;rev=1630048070&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
@@ -33,7 +34,6 @@
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=74de6adc11.jpg&amp;ns=&amp;rev=1629470339&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=ebce88e301.jpg&amp;ns=&amp;rev=1629374512&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=81efc3a35e.jpg&amp;ns=&amp;rev=1629370511&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
-                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=ccbecb77ee.jpg&amp;ns=&amp;rev=1629363442&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
             </rdf:Seq>
         </items>
     </channel>
@@ -42,6 +42,40 @@
         <link>https://wiki.chifek.ru/</link>
         <url>https://wiki.chifek.ru/lib/tpl/dokuwiki/images/favicon.ico</url>
     </image>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=git_hook&amp;rev=1638174700&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-11-29T11:31:40+00:00</dc:date>
+        <dc:creator>chifek (chifek@undisclosed.example.com)</dc:creator>
+        <title>git_hook - создано</title>
+        <link>https://wiki.chifek.ru/doku.php?id=git_hook&amp;rev=1638174700&amp;do=diff</link>
+        <description>vim .git/hooks/pre-commit</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=git&amp;rev=1638174692&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-11-29T11:31:32+00:00</dc:date>
+        <dc:creator>chifek (chifek@undisclosed.example.com)</dc:creator>
+        <title>git</title>
+        <link>https://wiki.chifek.ru/doku.php?id=git&amp;rev=1638174692&amp;do=diff</link>
+        <description>git config
+
+Переименование и удаление ветки
+
+Уделение remote
+
+Проверки перед коммитом
+
+Добавление remote
+
+git squash
+
+git new project
+
+Частые команды git
+
+git reset HEAD~1
+
+ где 1 это количество коммитов в которых были удалены файлы. Потом аккуратно убираете удаленные файлы из staging area и пушите все изменения на место.…</description>
+    </item>
     <item rdf:about="https://wiki.chifek.ru/doku.php?id=start&amp;rev=1635245671&amp;do=diff">
         <dc:format>text/html</dc:format>
         <dc:date>2021-10-26T13:54:31+00:00</dc:date>
@@ -131,30 +165,6 @@ git config --global core.filemode false
 Git будет игнорировать изменения режима файла (chmod)
 
 git config --global core.filemode false</description>
-    </item>
-    <item rdf:about="https://wiki.chifek.ru/doku.php?id=git&amp;rev=1632866186&amp;do=diff">
-        <dc:format>text/html</dc:format>
-        <dc:date>2021-09-29T00:56:26+00:00</dc:date>
-        <dc:creator>chifek (chifek@undisclosed.example.com)</dc:creator>
-        <title>git</title>
-        <link>https://wiki.chifek.ru/doku.php?id=git&amp;rev=1632866186&amp;do=diff</link>
-        <description>git config
-
-Переименование и удаление ветки
-
-Уделение remote
-
-Добавление remote
-
-git squash
-
-git new project
-
-Частые команды git
-
-git reset HEAD~1
-
- где 1 это количество коммитов в которых были удалены файлы. Потом аккуратно убираете удаленные файлы из staging area и пушите все изменения на место.</description>
     </item>
     <item rdf:about="https://wiki.chifek.ru/doku.php?id=openvpn&amp;rev=1632864797&amp;do=diff">
         <dc:format>text/html</dc:format>
@@ -277,13 +287,5 @@ Remote to Local: rsync [OPTION]... -e ssh [USER@]HOST:SRC... [DEST]</description
         <title>81efc3a35e.jpg - создано</title>
         <link>https://wiki.chifek.ru/doku.php?image=81efc3a35e.jpg&amp;ns=&amp;rev=1629370511&amp;tab_details=history&amp;mediado=diff&amp;do=media</link>
         <description>&lt;img src=&quot;https://wiki.chifek.ru/lib/exe/fetch.php?w=351&amp;h=285&amp;t=1629370511&amp;amp;tok=e51f5e&amp;amp;media=81efc3a35e.jpg&quot; alt=&quot;81efc3a35e.jpg&quot; /&gt;</description>
-    </item>
-    <item rdf:about="https://wiki.chifek.ru/doku.php?image=ccbecb77ee.jpg&amp;ns=&amp;rev=1629363442&amp;tab_details=history&amp;mediado=diff&amp;do=media">
-        <dc:format>text/html</dc:format>
-        <dc:date>2021-08-19T11:57:22+00:00</dc:date>
-        <dc:creator>chifek (chifek@undisclosed.example.com)</dc:creator>
-        <title>ccbecb77ee.jpg - создано</title>
-        <link>https://wiki.chifek.ru/doku.php?image=ccbecb77ee.jpg&amp;ns=&amp;rev=1629363442&amp;tab_details=history&amp;mediado=diff&amp;do=media</link>
-        <description>&lt;img src=&quot;https://wiki.chifek.ru/lib/exe/fetch.php?w=500&amp;h=323&amp;t=1629363442&amp;amp;tok=f9db6e&amp;amp;media=ccbecb77ee.jpg&quot; alt=&quot;ccbecb77ee.jpg&quot; /&gt;</description>
     </item>
 </rdf:RDF>

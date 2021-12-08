@@ -11,14 +11,16 @@
         <description></description>
         <link>https://wiki.chifek.ru/</link>
         <image rdf:resource="https://wiki.chifek.ru/lib/tpl/dokuwiki/images/favicon.ico" />
-       <dc:date>2021-10-26T00:31:17+00:00</dc:date>
+       <dc:date>2021-12-08T01:22:58+00:00</dc:date>
         <items>
             <rdf:Seq>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=15_sovetov&amp;rev=1629797866&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=30_examples&amp;rev=1608494958&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=add_remote&amp;rev=1612207381&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=ahghsghad&amp;rev=1619185060&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=array_js&amp;rev=1638686763&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=artisan_shpargalki&amp;rev=1634983999&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=asdas&amp;rev=1635245634&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=authsocial&amp;rev=1611042191&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=bash&amp;rev=1608495473&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=bashrc&amp;rev=1618851644&amp;do=diff"/>
@@ -34,8 +36,9 @@
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=faq&amp;rev=1629882513&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=free_space_on_sql&amp;rev=1624349969&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=ghost&amp;rev=1627389021&amp;do=diff"/>
-                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=git&amp;rev=1632866186&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=git&amp;rev=1638174692&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=git_config&amp;rev=1633335531&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=git_hook&amp;rev=1638174700&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=git_squash&amp;rev=1615207986&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=gitterminal&amp;rev=1620117112&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=gulp&amp;rev=1629712620&amp;do=diff"/>
@@ -44,7 +47,7 @@
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=insert_table&amp;rev=1624897874&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=instruments_php&amp;rev=1612333407&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=java&amp;rev=1629238920&amp;do=diff"/>
-                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=javasript&amp;rev=1629710317&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=javasript&amp;rev=1638686777&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=kotlin&amp;rev=1613681459&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=kuberneters&amp;rev=1618314804&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=kubernetes&amp;rev=1618480612&amp;do=diff"/>
@@ -85,7 +88,7 @@
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=ssh_keys&amp;rev=1608486012&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=ssh_server&amp;rev=1608486401&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=ssl&amp;rev=1611505181&amp;do=diff"/>
-                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=start&amp;rev=1632864758&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=start&amp;rev=1635245671&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=startprojectjava&amp;rev=1629238850&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=telegram&amp;rev=1613333254&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=types_java&amp;rev=1627421310&amp;do=diff"/>
@@ -150,6 +153,14 @@ sdfgjdsgfjgsdf
 
 &lt;/CODE&gt;</description>
     </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=array_js&amp;rev=1638686763&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-12-05T09:46:03+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>array_js</title>
+        <link>https://wiki.chifek.ru/doku.php?id=array_js&amp;rev=1638686763&amp;do=diff</link>
+        <description></description>
+    </item>
     <item rdf:about="https://wiki.chifek.ru/doku.php?id=artisan_shpargalki&amp;rev=1634983999&amp;do=diff">
         <dc:format>text/html</dc:format>
         <dc:date>2021-10-23T13:13:19+00:00</dc:date>
@@ -179,6 +190,14 @@ Flush the application cache
 Options:
 
 tags - The cache tags you would like to clear Optional</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=asdas&amp;rev=1635245634&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-10-26T13:53:54+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>asdas</title>
+        <link>https://wiki.chifek.ru/doku.php?id=asdas&amp;rev=1635245634&amp;do=diff</link>
+        <description>vxcvxcvxcv</description>
     </item>
     <item rdf:about="https://wiki.chifek.ru/doku.php?id=authsocial&amp;rev=1611042191&amp;do=diff">
         <dc:format>text/html</dc:format>
@@ -393,17 +412,19 @@ ghost install local
 
 Once the install is finished you’ll be able to access your new site on</description>
     </item>
-    <item rdf:about="https://wiki.chifek.ru/doku.php?id=git&amp;rev=1632866186&amp;do=diff">
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=git&amp;rev=1638174692&amp;do=diff">
         <dc:format>text/html</dc:format>
-        <dc:date>2021-09-29T00:56:26+00:00</dc:date>
+        <dc:date>2021-11-29T11:31:32+00:00</dc:date>
         <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
         <title>git</title>
-        <link>https://wiki.chifek.ru/doku.php?id=git&amp;rev=1632866186&amp;do=diff</link>
+        <link>https://wiki.chifek.ru/doku.php?id=git&amp;rev=1638174692&amp;do=diff</link>
         <description>git config
 
 Переименование и удаление ветки
 
 Уделение remote
+
+Проверки перед коммитом
 
 Добавление remote
 
@@ -415,7 +436,7 @@ git new project
 
 git reset HEAD~1
 
- где 1 это количество коммитов в которых были удалены файлы. Потом аккуратно убираете удаленные файлы из staging area и пушите все изменения на место.</description>
+ где 1 это количество коммитов в которых были удалены файлы. Потом аккуратно убираете удаленные файлы из staging area и пушите все изменения на место.…</description>
     </item>
     <item rdf:about="https://wiki.chifek.ru/doku.php?id=git_config&amp;rev=1633335531&amp;do=diff">
         <dc:format>text/html</dc:format>
@@ -431,6 +452,14 @@ git config --global core.filemode false
 Git будет игнорировать изменения режима файла (chmod)
 
 git config --global core.filemode false</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=git_hook&amp;rev=1638174700&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-11-29T11:31:40+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>git_hook</title>
+        <link>https://wiki.chifek.ru/doku.php?id=git_hook&amp;rev=1638174700&amp;do=diff</link>
+        <description>vim .git/hooks/pre-commit</description>
     </item>
     <item rdf:about="https://wiki.chifek.ru/doku.php?id=git_squash&amp;rev=1615207986&amp;do=diff">
         <dc:format>text/html</dc:format>
@@ -537,15 +566,17 @@ F</description>
 
 Запуск JAR файла</description>
     </item>
-    <item rdf:about="https://wiki.chifek.ru/doku.php?id=javasript&amp;rev=1629710317&amp;do=diff">
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=javasript&amp;rev=1638686777&amp;do=diff">
         <dc:format>text/html</dc:format>
-        <dc:date>2021-08-23T12:18:37+00:00</dc:date>
+        <dc:date>2021-12-05T09:46:17+00:00</dc:date>
         <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
         <title>javasript</title>
-        <link>https://wiki.chifek.ru/doku.php?id=javasript&amp;rev=1629710317&amp;do=diff</link>
+        <link>https://wiki.chifek.ru/doku.php?id=javasript&amp;rev=1638686777&amp;do=diff</link>
         <description>webpack
 
-gulp</description>
+gulp
+
+Array JavaScript</description>
     </item>
     <item rdf:about="https://wiki.chifek.ru/doku.php?id=kotlin&amp;rev=1613681459&amp;do=diff">
         <dc:format>text/html</dc:format>
@@ -1080,12 +1111,12 @@ SSH into the server running your HTTP website as a user with sudo privileges.
 You'll need to install snapd and make sure you follow any instructions to enable classic snap support.
 Follow these instructions on snapcraft's site to install snapd.</description>
     </item>
-    <item rdf:about="https://wiki.chifek.ru/doku.php?id=start&amp;rev=1632864758&amp;do=diff">
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=start&amp;rev=1635245671&amp;do=diff">
         <dc:format>text/html</dc:format>
-        <dc:date>2021-09-29T00:32:38+00:00</dc:date>
+        <dc:date>2021-10-26T13:54:31+00:00</dc:date>
         <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
         <title>start</title>
-        <link>https://wiki.chifek.ru/doku.php?id=start&amp;rev=1632864758&amp;do=diff</link>
+        <link>https://wiki.chifek.ru/doku.php?id=start&amp;rev=1635245671&amp;do=diff</link>
         <description>kn0wledge_l1brary
 
 Wiki справочник для IT. 

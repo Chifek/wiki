@@ -11,17 +11,18 @@
         <description></description>
         <link>https://wiki.chifek.ru/</link>
         <image rdf:resource="https://wiki.chifek.ru/lib/tpl/dokuwiki/images/favicon.ico" />
-       <dc:date>2021-11-30T21:55:35+00:00</dc:date>
+       <dc:date>2021-12-08T01:23:04+00:00</dc:date>
         <items>
             <rdf:Seq>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=javasript&amp;rev=1638686777&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=array_js&amp;rev=1638686763&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=478a2909-8769-4d8b-ace7-19e6f979245b.png&amp;ns=&amp;rev=1638686650&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=git_hook&amp;rev=1638174700&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=git&amp;rev=1638174692&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=start&amp;rev=1635245671&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=asdas&amp;rev=1635245634&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=artisan_shpargalki&amp;rev=1634983999&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=git_config&amp;rev=1633335531&amp;do=diff"/>
-                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=openvpn&amp;rev=1632864797&amp;do=diff"/>
-                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=rsync&amp;rev=1632419902&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=webpack.pptx&amp;ns=&amp;rev=1630048070&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=postgre_06.png&amp;ns=&amp;rev=1629797385&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=postgre_05.png&amp;ns=&amp;rev=1629797342&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
@@ -33,7 +34,6 @@
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=docs-gulp-version-command.png&amp;ns=&amp;rev=1629711852&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=74de6adc11.jpg&amp;ns=&amp;rev=1629470339&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=ebce88e301.jpg&amp;ns=&amp;rev=1629374512&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
-                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=81efc3a35e.jpg&amp;ns=&amp;rev=1629370511&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
             </rdf:Seq>
         </items>
     </channel>
@@ -42,6 +42,34 @@
         <link>https://wiki.chifek.ru/</link>
         <url>https://wiki.chifek.ru/lib/tpl/dokuwiki/images/favicon.ico</url>
     </image>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=javasript&amp;rev=1638686777&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-12-05T09:46:17+00:00</dc:date>
+        <dc:creator>chifek (chifek@undisclosed.example.com)</dc:creator>
+        <title>javasript</title>
+        <link>https://wiki.chifek.ru/doku.php?id=javasript&amp;rev=1638686777&amp;do=diff</link>
+        <description>webpack
+
+gulp
+
+Array JavaScript</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=array_js&amp;rev=1638686763&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-12-05T09:46:03+00:00</dc:date>
+        <dc:creator>chifek (chifek@undisclosed.example.com)</dc:creator>
+        <title>array_js - создано</title>
+        <link>https://wiki.chifek.ru/doku.php?id=array_js&amp;rev=1638686763&amp;do=diff</link>
+        <description></description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?image=478a2909-8769-4d8b-ace7-19e6f979245b.png&amp;ns=&amp;rev=1638686650&amp;tab_details=history&amp;mediado=diff&amp;do=media">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-12-05T09:44:10+00:00</dc:date>
+        <dc:creator>chifek (chifek@undisclosed.example.com)</dc:creator>
+        <title>478a2909-8769-4d8b-ace7-19e6f979245b.png - создано</title>
+        <link>https://wiki.chifek.ru/doku.php?image=478a2909-8769-4d8b-ace7-19e6f979245b.png&amp;ns=&amp;rev=1638686650&amp;tab_details=history&amp;mediado=diff&amp;do=media</link>
+        <description>&lt;img src=&quot;https://wiki.chifek.ru/lib/exe/fetch.php?w=400&amp;h=500&amp;t=1638686650&amp;amp;tok=1b62ee&amp;amp;media=478a2909-8769-4d8b-ace7-19e6f979245b.png&quot; alt=&quot;478a2909-8769-4d8b-ace7-19e6f979245b.png&quot; /&gt;</description>
+    </item>
     <item rdf:about="https://wiki.chifek.ru/doku.php?id=git_hook&amp;rev=1638174700&amp;do=diff">
         <dc:format>text/html</dc:format>
         <dc:date>2021-11-29T11:31:40+00:00</dc:date>
@@ -166,32 +194,6 @@ Git будет игнорировать изменения режима файл
 
 git config --global core.filemode false</description>
     </item>
-    <item rdf:about="https://wiki.chifek.ru/doku.php?id=openvpn&amp;rev=1632864797&amp;do=diff">
-        <dc:format>text/html</dc:format>
-        <dc:date>2021-09-29T00:33:17+00:00</dc:date>
-        <dc:creator>chifek (chifek@undisclosed.example.com)</dc:creator>
-        <title>openvpn - создано</title>
-        <link>https://wiki.chifek.ru/doku.php?id=openvpn&amp;rev=1632864797&amp;do=diff</link>
-        <description>openVPN config
-
-
-sudo openvpn --config '/home/jglerner/Desktop/vpnbook-us1-tcp443.ovpn'</description>
-    </item>
-    <item rdf:about="https://wiki.chifek.ru/doku.php?id=rsync&amp;rev=1632419902&amp;do=diff">
-        <dc:format>text/html</dc:format>
-        <dc:date>2021-09-23T20:58:22+00:00</dc:date>
-        <dc:creator>chifek (chifek@undisclosed.example.com)</dc:creator>
-        <title>rsync - [Copying files using rsync from remote server to local machine] </title>
-        <link>https://wiki.chifek.ru/doku.php?id=rsync&amp;rev=1632419902&amp;do=diff</link>
-        <description>Using rsync to Transfer Files over SSH #
-
-With rsync, you can transfer files and directories over SSH from and to remote servers.
-
-The general syntax for transferring files with rsync is as follows:
-
-Local to Remote: rsync [OPTION]... -e ssh [SRC]... [USER@]HOST:DEST
-Remote to Local: rsync [OPTION]... -e ssh [USER@]HOST:SRC... [DEST]</description>
-    </item>
     <item rdf:about="https://wiki.chifek.ru/doku.php?image=webpack.pptx&amp;ns=&amp;rev=1630048070&amp;tab_details=history&amp;mediado=diff&amp;do=media">
         <dc:format>text/html</dc:format>
         <dc:date>2021-08-27T10:07:50+00:00</dc:date>
@@ -279,13 +281,5 @@ Remote to Local: rsync [OPTION]... -e ssh [USER@]HOST:SRC... [DEST]</description
         <title>ebce88e301.jpg - создано</title>
         <link>https://wiki.chifek.ru/doku.php?image=ebce88e301.jpg&amp;ns=&amp;rev=1629374512&amp;tab_details=history&amp;mediado=diff&amp;do=media</link>
         <description>&lt;img src=&quot;https://wiki.chifek.ru/lib/exe/fetch.php?w=500&amp;h=439&amp;t=1629374512&amp;amp;tok=ed9186&amp;amp;media=ebce88e301.jpg&quot; alt=&quot;ebce88e301.jpg&quot; /&gt;</description>
-    </item>
-    <item rdf:about="https://wiki.chifek.ru/doku.php?image=81efc3a35e.jpg&amp;ns=&amp;rev=1629370511&amp;tab_details=history&amp;mediado=diff&amp;do=media">
-        <dc:format>text/html</dc:format>
-        <dc:date>2021-08-19T13:55:11+00:00</dc:date>
-        <dc:creator>chifek (chifek@undisclosed.example.com)</dc:creator>
-        <title>81efc3a35e.jpg - создано</title>
-        <link>https://wiki.chifek.ru/doku.php?image=81efc3a35e.jpg&amp;ns=&amp;rev=1629370511&amp;tab_details=history&amp;mediado=diff&amp;do=media</link>
-        <description>&lt;img src=&quot;https://wiki.chifek.ru/lib/exe/fetch.php?w=351&amp;h=285&amp;t=1629370511&amp;amp;tok=e51f5e&amp;amp;media=81efc3a35e.jpg&quot; alt=&quot;81efc3a35e.jpg&quot; /&gt;</description>
     </item>
 </rdf:RDF>

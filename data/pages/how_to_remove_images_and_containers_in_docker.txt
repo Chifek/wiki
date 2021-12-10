@@ -1,3 +1,12 @@
+====== Чтобы остановить все контейнеры docker: ======
+
+
+''
+docker stop $(docker ps -a -q)
+''
+
+
+
 ====== How to Remove Images and Containers in Docker ======
 
 ''docker system prune''

@@ -1,5 +1,16 @@
 
-<h1 class="sectionedit1" id="how_to_remove_images_and_containers_in_docker">How to Remove Images and Containers in Docker</h1>
+<h1 class="sectionedit1" id="чтобы_остановить_все_контейнеры_docker">Чтобы остановить все контейнеры docker:</h1>
+<div class="level1">
+
+<p>
+<code>
+docker stop $(docker ps -a -q)
+</code>
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;\u0427\u0442\u043e\u0431\u044b \u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0438\u0442\u044c \u0432\u0441\u0435 \u043a\u043e\u043d\u0442\u0435\u0439\u043d\u0435\u0440\u044b docker:&quot;,&quot;hid&quot;:&quot;\u0447\u0442\u043e\u0431\u044b_\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0438\u0442\u044c_\u0432\u0441\u0435_\u043a\u043e\u043d\u0442\u0435\u0439\u043d\u0435\u0440\u044b_docker&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:1,&quot;range&quot;:&quot;1-124&quot;} -->
+<h1 class="sectionedit2" id="how_to_remove_images_and_containers_in_docker">How to Remove Images and Containers in Docker</h1>
 <div class="level1">
 
 <p>
@@ -7,8 +18,8 @@
 </p>
 
 </div>
-<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;How to Remove Images and Containers in Docker&quot;,&quot;hid&quot;:&quot;how_to_remove_images_and_containers_in_docker&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:1,&quot;range&quot;:&quot;1-87&quot;} -->
-<h3 class="sectionedit2" id="extended_description">Extended description</h3>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;How to Remove Images and Containers in Docker&quot;,&quot;hid&quot;:&quot;how_to_remove_images_and_containers_in_docker&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:2,&quot;range&quot;:&quot;125-211&quot;} -->
+<h3 class="sectionedit3" id="extended_description">Extended description</h3>
 <div class="level3">
 
 <p>
@@ -20,8 +31,8 @@ For example uses of this command, refer to the examples section below.
 </p>
 
 </div>
-<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Extended description&quot;,&quot;hid&quot;:&quot;extended_description&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:2,&quot;range&quot;:&quot;88-300&quot;} -->
-<h2 class="sectionedit3" id="docker_rmi">Docker rmi</h2>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Extended description&quot;,&quot;hid&quot;:&quot;extended_description&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:3,&quot;range&quot;:&quot;212-424&quot;} -->
+<h2 class="sectionedit4" id="docker_rmi">Docker rmi</h2>
 <div class="level2">
 
 <p>
@@ -43,8 +54,8 @@ After that you make sure which image want to remove, to do that executing this s
 </p>
 
 </div>
-<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Docker rmi&quot;,&quot;hid&quot;:&quot;docker_rmi&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:3,&quot;range&quot;:&quot;301-777&quot;} -->
-<h2 class="sectionedit4" id="remove_multiple_images">Remove multiple images</h2>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Docker rmi&quot;,&quot;hid&quot;:&quot;docker_rmi&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:4,&quot;range&quot;:&quot;425-901&quot;} -->
+<h2 class="sectionedit5" id="remove_multiple_images">Remove multiple images</h2>
 <div class="level2">
 
 <p>
@@ -57,8 +68,8 @@ Write Images IDs in the command followed by the spaces between them.
 </p>
 
 </div>
-<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Remove multiple images&quot;,&quot;hid&quot;:&quot;remove_multiple_images&quot;,&quot;codeblockOffset&quot;:2,&quot;secid&quot;:4,&quot;range&quot;:&quot;778-1153&quot;} -->
-<h2 class="sectionedit5" id="remove_all_images_at_once">Remove all images at once</h2>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Remove multiple images&quot;,&quot;hid&quot;:&quot;remove_multiple_images&quot;,&quot;codeblockOffset&quot;:2,&quot;secid&quot;:5,&quot;range&quot;:&quot;902-1277&quot;} -->
+<h2 class="sectionedit6" id="remove_all_images_at_once">Remove all images at once</h2>
 <div class="level2">
 
 <p>
@@ -81,4 +92,4 @@ $() returns the results of image IDs and then docker rmi removes all those image
 </p>
 
 </div>
-<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Remove all images at once&quot;,&quot;hid&quot;:&quot;remove_all_images_at_once&quot;,&quot;codeblockOffset&quot;:3,&quot;secid&quot;:5,&quot;range&quot;:&quot;1154-&quot;} -->
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Remove all images at once&quot;,&quot;hid&quot;:&quot;remove_all_images_at_once&quot;,&quot;codeblockOffset&quot;:3,&quot;secid&quot;:6,&quot;range&quot;:&quot;1278-&quot;} -->

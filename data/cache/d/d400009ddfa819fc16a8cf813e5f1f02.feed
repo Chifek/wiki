@@ -11,7 +11,7 @@
         <description></description>
         <link>https://wiki.chifek.ru/</link>
         <image rdf:resource="https://wiki.chifek.ru/lib/tpl/dokuwiki/images/favicon.ico" />
-       <dc:date>2021-12-08T01:22:58+00:00</dc:date>
+       <dc:date>2021-12-13T09:57:06+00:00</dc:date>
         <items>
             <rdf:Seq>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=15_sovetov&amp;rev=1629797866&amp;do=diff"/>
@@ -42,7 +42,7 @@
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=git_squash&amp;rev=1615207986&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=gitterminal&amp;rev=1620117112&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=gulp&amp;rev=1629712620&amp;do=diff"/>
-                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=how_to_remove_images_and_containers_in_docker&amp;rev=1622809923&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=how_to_remove_images_and_containers_in_docker&amp;rev=1639032330&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=httpstatuses&amp;rev=1629224669&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=insert_table&amp;rev=1624897874&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=instruments_php&amp;rev=1612333407&amp;do=diff"/>
@@ -506,21 +506,25 @@ Gulp – это менеджер задач и сборщик проектов.
 	*  Обновляет браузер.
 	*</description>
     </item>
-    <item rdf:about="https://wiki.chifek.ru/doku.php?id=how_to_remove_images_and_containers_in_docker&amp;rev=1622809923&amp;do=diff">
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=how_to_remove_images_and_containers_in_docker&amp;rev=1639032330&amp;do=diff">
         <dc:format>text/html</dc:format>
-        <dc:date>2021-06-04T15:32:03+00:00</dc:date>
+        <dc:date>2021-12-09T09:45:30+00:00</dc:date>
         <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
         <title>how_to_remove_images_and_containers_in_docker</title>
-        <link>https://wiki.chifek.ru/doku.php?id=how_to_remove_images_and_containers_in_docker&amp;rev=1622809923&amp;do=diff</link>
-        <description>How to Remove Images and Containers in Docker
+        <link>https://wiki.chifek.ru/doku.php?id=how_to_remove_images_and_containers_in_docker&amp;rev=1639032330&amp;do=diff</link>
+        <description>Чтобы остановить все контейнеры docker:
+
+
+docker stop $(docker ps -a -q)
+
+
+How to Remove Images and Containers in Docker
 
 docker system prune
 
 Extended description
 
-Remove all unused containers, networks, images (both dangling and unreferenced), and optionally, volumes.
-
-For example uses of this command, refer to the examples section below.</description>
+Remove all unused containers, networks, images (both dangling and unreferenced), and optionally, volumes.</description>
     </item>
     <item rdf:about="https://wiki.chifek.ru/doku.php?id=httpstatuses&amp;rev=1629224669&amp;do=diff">
         <dc:format>text/html</dc:format>

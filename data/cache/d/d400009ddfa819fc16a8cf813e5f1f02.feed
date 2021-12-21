@@ -11,7 +11,7 @@
         <description></description>
         <link>https://wiki.chifek.ru/</link>
         <image rdf:resource="https://wiki.chifek.ru/lib/tpl/dokuwiki/images/favicon.ico" />
-       <dc:date>2021-12-13T09:57:06+00:00</dc:date>
+       <dc:date>2021-12-20T19:24:31+00:00</dc:date>
         <items>
             <rdf:Seq>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=15_sovetov&amp;rev=1629797866&amp;do=diff"/>
@@ -24,11 +24,13 @@
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=authsocial&amp;rev=1611042191&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=bash&amp;rev=1608495473&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=bashrc&amp;rev=1618851644&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=border_radius&amp;rev=1639401514&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=bot_on_php&amp;rev=1613334836&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=brew&amp;rev=1614287206&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=collections&amp;rev=1608751280&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=composer&amp;rev=1612175831&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=create_database&amp;rev=1610226146&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=css&amp;rev=1639401509&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=debug_print_backtrace&amp;rev=1613461782&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=docker&amp;rev=1611509602&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=downgradepsql&amp;rev=1614288640&amp;do=diff"/>
@@ -55,7 +57,7 @@
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=laravel-mix&amp;rev=1629450929&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=laravel&amp;rev=1629373496&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=links&amp;rev=1616801223&amp;do=diff"/>
-                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=linux&amp;rev=1620116693&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=linux&amp;rev=1639542813&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=linux_links&amp;rev=1616801242&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=linuxsize&amp;rev=1616788516&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=macbook&amp;rev=1629882651&amp;do=diff"/>
@@ -88,13 +90,14 @@
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=ssh_keys&amp;rev=1608486012&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=ssh_server&amp;rev=1608486401&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=ssl&amp;rev=1611505181&amp;do=diff"/>
-                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=start&amp;rev=1635245671&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=start&amp;rev=1639401451&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=startprojectjava&amp;rev=1629238850&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=telegram&amp;rev=1613333254&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=types_java&amp;rev=1627421310&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=ufw&amp;rev=1604988359&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=update_table&amp;rev=1624896511&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=useraddlinux&amp;rev=1619181231&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=vim&amp;rev=1639542857&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=webpack&amp;rev=1630048113&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=webserver&amp;rev=1616801263&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=work-space&amp;rev=1608972814&amp;do=diff"/>
@@ -237,6 +240,14 @@ function parse_git_branch {
                                     local      GREEN=&quot;\[\033[0;32m\]&quot;
                                             local LIGHT_GREEN=&quot;\…</description>
     </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=border_radius&amp;rev=1639401514&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-12-13T16:18:34+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>border_radius</title>
+        <link>https://wiki.chifek.ru/doku.php?id=border_radius&amp;rev=1639401514&amp;do=diff</link>
+        <description></description>
+    </item>
     <item rdf:about="https://wiki.chifek.ru/doku.php?id=bot_on_php&amp;rev=1613334836&amp;do=diff">
         <dc:format>text/html</dc:format>
         <dc:date>2021-02-14T23:33:56+00:00</dc:date>
@@ -310,6 +321,14 @@ CREATE DATABASE имя
            [ ALLOW_CONNECTIONS [=] разр_подключения ]
            [ CONNECTION LIMIT [=] предел_подключений ]
            [ IS_TEMPLATE [=] это…</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=css&amp;rev=1639401509&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-12-13T16:18:29+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>css</title>
+        <link>https://wiki.chifek.ru/doku.php?id=css&amp;rev=1639401509&amp;do=diff</link>
+        <description>Border radius</description>
     </item>
     <item rdf:about="https://wiki.chifek.ru/doku.php?id=debug_print_backtrace&amp;rev=1613461782&amp;do=diff">
         <dc:format>text/html</dc:format>
@@ -683,13 +702,15 @@ docker
 
 linux</description>
     </item>
-    <item rdf:about="https://wiki.chifek.ru/doku.php?id=linux&amp;rev=1620116693&amp;do=diff">
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=linux&amp;rev=1639542813&amp;do=diff">
         <dc:format>text/html</dc:format>
-        <dc:date>2021-05-04T11:24:53+00:00</dc:date>
+        <dc:date>2021-12-15T07:33:33+00:00</dc:date>
         <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
         <title>linux</title>
-        <link>https://wiki.chifek.ru/doku.php?id=linux&amp;rev=1620116693&amp;do=diff</link>
+        <link>https://wiki.chifek.ru/doku.php?id=linux&amp;rev=1639542813&amp;do=diff</link>
         <description>Ubuntu Server. Как узнать свободное место на диске?
+
+vim
 
 подсветка веток в командной строке
 
@@ -1115,12 +1136,12 @@ SSH into the server running your HTTP website as a user with sudo privileges.
 You'll need to install snapd and make sure you follow any instructions to enable classic snap support.
 Follow these instructions on snapcraft's site to install snapd.</description>
     </item>
-    <item rdf:about="https://wiki.chifek.ru/doku.php?id=start&amp;rev=1635245671&amp;do=diff">
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=start&amp;rev=1639401451&amp;do=diff">
         <dc:format>text/html</dc:format>
-        <dc:date>2021-10-26T13:54:31+00:00</dc:date>
+        <dc:date>2021-12-13T16:17:31+00:00</dc:date>
         <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
         <title>start</title>
-        <link>https://wiki.chifek.ru/doku.php?id=start&amp;rev=1635245671&amp;do=diff</link>
+        <link>https://wiki.chifek.ru/doku.php?id=start&amp;rev=1639401451&amp;do=diff</link>
         <description>kn0wledge_l1brary
 
 Wiki справочник для IT. 
@@ -1221,6 +1242,14 @@ For example to create a new user named username you would run:
 sudo useradd -m username
 
 The command adds an entry to the /etc/passwd, /etc/shadow, /etc/group and /etc/gshadow files.</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=vim&amp;rev=1639542857&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-12-15T07:34:17+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>vim</title>
+        <link>https://wiki.chifek.ru/doku.php?id=vim&amp;rev=1639542857&amp;do=diff</link>
+        <description></description>
     </item>
     <item rdf:about="https://wiki.chifek.ru/doku.php?id=webpack&amp;rev=1630048113&amp;do=diff">
         <dc:format>text/html</dc:format>

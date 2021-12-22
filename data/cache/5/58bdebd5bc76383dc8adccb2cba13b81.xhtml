@@ -1,0 +1,53 @@
+
+<h1 class="sectionedit1" id="nvm_install">NVM Install</h1>
+<div class="level1">
+
+<p>
+Now, you system is ready for the installation. Update the Homebrew package list and install NVM.
+</p>
+<pre class="code">brew update
+brew install nvm</pre>
+
+<p>
+Next, create a directory for NVM in home.
+</p>
+<pre class="code">mkdir ~/.nvm</pre>
+
+<p>
+Now, configure the required environment variables. Edit the following configuration file in your home directory
+</p>
+<pre class="code">vim ~/.bash_profile</pre>
+
+<p>
+and, add below lines to ~/.bash_profile ( or ~/.zshrc for macOS Catalina or later)
+</p>
+<pre class="code">export NVM_DIR=~/.nvm
+source $(brew --prefix nvm)/nvm.sh</pre>
+
+<p>
+Press <strong>ESC + :wq</strong> to save and close your file.
+</p>
+
+<p>
+Next, load the variable to the current shell environment. From the next login, it will automatically loaded.
+</p>
+<pre class="code">source ~/.bash_profile</pre>
+
+<p>
+That’s it. The NVM has been installed on your macOS system. Go to next step to install Node.js versions with the help of nvm.
+</p>
+
+<p>
+First of all, see what Node versions are available to install. To see available versions, type:
+</p>
+<pre class="code">nvm ls-remote</pre>
+
+<p>
+Install node for M1 arch:
+</p>
+<pre class="code">nvm uninstall 14
+arch -x86_64 zsh 
+nvm install 14
+nvm alias default 14</pre>
+
+</div>

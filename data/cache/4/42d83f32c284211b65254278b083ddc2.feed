@@ -11,16 +11,17 @@
         <description></description>
         <link>https://wiki.chifek.ru/</link>
         <image rdf:resource="https://wiki.chifek.ru/lib/tpl/dokuwiki/images/favicon.ico" />
-       <dc:date>2021-12-15T22:25:34+00:00</dc:date>
+       <dc:date>2021-12-21T10:59:05+00:00</dc:date>
         <items>
             <rdf:Seq>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=nvm&amp;rev=1640073533&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=start&amp;rev=1640073229&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=vim&amp;rev=1639542857&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=320e8421-f231-41ea-bd09-24b65a4d2c62.png&amp;ns=&amp;rev=1639542832&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=linux&amp;rev=1639542813&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=border_radius&amp;rev=1639401514&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=css&amp;rev=1639401509&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=photo_2021-12-13_16-15-39.jpg&amp;ns=&amp;rev=1639401473&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
-                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=start&amp;rev=1639401451&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=how_to_remove_images_and_containers_in_docker&amp;rev=1639032330&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=javasript&amp;rev=1638686777&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=array_js&amp;rev=1638686763&amp;do=diff"/>
@@ -33,7 +34,6 @@
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=postgre_05.png&amp;ns=&amp;rev=1629797342&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=postgre_04.png&amp;ns=&amp;rev=1629797301&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=postgre_03.png&amp;ns=&amp;rev=1629797154&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
-                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=postgre_02.png&amp;ns=&amp;rev=1629797083&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
             </rdf:Seq>
         </items>
     </channel>
@@ -42,6 +42,68 @@
         <link>https://wiki.chifek.ru/</link>
         <url>https://wiki.chifek.ru/lib/tpl/dokuwiki/images/favicon.ico</url>
     </image>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=nvm&amp;rev=1640073533&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-12-21T10:58:53+00:00</dc:date>
+        <dc:creator>chifek (chifek@undisclosed.example.com)</dc:creator>
+        <title>nvm</title>
+        <link>https://wiki.chifek.ru/doku.php?id=nvm&amp;rev=1640073533&amp;do=diff</link>
+        <description>NVM Install
+
+Now, you system is ready for the installation. Update the Homebrew package list and install NVM.
+
+
+brew update
+brew install nvm
+
+
+Next, create a directory for NVM in home.
+
+
+mkdir ~/.nvm
+
+
+Now, configure the required environment variables. Edit the following configuration file in your home directory</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=start&amp;rev=1640073229&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-12-21T10:53:49+00:00</dc:date>
+        <dc:creator>chifek (chifek@undisclosed.example.com)</dc:creator>
+        <title>start</title>
+        <link>https://wiki.chifek.ru/doku.php?id=start&amp;rev=1640073229&amp;do=diff</link>
+        <description>kn0wledge_l1brary
+
+Wiki справочник для IT. 
+Тут я делюсь своими знаниями и использую шпаргалки, чтобы не держать все в голове.
+
+Про меня
+
+PHP
+
+Composer: Шпаргалка команд
+
+PHP
+
+Шаблоны проектирования PHP. Часть 1. Порождающие
+
+Laravel
+
+Переключение между версиями PHP
+
+JavaScript
+
+JavaScript
+
+npm
+
+nvm
+
+yarn
+
+Ghost
+
+Database</description>
+    </item>
     <item rdf:about="https://wiki.chifek.ru/doku.php?id=vim&amp;rev=1639542857&amp;do=diff">
         <dc:format>text/html</dc:format>
         <dc:date>2021-12-15T07:34:17+00:00</dc:date>
@@ -97,43 +159,6 @@ vim
         <title>photo_2021-12-13_16-15-39.jpg - создано</title>
         <link>https://wiki.chifek.ru/doku.php?image=photo_2021-12-13_16-15-39.jpg&amp;ns=&amp;rev=1639401473&amp;tab_details=history&amp;mediado=diff&amp;do=media</link>
         <description>&lt;img src=&quot;https://wiki.chifek.ru/lib/exe/fetch.php?w=483&amp;h=500&amp;t=1639401473&amp;amp;tok=7c2249&amp;amp;media=photo_2021-12-13_16-15-39.jpg&quot; alt=&quot;photo_2021-12-13_16-15-39.jpg&quot; /&gt;</description>
-    </item>
-    <item rdf:about="https://wiki.chifek.ru/doku.php?id=start&amp;rev=1639401451&amp;do=diff">
-        <dc:format>text/html</dc:format>
-        <dc:date>2021-12-13T16:17:31+00:00</dc:date>
-        <dc:creator>chifek (chifek@undisclosed.example.com)</dc:creator>
-        <title>start</title>
-        <link>https://wiki.chifek.ru/doku.php?id=start&amp;rev=1639401451&amp;do=diff</link>
-        <description>kn0wledge_l1brary
-
-Wiki справочник для IT. 
-Тут я делюсь своими знаниями и использую шпаргалки, чтобы не держать все в голове.
-
-Про меня
-
-PHP
-
-Composer: Шпаргалка команд
-
-PHP
-
-Шаблоны проектирования PHP. Часть 1. Порождающие
-
-Laravel
-
-Переключение между версиями PHP
-
-JavaScript
-
-JavaScript
-
-npm
-
-yarn
-
-Ghost
-
-Database</description>
     </item>
     <item rdf:about="https://wiki.chifek.ru/doku.php?id=how_to_remove_images_and_containers_in_docker&amp;rev=1639032330&amp;do=diff">
         <dc:format>text/html</dc:format>
@@ -264,13 +289,5 @@ git reset HEAD~1
         <title>postgre_03.png - создано</title>
         <link>https://wiki.chifek.ru/doku.php?image=postgre_03.png&amp;ns=&amp;rev=1629797154&amp;tab_details=history&amp;mediado=diff&amp;do=media</link>
         <description>&lt;img src=&quot;https://wiki.chifek.ru/lib/exe/fetch.php?w=464&amp;h=52&amp;t=1629797154&amp;amp;tok=768fff&amp;amp;media=postgre_03.png&quot; alt=&quot;postgre_03.png&quot; /&gt;</description>
-    </item>
-    <item rdf:about="https://wiki.chifek.ru/doku.php?image=postgre_02.png&amp;ns=&amp;rev=1629797083&amp;tab_details=history&amp;mediado=diff&amp;do=media">
-        <dc:format>text/html</dc:format>
-        <dc:date>2021-08-24T12:24:43+00:00</dc:date>
-        <dc:creator>chifek (chifek@undisclosed.example.com)</dc:creator>
-        <title>postgre_02.png - создано</title>
-        <link>https://wiki.chifek.ru/doku.php?image=postgre_02.png&amp;ns=&amp;rev=1629797083&amp;tab_details=history&amp;mediado=diff&amp;do=media</link>
-        <description>&lt;img src=&quot;https://wiki.chifek.ru/lib/exe/fetch.php?w=500&amp;h=120&amp;t=1629797083&amp;amp;tok=92639c&amp;amp;media=postgre_02.png&quot; alt=&quot;postgre_02.png&quot; /&gt;</description>
     </item>
 </rdf:RDF>

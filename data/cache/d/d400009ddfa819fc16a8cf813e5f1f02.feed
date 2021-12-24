@@ -11,7 +11,7 @@
         <description></description>
         <link>https://wiki.chifek.ru/</link>
         <image rdf:resource="https://wiki.chifek.ru/lib/tpl/dokuwiki/images/favicon.ico" />
-       <dc:date>2021-12-20T19:24:31+00:00</dc:date>
+       <dc:date>2021-12-23T18:38:08+00:00</dc:date>
         <items>
             <rdf:Seq>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=15_sovetov&amp;rev=1629797866&amp;do=diff"/>
@@ -65,6 +65,7 @@
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=noxcode&amp;rev=1629882572&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=npm&amp;rev=1608199817&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=npm_shrinkwrap&amp;rev=1608199823&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=nvm&amp;rev=1640073633&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=openvpn&amp;rev=1632864797&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=osnovnoy_syntacsis&amp;rev=1613681955&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=pdf_generate&amp;rev=1611729963&amp;do=diff"/>
@@ -90,7 +91,7 @@
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=ssh_keys&amp;rev=1608486012&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=ssh_server&amp;rev=1608486401&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=ssl&amp;rev=1611505181&amp;do=diff"/>
-                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=start&amp;rev=1639401451&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=start&amp;rev=1640073229&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=startprojectjava&amp;rev=1629238850&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=telegram&amp;rev=1613333254&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=types_java&amp;rev=1627421310&amp;do=diff"/>
@@ -799,6 +800,29 @@ xcode-select --install</description>
 
 I've recently talked to people who are mostly PHP developers and want to try Node.js. For installing and managing dependencies, they use Composer. Composer creates 2 files, composer.json and composer.lock. Composer.json file is similar to package.json in Node.js but what's composer.lock? Here comes npm shrinkwrap.</description>
     </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=nvm&amp;rev=1640073633&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-12-21T11:00:33+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>nvm</title>
+        <link>https://wiki.chifek.ru/doku.php?id=nvm&amp;rev=1640073633&amp;do=diff</link>
+        <description>NVM Install
+
+Now, you system is ready for the installation. Update the Homebrew package list and install NVM.
+
+
+brew update
+brew install nvm
+
+
+Next, create a directory for NVM in home.
+
+
+mkdir ~/.nvm
+
+
+Now, configure the required environment variables. Edit the following configuration file in your home directory</description>
+    </item>
     <item rdf:about="https://wiki.chifek.ru/doku.php?id=openvpn&amp;rev=1632864797&amp;do=diff">
         <dc:format>text/html</dc:format>
         <dc:date>2021-09-29T00:33:17+00:00</dc:date>
@@ -1136,12 +1160,12 @@ SSH into the server running your HTTP website as a user with sudo privileges.
 You'll need to install snapd and make sure you follow any instructions to enable classic snap support.
 Follow these instructions on snapcraft's site to install snapd.</description>
     </item>
-    <item rdf:about="https://wiki.chifek.ru/doku.php?id=start&amp;rev=1639401451&amp;do=diff">
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=start&amp;rev=1640073229&amp;do=diff">
         <dc:format>text/html</dc:format>
-        <dc:date>2021-12-13T16:17:31+00:00</dc:date>
+        <dc:date>2021-12-21T10:53:49+00:00</dc:date>
         <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
         <title>start</title>
-        <link>https://wiki.chifek.ru/doku.php?id=start&amp;rev=1639401451&amp;do=diff</link>
+        <link>https://wiki.chifek.ru/doku.php?id=start&amp;rev=1640073229&amp;do=diff</link>
         <description>kn0wledge_l1brary
 
 Wiki справочник для IT. 
@@ -1166,6 +1190,8 @@ JavaScript
 JavaScript
 
 npm
+
+nvm
 
 yarn
 

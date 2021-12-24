@@ -11,10 +11,10 @@
         <description></description>
         <link>https://wiki.chifek.ru/</link>
         <image rdf:resource="https://wiki.chifek.ru/lib/tpl/dokuwiki/images/favicon.ico" />
-       <dc:date>2021-12-21T10:59:05+00:00</dc:date>
+       <dc:date>2021-12-23T18:38:11+00:00</dc:date>
         <items>
             <rdf:Seq>
-                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=nvm&amp;rev=1640073533&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=nvm&amp;rev=1640073633&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=start&amp;rev=1640073229&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=vim&amp;rev=1639542857&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=320e8421-f231-41ea-bd09-24b65a4d2c62.png&amp;ns=&amp;rev=1639542832&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
@@ -26,14 +26,14 @@
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=javasript&amp;rev=1638686777&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=array_js&amp;rev=1638686763&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=478a2909-8769-4d8b-ace7-19e6f979245b.png&amp;ns=&amp;rev=1638686650&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
-                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=git_hook&amp;rev=1638174700&amp;do=diff"/>
-                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=git&amp;rev=1638174692&amp;do=diff"/>
-                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=asdas&amp;rev=1635245634&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=webpack.pptx&amp;ns=&amp;rev=1630048070&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=postgre_06.png&amp;ns=&amp;rev=1629797385&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=postgre_05.png&amp;ns=&amp;rev=1629797342&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=postgre_04.png&amp;ns=&amp;rev=1629797301&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=postgre_03.png&amp;ns=&amp;rev=1629797154&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=postgre_02.png&amp;ns=&amp;rev=1629797083&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=postgre_01.png&amp;ns=&amp;rev=1629797032&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=docs-gulp-command.png&amp;ns=&amp;rev=1629712030&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
             </rdf:Seq>
         </items>
     </channel>
@@ -42,12 +42,12 @@
         <link>https://wiki.chifek.ru/</link>
         <url>https://wiki.chifek.ru/lib/tpl/dokuwiki/images/favicon.ico</url>
     </image>
-    <item rdf:about="https://wiki.chifek.ru/doku.php?id=nvm&amp;rev=1640073533&amp;do=diff">
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=nvm&amp;rev=1640073633&amp;do=diff">
         <dc:format>text/html</dc:format>
-        <dc:date>2021-12-21T10:58:53+00:00</dc:date>
+        <dc:date>2021-12-21T11:00:33+00:00</dc:date>
         <dc:creator>chifek (chifek@undisclosed.example.com)</dc:creator>
         <title>nvm</title>
-        <link>https://wiki.chifek.ru/doku.php?id=nvm&amp;rev=1640073533&amp;do=diff</link>
+        <link>https://wiki.chifek.ru/doku.php?id=nvm&amp;rev=1640073633&amp;do=diff</link>
         <description>NVM Install
 
 Now, you system is ready for the installation. Update the Homebrew package list and install NVM.
@@ -208,48 +208,6 @@ Array JavaScript</description>
         <link>https://wiki.chifek.ru/doku.php?image=478a2909-8769-4d8b-ace7-19e6f979245b.png&amp;ns=&amp;rev=1638686650&amp;tab_details=history&amp;mediado=diff&amp;do=media</link>
         <description>&lt;img src=&quot;https://wiki.chifek.ru/lib/exe/fetch.php?w=400&amp;h=500&amp;t=1638686650&amp;amp;tok=1b62ee&amp;amp;media=478a2909-8769-4d8b-ace7-19e6f979245b.png&quot; alt=&quot;478a2909-8769-4d8b-ace7-19e6f979245b.png&quot; /&gt;</description>
     </item>
-    <item rdf:about="https://wiki.chifek.ru/doku.php?id=git_hook&amp;rev=1638174700&amp;do=diff">
-        <dc:format>text/html</dc:format>
-        <dc:date>2021-11-29T11:31:40+00:00</dc:date>
-        <dc:creator>chifek (chifek@undisclosed.example.com)</dc:creator>
-        <title>git_hook - создано</title>
-        <link>https://wiki.chifek.ru/doku.php?id=git_hook&amp;rev=1638174700&amp;do=diff</link>
-        <description>vim .git/hooks/pre-commit</description>
-    </item>
-    <item rdf:about="https://wiki.chifek.ru/doku.php?id=git&amp;rev=1638174692&amp;do=diff">
-        <dc:format>text/html</dc:format>
-        <dc:date>2021-11-29T11:31:32+00:00</dc:date>
-        <dc:creator>chifek (chifek@undisclosed.example.com)</dc:creator>
-        <title>git</title>
-        <link>https://wiki.chifek.ru/doku.php?id=git&amp;rev=1638174692&amp;do=diff</link>
-        <description>git config
-
-Переименование и удаление ветки
-
-Уделение remote
-
-Проверки перед коммитом
-
-Добавление remote
-
-git squash
-
-git new project
-
-Частые команды git
-
-git reset HEAD~1
-
- где 1 это количество коммитов в которых были удалены файлы. Потом аккуратно убираете удаленные файлы из staging area и пушите все изменения на место.…</description>
-    </item>
-    <item rdf:about="https://wiki.chifek.ru/doku.php?id=asdas&amp;rev=1635245634&amp;do=diff">
-        <dc:format>text/html</dc:format>
-        <dc:date>2021-10-26T13:53:54+00:00</dc:date>
-        <dc:creator>a.manerova (a.manerova@undisclosed.example.com)</dc:creator>
-        <title>asdas - создано</title>
-        <link>https://wiki.chifek.ru/doku.php?id=asdas&amp;rev=1635245634&amp;do=diff</link>
-        <description>vxcvxcvxcv</description>
-    </item>
     <item rdf:about="https://wiki.chifek.ru/doku.php?image=webpack.pptx&amp;ns=&amp;rev=1630048070&amp;tab_details=history&amp;mediado=diff&amp;do=media">
         <dc:format>text/html</dc:format>
         <dc:date>2021-08-27T10:07:50+00:00</dc:date>
@@ -289,5 +247,29 @@ git reset HEAD~1
         <title>postgre_03.png - создано</title>
         <link>https://wiki.chifek.ru/doku.php?image=postgre_03.png&amp;ns=&amp;rev=1629797154&amp;tab_details=history&amp;mediado=diff&amp;do=media</link>
         <description>&lt;img src=&quot;https://wiki.chifek.ru/lib/exe/fetch.php?w=464&amp;h=52&amp;t=1629797154&amp;amp;tok=768fff&amp;amp;media=postgre_03.png&quot; alt=&quot;postgre_03.png&quot; /&gt;</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?image=postgre_02.png&amp;ns=&amp;rev=1629797083&amp;tab_details=history&amp;mediado=diff&amp;do=media">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-08-24T12:24:43+00:00</dc:date>
+        <dc:creator>chifek (chifek@undisclosed.example.com)</dc:creator>
+        <title>postgre_02.png - создано</title>
+        <link>https://wiki.chifek.ru/doku.php?image=postgre_02.png&amp;ns=&amp;rev=1629797083&amp;tab_details=history&amp;mediado=diff&amp;do=media</link>
+        <description>&lt;img src=&quot;https://wiki.chifek.ru/lib/exe/fetch.php?w=500&amp;h=120&amp;t=1629797083&amp;amp;tok=92639c&amp;amp;media=postgre_02.png&quot; alt=&quot;postgre_02.png&quot; /&gt;</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?image=postgre_01.png&amp;ns=&amp;rev=1629797032&amp;tab_details=history&amp;mediado=diff&amp;do=media">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-08-24T12:23:52+00:00</dc:date>
+        <dc:creator>chifek (chifek@undisclosed.example.com)</dc:creator>
+        <title>postgre_01.png - создано</title>
+        <link>https://wiki.chifek.ru/doku.php?image=postgre_01.png&amp;ns=&amp;rev=1629797032&amp;tab_details=history&amp;mediado=diff&amp;do=media</link>
+        <description>&lt;img src=&quot;https://wiki.chifek.ru/lib/exe/fetch.php?w=493&amp;h=139&amp;t=1629797032&amp;amp;tok=e19515&amp;amp;media=postgre_01.png&quot; alt=&quot;postgre_01.png&quot; /&gt;</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?image=docs-gulp-command.png&amp;ns=&amp;rev=1629712030&amp;tab_details=history&amp;mediado=diff&amp;do=media">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-08-23T12:47:10+00:00</dc:date>
+        <dc:creator>chifek (chifek@undisclosed.example.com)</dc:creator>
+        <title>docs-gulp-command.png - создано</title>
+        <link>https://wiki.chifek.ru/doku.php?image=docs-gulp-command.png&amp;ns=&amp;rev=1629712030&amp;tab_details=history&amp;mediado=diff&amp;do=media</link>
+        <description>&lt;img src=&quot;https://wiki.chifek.ru/lib/exe/fetch.php?w=500&amp;h=204&amp;t=1629712030&amp;amp;tok=52333b&amp;amp;media=docs-gulp-command.png&quot; alt=&quot;docs-gulp-command.png&quot; /&gt;</description>
     </item>
 </rdf:RDF>

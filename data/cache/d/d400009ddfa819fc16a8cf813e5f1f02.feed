@@ -11,7 +11,7 @@
         <description></description>
         <link>https://wiki.chifek.ru/</link>
         <image rdf:resource="https://wiki.chifek.ru/lib/tpl/dokuwiki/images/favicon.ico" />
-       <dc:date>2021-12-26T08:04:27+00:00</dc:date>
+       <dc:date>2021-12-28T07:35:31+00:00</dc:date>
         <items>
             <rdf:Seq>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=15_sovetov&amp;rev=1629797866&amp;do=diff"/>
@@ -79,10 +79,11 @@
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=psql&amp;rev=1629796613&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=remove_remote&amp;rev=1612207273&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=rename_branch&amp;rev=1611156427&amp;do=diff"/>
-                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=roadmap&amp;rev=1614087458&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=roadmap&amp;rev=1640633919&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=roadmapbackend&amp;rev=1614087394&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=roadmapdevops&amp;rev=1614087556&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=roadmapfronted&amp;rev=1614087328&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=roadmaptemlead&amp;rev=1640633980&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=rsync&amp;rev=1632419902&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=seeder&amp;rev=1608750811&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=sphp&amp;rev=1614288233&amp;do=diff"/>
@@ -1011,17 +1012,19 @@ git checkout -b branch_old
 
 delete remote branch</description>
     </item>
-    <item rdf:about="https://wiki.chifek.ru/doku.php?id=roadmap&amp;rev=1614087458&amp;do=diff">
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=roadmap&amp;rev=1640633919&amp;do=diff">
         <dc:format>text/html</dc:format>
-        <dc:date>2021-02-23T16:37:38+00:00</dc:date>
+        <dc:date>2021-12-27T22:38:39+00:00</dc:date>
         <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
         <title>roadmap</title>
-        <link>https://wiki.chifek.ru/doku.php?id=roadmap&amp;rev=1614087458&amp;do=diff</link>
+        <link>https://wiki.chifek.ru/doku.php?id=roadmap&amp;rev=1640633919&amp;do=diff</link>
         <description>roadmap frontend
 
 roadmap backend
 
-roadmap devops</description>
+roadmap devops
+
+roadmap TeamLead</description>
     </item>
     <item rdf:about="https://wiki.chifek.ru/doku.php?id=roadmapbackend&amp;rev=1614087394&amp;do=diff">
         <dc:format>text/html</dc:format>
@@ -1045,6 +1048,14 @@ roadmap devops</description>
         <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
         <title>roadmapfronted</title>
         <link>https://wiki.chifek.ru/doku.php?id=roadmapfronted&amp;rev=1614087328&amp;do=diff</link>
+        <description></description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=roadmaptemlead&amp;rev=1640633980&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-12-27T22:39:40+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>roadmaptemlead</title>
+        <link>https://wiki.chifek.ru/doku.php?id=roadmaptemlead&amp;rev=1640633980&amp;do=diff</link>
         <description></description>
     </item>
     <item rdf:about="https://wiki.chifek.ru/doku.php?id=rsync&amp;rev=1632419902&amp;do=diff">

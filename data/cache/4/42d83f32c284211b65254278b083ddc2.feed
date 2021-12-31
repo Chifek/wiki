@@ -11,7 +11,7 @@
         <description></description>
         <link>https://wiki.chifek.ru/</link>
         <image rdf:resource="https://wiki.chifek.ru/lib/tpl/dokuwiki/images/favicon.ico" />
-       <dc:date>2021-12-29T23:12:02+00:00</dc:date>
+       <dc:date>2021-12-30T16:17:26+00:00</dc:date>
         <items>
             <rdf:Seq>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=roadmaptemlead&amp;rev=1640633980&amp;do=diff"/>

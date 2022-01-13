@@ -1,0 +1,5 @@
+Run containers with m1 architecture.
+
+Need set the environment variable DOCKER_DEFAULT_PLATFORM
+
+''export DOCKER_DEFAULT_PLATFORM=linux/amd64''

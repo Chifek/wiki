@@ -11,9 +11,11 @@
         <description></description>
         <link>https://wiki.chifek.ru/</link>
         <image rdf:resource="https://wiki.chifek.ru/lib/tpl/dokuwiki/images/favicon.ico" />
-       <dc:date>2022-01-10T19:24:36+00:00</dc:date>
+       <dc:date>2022-01-19T08:53:16+00:00</dc:date>
         <items>
             <rdf:Seq>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=docker-m1&amp;rev=1641980058&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=macbook&amp;rev=1641979915&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=roadmaptemlead&amp;rev=1640633980&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=roadmap-ru.png&amp;ns=&amp;rev=1640633938&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=roadmap&amp;rev=1640633919&amp;do=diff"/>
@@ -25,7 +27,6 @@
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=border_radius&amp;rev=1639401514&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=css&amp;rev=1639401509&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=photo_2021-12-13_16-15-39.jpg&amp;ns=&amp;rev=1639401473&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
-                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=how_to_remove_images_and_containers_in_docker&amp;rev=1639032330&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=478a2909-8769-4d8b-ace7-19e6f979245b.png&amp;ns=&amp;rev=1638686650&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=webpack.pptx&amp;ns=&amp;rev=1630048070&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=postgre_06.png&amp;ns=&amp;rev=1629797385&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
@@ -33,7 +34,6 @@
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=postgre_04.png&amp;ns=&amp;rev=1629797301&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=postgre_03.png&amp;ns=&amp;rev=1629797154&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=postgre_02.png&amp;ns=&amp;rev=1629797083&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
-                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=postgre_01.png&amp;ns=&amp;rev=1629797032&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
             </rdf:Seq>
         </items>
     </channel>
@@ -42,6 +42,30 @@
         <link>https://wiki.chifek.ru/</link>
         <url>https://wiki.chifek.ru/lib/tpl/dokuwiki/images/favicon.ico</url>
     </image>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=docker-m1&amp;rev=1641980058&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2022-01-12T12:34:18+00:00</dc:date>
+        <dc:creator>chifek (chifek@undisclosed.example.com)</dc:creator>
+        <title>docker-m1</title>
+        <link>https://wiki.chifek.ru/doku.php?id=docker-m1&amp;rev=1641980058&amp;do=diff</link>
+        <description>Run containers with m1 architecture.
+
+Need set the environment variable DOCKER_DEFAULT_PLATFORM
+
+export DOCKER_DEFAULT_PLATFORM=linux/amd64</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=macbook&amp;rev=1641979915&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2022-01-12T12:31:55+00:00</dc:date>
+        <dc:creator>chifek (chifek@undisclosed.example.com)</dc:creator>
+        <title>macbook</title>
+        <link>https://wiki.chifek.ru/doku.php?id=macbook&amp;rev=1641979915&amp;do=diff</link>
+        <description>FAQ
+
+Brew
+
+docker-m1</description>
+    </item>
     <item rdf:about="https://wiki.chifek.ru/doku.php?id=roadmaptemlead&amp;rev=1640633980&amp;do=diff">
         <dc:format>text/html</dc:format>
         <dc:date>2021-12-27T22:39:40+00:00</dc:date>
@@ -190,26 +214,6 @@ vim
         <link>https://wiki.chifek.ru/doku.php?image=photo_2021-12-13_16-15-39.jpg&amp;ns=&amp;rev=1639401473&amp;tab_details=history&amp;mediado=diff&amp;do=media</link>
         <description>&lt;img src=&quot;https://wiki.chifek.ru/lib/exe/fetch.php?w=483&amp;h=500&amp;t=1639401473&amp;amp;tok=7c2249&amp;amp;media=photo_2021-12-13_16-15-39.jpg&quot; alt=&quot;photo_2021-12-13_16-15-39.jpg&quot; /&gt;</description>
     </item>
-    <item rdf:about="https://wiki.chifek.ru/doku.php?id=how_to_remove_images_and_containers_in_docker&amp;rev=1639032330&amp;do=diff">
-        <dc:format>text/html</dc:format>
-        <dc:date>2021-12-09T09:45:30+00:00</dc:date>
-        <dc:creator>chifek (chifek@undisclosed.example.com)</dc:creator>
-        <title>how_to_remove_images_and_containers_in_docker</title>
-        <link>https://wiki.chifek.ru/doku.php?id=how_to_remove_images_and_containers_in_docker&amp;rev=1639032330&amp;do=diff</link>
-        <description>Чтобы остановить все контейнеры docker:
-
-
-docker stop $(docker ps -a -q)
-
-
-How to Remove Images and Containers in Docker
-
-docker system prune
-
-Extended description
-
-Remove all unused containers, networks, images (both dangling and unreferenced), and optionally, volumes.</description>
-    </item>
     <item rdf:about="https://wiki.chifek.ru/doku.php?image=478a2909-8769-4d8b-ace7-19e6f979245b.png&amp;ns=&amp;rev=1638686650&amp;tab_details=history&amp;mediado=diff&amp;do=media">
         <dc:format>text/html</dc:format>
         <dc:date>2021-12-05T09:44:10+00:00</dc:date>
@@ -265,13 +269,5 @@ Remove all unused containers, networks, images (both dangling and unreferenced),
         <title>postgre_02.png - создано</title>
         <link>https://wiki.chifek.ru/doku.php?image=postgre_02.png&amp;ns=&amp;rev=1629797083&amp;tab_details=history&amp;mediado=diff&amp;do=media</link>
         <description>&lt;img src=&quot;https://wiki.chifek.ru/lib/exe/fetch.php?w=500&amp;h=120&amp;t=1629797083&amp;amp;tok=92639c&amp;amp;media=postgre_02.png&quot; alt=&quot;postgre_02.png&quot; /&gt;</description>
-    </item>
-    <item rdf:about="https://wiki.chifek.ru/doku.php?image=postgre_01.png&amp;ns=&amp;rev=1629797032&amp;tab_details=history&amp;mediado=diff&amp;do=media">
-        <dc:format>text/html</dc:format>
-        <dc:date>2021-08-24T12:23:52+00:00</dc:date>
-        <dc:creator>chifek (chifek@undisclosed.example.com)</dc:creator>
-        <title>postgre_01.png - создано</title>
-        <link>https://wiki.chifek.ru/doku.php?image=postgre_01.png&amp;ns=&amp;rev=1629797032&amp;tab_details=history&amp;mediado=diff&amp;do=media</link>
-        <description>&lt;img src=&quot;https://wiki.chifek.ru/lib/exe/fetch.php?w=493&amp;h=139&amp;t=1629797032&amp;amp;tok=e19515&amp;amp;media=postgre_01.png&quot; alt=&quot;postgre_01.png&quot; /&gt;</description>
     </item>
 </rdf:RDF>

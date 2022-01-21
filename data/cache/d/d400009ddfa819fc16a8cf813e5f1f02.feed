@@ -11,7 +11,7 @@
         <description></description>
         <link>https://wiki.chifek.ru/</link>
         <image rdf:resource="https://wiki.chifek.ru/lib/tpl/dokuwiki/images/favicon.ico" />
-       <dc:date>2022-01-10T02:32:11+00:00</dc:date>
+       <dc:date>2022-01-21T07:56:17+00:00</dc:date>
         <items>
             <rdf:Seq>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=15_sovetov&amp;rev=1629797866&amp;do=diff"/>
@@ -32,6 +32,7 @@
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=create_database&amp;rev=1610226146&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=css&amp;rev=1639401509&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=debug_print_backtrace&amp;rev=1613461782&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=docker-m1&amp;rev=1641980058&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=docker&amp;rev=1611509602&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=downgradepsql&amp;rev=1614288640&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=dry&amp;rev=1629923633&amp;do=diff"/>
@@ -60,7 +61,7 @@
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=linux&amp;rev=1639542813&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=linux_links&amp;rev=1616801242&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=linuxsize&amp;rev=1616788516&amp;do=diff"/>
-                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=macbook&amp;rev=1629882651&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=macbook&amp;rev=1641979915&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=new_project_git&amp;rev=1612207522&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=noxcode&amp;rev=1629882572&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=npm&amp;rev=1608199817&amp;do=diff"/>
@@ -347,6 +348,18 @@ debug_print_backtrace — Выводит стек вызовов функций
 
 void debug_print_backtrace ([ int $options = 0 [, int $limit = 0 ]] )
 debug_print_backtrace() выводит стек вызовов функций. Выводит вызовы функций, имена включенных/требуемых файлов и другую информацию из функций (eval()).…</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=docker-m1&amp;rev=1641980058&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2022-01-12T12:34:18+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>docker-m1</title>
+        <link>https://wiki.chifek.ru/doku.php?id=docker-m1&amp;rev=1641980058&amp;do=diff</link>
+        <description>Run containers with m1 architecture.
+
+Need set the environment variable DOCKER_DEFAULT_PLATFORM
+
+export DOCKER_DEFAULT_PLATFORM=linux/amd64</description>
     </item>
     <item rdf:about="https://wiki.chifek.ru/doku.php?id=docker&amp;rev=1611509602&amp;do=diff">
         <dc:format>text/html</dc:format>
@@ -736,15 +749,17 @@ vim
         <link>https://wiki.chifek.ru/doku.php?id=linuxsize&amp;rev=1616788516&amp;do=diff</link>
         <description>Сколько осталось свободного места? Кто его занял? С этими двумя вопросами сталкиваться приходится постоянно, особенно администраторам файловых серверов. Если на платформе Windows, в графическом окружении выяснить это не составляет особого труда, то консоль серверных версий Linux способна многих привести в замешательство. Однако не стоит пугаться, получить интересующую информацию в среде Linux тоже довольно просто.…</description>
     </item>
-    <item rdf:about="https://wiki.chifek.ru/doku.php?id=macbook&amp;rev=1629882651&amp;do=diff">
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=macbook&amp;rev=1641979915&amp;do=diff">
         <dc:format>text/html</dc:format>
-        <dc:date>2021-08-25T12:10:51+00:00</dc:date>
+        <dc:date>2022-01-12T12:31:55+00:00</dc:date>
         <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
         <title>macbook</title>
-        <link>https://wiki.chifek.ru/doku.php?id=macbook&amp;rev=1629882651&amp;do=diff</link>
+        <link>https://wiki.chifek.ru/doku.php?id=macbook&amp;rev=1641979915&amp;do=diff</link>
         <description>FAQ
 
-Brew</description>
+Brew
+
+docker-m1</description>
     </item>
     <item rdf:about="https://wiki.chifek.ru/doku.php?id=new_project_git&amp;rev=1612207522&amp;do=diff">
         <dc:format>text/html</dc:format>

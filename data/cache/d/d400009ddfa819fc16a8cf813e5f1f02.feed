@@ -11,7 +11,7 @@
         <description></description>
         <link>https://wiki.chifek.ru/</link>
         <image rdf:resource="https://wiki.chifek.ru/lib/tpl/dokuwiki/images/favicon.ico" />
-       <dc:date>2022-02-15T20:42:47+00:00</dc:date>
+       <dc:date>2022-03-03T13:46:45+00:00</dc:date>
         <items>
             <rdf:Seq>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=15_sovetov&amp;rev=1629797866&amp;do=diff"/>

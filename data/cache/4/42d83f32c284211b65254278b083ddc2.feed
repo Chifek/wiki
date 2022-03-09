@@ -11,9 +11,10 @@
         <description></description>
         <link>https://wiki.chifek.ru/</link>
         <image rdf:resource="https://wiki.chifek.ru/lib/tpl/dokuwiki/images/favicon.ico" />
-       <dc:date>2022-02-15T20:42:48+00:00</dc:date>
+       <dc:date>2022-03-07T10:40:59+00:00</dc:date>
         <items>
             <rdf:Seq>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=bashrc&amp;rev=1646338227&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=docker-m1&amp;rev=1641980058&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=macbook&amp;rev=1641979915&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=roadmaptemlead&amp;rev=1640633980&amp;do=diff"/>
@@ -24,8 +25,6 @@
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=vim&amp;rev=1639542857&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=320e8421-f231-41ea-bd09-24b65a4d2c62.png&amp;ns=&amp;rev=1639542832&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=linux&amp;rev=1639542813&amp;do=diff"/>
-                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=border_radius&amp;rev=1639401514&amp;do=diff"/>
-                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=css&amp;rev=1639401509&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=photo_2021-12-13_16-15-39.jpg&amp;ns=&amp;rev=1639401473&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=478a2909-8769-4d8b-ace7-19e6f979245b.png&amp;ns=&amp;rev=1638686650&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=webpack.pptx&amp;ns=&amp;rev=1630048070&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
@@ -34,6 +33,7 @@
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=postgre_04.png&amp;ns=&amp;rev=1629797301&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=postgre_03.png&amp;ns=&amp;rev=1629797154&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=postgre_02.png&amp;ns=&amp;rev=1629797083&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=postgre_01.png&amp;ns=&amp;rev=1629797032&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
             </rdf:Seq>
         </items>
     </channel>
@@ -42,6 +42,26 @@
         <link>https://wiki.chifek.ru/</link>
         <url>https://wiki.chifek.ru/lib/tpl/dokuwiki/images/favicon.ico</url>
     </image>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=bashrc&amp;rev=1646338227&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2022-03-03T23:10:27+00:00</dc:date>
+        <dc:creator>chifek (chifek@undisclosed.example.com)</dc:creator>
+        <title>bashrc</title>
+        <link>https://wiki.chifek.ru/doku.php?id=bashrc&amp;rev=1646338227&amp;do=diff</link>
+        <description>Редактируем ~/.bashrc
+
+Начало скрипта:
+
+function parse_git_branch {
+  git branch --no-color 2&gt; /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ \[\1\]/'
+    }
+    function prompt {
+            # OPTIONAL - if you want to use any of these other colors:
+                    local        RED=&quot;\[\033[0;31m\]&quot;
+                            local   LIGHT_RED=&quot;\[\033[1;31m\]&quot;
+                                    local      GREEN=&quot;\[\033[0;32m\]&quot;
+                                            local LIGHT_GREEN=&quot;\…</description>
+    </item>
     <item rdf:about="https://wiki.chifek.ru/doku.php?id=docker-m1&amp;rev=1641980058&amp;do=diff">
         <dc:format>text/html</dc:format>
         <dc:date>2022-01-12T12:34:18+00:00</dc:date>
@@ -190,22 +210,6 @@ vim
 
 Отображает текущую ветку в терминале</description>
     </item>
-    <item rdf:about="https://wiki.chifek.ru/doku.php?id=border_radius&amp;rev=1639401514&amp;do=diff">
-        <dc:format>text/html</dc:format>
-        <dc:date>2021-12-13T16:18:34+00:00</dc:date>
-        <dc:creator>chifek (chifek@undisclosed.example.com)</dc:creator>
-        <title>border_radius - создано</title>
-        <link>https://wiki.chifek.ru/doku.php?id=border_radius&amp;rev=1639401514&amp;do=diff</link>
-        <description></description>
-    </item>
-    <item rdf:about="https://wiki.chifek.ru/doku.php?id=css&amp;rev=1639401509&amp;do=diff">
-        <dc:format>text/html</dc:format>
-        <dc:date>2021-12-13T16:18:29+00:00</dc:date>
-        <dc:creator>chifek (chifek@undisclosed.example.com)</dc:creator>
-        <title>css</title>
-        <link>https://wiki.chifek.ru/doku.php?id=css&amp;rev=1639401509&amp;do=diff</link>
-        <description>Border radius</description>
-    </item>
     <item rdf:about="https://wiki.chifek.ru/doku.php?image=photo_2021-12-13_16-15-39.jpg&amp;ns=&amp;rev=1639401473&amp;tab_details=history&amp;mediado=diff&amp;do=media">
         <dc:format>text/html</dc:format>
         <dc:date>2021-12-13T16:17:53+00:00</dc:date>
@@ -269,5 +273,13 @@ vim
         <title>postgre_02.png - создано</title>
         <link>https://wiki.chifek.ru/doku.php?image=postgre_02.png&amp;ns=&amp;rev=1629797083&amp;tab_details=history&amp;mediado=diff&amp;do=media</link>
         <description>&lt;img src=&quot;https://wiki.chifek.ru/lib/exe/fetch.php?w=500&amp;h=120&amp;t=1629797083&amp;amp;tok=92639c&amp;amp;media=postgre_02.png&quot; alt=&quot;postgre_02.png&quot; /&gt;</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?image=postgre_01.png&amp;ns=&amp;rev=1629797032&amp;tab_details=history&amp;mediado=diff&amp;do=media">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-08-24T12:23:52+00:00</dc:date>
+        <dc:creator>chifek (chifek@undisclosed.example.com)</dc:creator>
+        <title>postgre_01.png - создано</title>
+        <link>https://wiki.chifek.ru/doku.php?image=postgre_01.png&amp;ns=&amp;rev=1629797032&amp;tab_details=history&amp;mediado=diff&amp;do=media</link>
+        <description>&lt;img src=&quot;https://wiki.chifek.ru/lib/exe/fetch.php?w=493&amp;h=139&amp;t=1629797032&amp;amp;tok=e19515&amp;amp;media=postgre_01.png&quot; alt=&quot;postgre_01.png&quot; /&gt;</description>
     </item>
 </rdf:RDF>

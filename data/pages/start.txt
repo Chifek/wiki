@@ -19,6 +19,8 @@ Wiki справочник для IT.
 
 [[sphp|Переключение между версиями PHP]]
 
+[[SOLID|SOLID in PHP]]
+
 ===== JavaScript =====
 
 [[javasript|JavaScript]]

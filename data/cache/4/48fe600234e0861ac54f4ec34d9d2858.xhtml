@@ -1,0 +1,130 @@
+
+<h1 class="sectionedit1" id="принцип_инверсии_зависимостей_англ_dependency_inversion_principle_dip">Принцип инверсии зависимостей (англ. Dependency Inversion Principle, DIP).</h1>
+<div class="level1">
+
+<p>
+Пятый SOLID принцип.
+</p>
+
+<p>
+Формулировка:
+</p>
+
+<p>
+<em>Зависимости внутри системы строятся на основе абстракций.
+Модули верхних уровней не должны зависеть от модулей нижних уровней. Оба типа модулей должны зависеть от абстракций.
+Абстракции не должны зависеть от деталей. Детали должны зависеть от абстракций.</em>
+</p>
+
+<p>
+Или
+</p>
+
+<p>
+<em>Зависимости должны строится относительно абстракций, а не деталей.
+На самом деле мы уже реализовывали этот принцип по мере изучения предыдущих
+И чтобы не повторяться и чтобы вам было интересно приведем интересный жизненный пример.</em>
+</p>
+
+<p>
+<em>husband.php:</em>
+</p>
+<pre class="code">class lowRankingMale {
+    public function eat() {
+        $wife = new Wife();
+        $food = $wife-&gt;getFood();
+        // ... eat
+    }
+}</pre>
+
+<p>
+<em>wife.php:</em>
+</p>
+<pre class="code">class Wife {
+    public function getFood() {
+        // ...
+        return $food;
+    }
+}</pre>
+
+<p>
+В данной системе низкоранговый самец - экземпляр класса lowRankingMale жестко зависит от класса Wife причем у него даже нет возможности выбора.
+Такая система крайне не гибкая и если придется вносить изменения, то сделать это будет сложно. Если мы будем изменять класс Wife, то мы нарушим принцип Открытости/Закрытости.
+Если мы создадим потомок класса Wife, то придется менять класс lowRankingMale и скорее всего другие иные классы, так как класс Wife может быть использован и в других классах.
+</p>
+
+<p>
+<em>husband.php:</em>
+</p>
+<pre class="code">class averageRankingMale {
+ 
+    private $wife;
+ 
+    public function __construct(Wife $wife) {
+        $this-&gt;wife = $wife;
+    }
+ 
+    public function eat() {
+        $food = $this-&gt;wife-&gt;getFood();
+        // ... eat
+    }
+}</pre>
+
+<p>
+В этой системе среднеранговый самец уже по-умнее и может принимать разные экземпляры класса Wife. Но тем не менее у нас все равно остается жесткая зависимость от класса Wife и другой класс мы использовать не можем.
+</p>
+
+<p>
+<em>husband.php:</em>
+</p>
+<pre class="code">class highRankingMale {
+ 
+    private $foodProvider;
+ 
+    public function __construct(IFoodProvider $foodProvider) {
+        $this-&gt;foodProvider = $foodProvider;
+    }
+ 
+    public function eat() {
+        $food = $this-&gt;foodProvider-&gt;getFood();
+        // ... eat
+    }
+}</pre>
+
+<p>
+<em>IFoodProvider.php:</em>
+</p>
+<pre class="code">interface IFoodProvider {
+    public function getFood();
+}</pre>
+
+<p>
+<em>restaurant.php:</em>
+</p>
+<pre class="code">class Restaurant implements IFoodProvider {
+    public function getFood() {
+        // ...
+        return $food;
+    }
+}</pre>
+
+<p>
+<em>wife.php:</em>
+</p>
+<pre class="code">class Wife implements IFoodProvider{
+    public function getFood() {
+        // ...
+        return $food;
+    }
+}</pre>
+
+<p>
+А вот уже высокоранговый самец (highRankingMale) имеет полную свободу. Он не привязан ни к какому классу, а привязан к абстракции - к набору свойств.
+И для того чтобы удовлетворить потребность в еде, он может выбрать любой объект класса который реализовывает интерфейс IFoodProvider.
+</p>
+
+<p>
+Выбирайте высокоранговый путь, друзья - и в коде и в жизни! ))))
+</p>
+
+</div>

@@ -1,0 +1,105 @@
+
+<h1 class="sectionedit1" id="принцип_разделения_интерфейса_interface_segregation_principle_isp">Принцип разделения интерфейса (Interface Segregation Principle, ISP).</h1>
+<div class="level1">
+
+<p>
+Четвертый SOLID принцип из пяти.
+Формулировка:
+</p>
+
+<p>
+<em>Клиенты не должны зависить от методов, которые они не используют.</em>
+</p>
+
+<p>
+или
+</p>
+
+<p>
+<em>Много специализированных интерфейсов лучше, чем один универсальный.</em>
+</p>
+
+<p>
+Иными словами большие, объемные интерфейсы надо разбивать на мелкие таким образом, чтобы клиенты
+маленьких интерфейсов знали только о тех методах которые необходимы им в работе.
+И чтобы при изменении метода интерфейса не должны меняться клиенты, которые этот метод не используют.
+</p>
+
+<p>
+Пример.
+</p>
+
+<p>
+<em>ITransformer.php:</em>
+</p>
+<pre class="code">interface ISuperTransformer
+{
+    public function toCar();
+    public function toPlane();
+    public function toShip();
+}</pre>
+
+<p>
+<em>transformers.php:</em>
+</p>
+<pre class="code">class SuperTransformer implements ISuperTransformer {
+    public function toCar(){
+        echo &#039;transform to car&#039;;
+    }
+     
+    public function toPlane(){
+        echo &#039;transform to plane&#039;;
+    }
+     
+    public function toShip(){
+        echo &#039;transform to ship&#039;;
+    }
+}
+ 
+class CarTransformer implements ISuperTransformer {
+    public function toCar(){
+        echo &#039;transform to car&#039;;
+    }
+     
+    public function toPlane(){
+        throw new Exception(&#039;i can`t transform to plane&#039;);
+    }
+     
+    public function toShip(){
+        throw new Exception(&#039;i can`t transform to ship&#039;);
+    }
+}</pre>
+
+<p>
+Разбиваем на несколько интерфейсов.
+</p>
+
+<p>
+<em>ITransformer.php:</em>
+</p>
+<pre class="code">interface ICarTransformer {
+    public function toCar();
+}
+ 
+interface IPlaneTransformer {
+    public function toPlane();
+}
+ 
+interface IShipTransformer {
+    public function toShip();
+}</pre>
+
+<p>
+<em>transformers.php:</em>
+</p>
+<pre class="code">class SuperTransformer implements ICarTransformer, IPlaneTransformer, IShipTransformer {
+//...
+}
+ 
+class CarTransformer implements ICarTransformer {
+    public function toCar(){
+        echo &#039;transform to car&#039;;
+    }
+}</pre>
+
+</div>

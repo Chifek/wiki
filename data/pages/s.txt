@@ -1,0 +1,86 @@
+====== Принцип единственной обязанности (ответственности)(Single responsibility principle). ======
+
+
+Этот принцип первый в списке принципов SOLID.
+Обозначает, что любой объект должен иметь лишь одну обязанность и эта обязанность должна быть полностью реализована в классе объекта (инкапсулирована).
+ 
+Из этого следует что должна быть одна причина чтобы вносить изменения в объект.
+ 
+Пример
+
+//index.php//
+
+
+<code>
+$product = new Product();
+$product->setPrice(10);
+</code>
+
+
+//product.php//
+
+
+<code>
+class Product {
+public function setPrice($price) {
+    try {
+        // save price in db
+    } catch (DbException $e) {
+        $this->logError($e->getMessage());
+    }
+}
+ 
+public function logError($error) {
+    // save error message
+    }
+}
+
+</code>
+
+Класс Product нарушает принцип единственной ответственности, так как он имеет две ответственности:
+  - Работа с продуктом
+  - Логирование ошибок
+
+//logger.php//
+
+<code>
+class Logger {
+    public function log($message) {
+        //...
+        $this->saveToFile($message);
+    }
+}
+</code>
+
+Теперь изменим файл index.php:
+
+//index.php//
+
+<code>
+$logger  = new Logger();
+$product = new Product($logger);
+$product->setPrice(10);
+</code>
+
+Изменим класс Product:
+
+//product.php//
+
+<code>
+class Product {
+    private $logger;
+      
+    public function __construct(Logger $logger) {
+        $this->logger = $logger;
+    }
+ 
+    public function setPrice($price) {
+        try {
+            // save price in db
+        } catch (DbException $e) {
+            $this->logger->log($e->getMessage());
+        }
+    }
+}
+</code>
+

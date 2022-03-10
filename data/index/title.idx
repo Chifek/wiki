@@ -90,3 +90,9 @@ SOLID
 NVM Install
 
 
+
+Принцип единственной обязанности (ответственности)(Single responsibility principle).
+Принцип открытости / закрытости. (Open/closed principle)
+Принцип подстановки Барбары Лисков. (Liskov Substitution Principle, LSP)
+Принцип разделения интерфейса (Interface Segregation Principle, ISP).
+Принцип инверсии зависимостей (англ. Dependency Inversion Principle, DIP).

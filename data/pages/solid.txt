@@ -1,0 +1,9 @@
+[[S|S - Single responsibility principle]]
+
+[[O|O - Open/closed principle]]
+
+[[L|L - Liskov Substitution Principle, LSP]]
+
+[[I|I - Interface Segregation Principle, ISP]]
+
+[[D|D - Dependency Inversion Principle, DIP]]

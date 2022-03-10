@@ -1,0 +1,126 @@
+
+<h1 class="sectionedit1" id="принцип_подстановки_барбары_лисков_liskov_substitution_principle_lsp">Принцип подстановки Барбары Лисков. (Liskov Substitution Principle, LSP)</h1>
+<div class="level1">
+
+<p>
+Это третий из пяти принципов <strong>SOLID</strong> и наиболее сложный для понимания.
+В оригинале данный принцип звучит так:
+</p>
+
+<p>
+<em>Пусть q(x) является свойством, верным относительно объектов x некоторого типа T.
+Тогда q(y) также должно быть верным для объектов y типа S, где S является подтипом типа T.
+</em>
+</p>
+
+<p>
+Роберт Мартин перефразировал это так:
+</p>
+
+<p>
+<em>Функции, которые используют базовый тип, должны иметь возможность использовать подтипы базового типа, не зная об этом.</em>
+</p>
+
+<p>
+Иными словами -
+</p>
+
+<p>
+<em>Поведение наследуемых классов не должно противоречить поведению, заданному базовым классом, то есть поведение наследуемых классов должно быть ожидаемым для кода который использует базовый класс.</em>
+</p>
+
+<p>
+Приведем пример
+</p>
+
+<p>
+<em>index.php:</em>
+</p>
+<pre class="code">$bird    = new Bird();
+$birdRun = new BirdRun($bird);
+$birdRun-&gt;run();</pre>
+
+<p>
+<em>bird.php:</em>
+</p>
+<pre class="code">/**
+* Реально используемый в коде класс
+*/
+class Bird {
+    public function fly() {
+        $flySpeed = 10;
+        return $flySpeed;
+    }
+}
+ 
+/**
+* Дочерний класс от Bird. 
+* Не изменяет поведение, но дополняет.
+* Не нарушает принцип LSP
+*/
+class Duck extends Bird {
+ 
+    public function fly() {
+        $flySpeed = 8;
+        return $flySpeed;
+    }
+     
+    public function swim() {
+        $swimSpeed = 2;
+        return $swimSpeed;
+    }
+}
+ 
+/**
+* Дочерний класс от Bird. 
+* Изменяет поведение.
+* Нарушает принцип LSP
+*/
+class Penguin extends Bird {
+ 
+    public function fly() {
+          //die(&#039;i can`t fly (((&#039;);  // не типичное поведение - die или exception
+          return &#039;i can`t fly (((&#039;; // не типичное поведение - возвращаем string, а не integer
+    }
+ 
+    public function swim() {
+        $swimSpeed = 4;
+        return $swimSpeed;
+    }
+}</pre>
+
+<p>
+<em>birdRun.php:</em>
+</p>
+<pre class="code">class BirdRun {
+ 
+    private $bird; 
+    public function __construct(Bird $bird) {
+        $this-&gt;bird = $bird;
+    }
+ 
+    public function run() {
+        $flySpeed = $this-&gt;bird-&gt;fly();
+    }
+}</pre>
+
+<p>
+<em>index.php:</em>
+</p>
+<pre class="code">$bird = new Bird();
+//$bird = new Duck();
+//$bird = new Penguin();
+$birdRun = new BirdRun($bird);
+$birdRun-&gt;run();</pre>
+
+<p>
+После замены использования Bird на Duck код будет работать как и прежде - принцип LSP соблюден. 
+После замены Bird на Penguin код меняет свое поведение, следовательно в данном случае принцип LSP нарушен.
+</p>
+
+<p>
+Следовать этому типу очень важно при проектировании новых типов с использованием наследования.
+Этот принцип предупреждает о том, что изменение унаследованного производным типом поведения очень рискованно.
+</p>
+
+</div>

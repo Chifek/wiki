@@ -1,0 +1,129 @@
+====== Принцип открытости / закрытости. (Open/closed principle) ======
+
+
+Второй принцип из списка принципов SOLID.
+Классы (модули, функции) должны быть открыты для расширения и закрыты для изменения.
+Иными словами приложение следует проектировать так чтобы для изменения поведения класса, 
+нам не потребовалось менять код самого класса.
+
+Для демонстрации этого принципа продолжим модификацию примера из предыдущего принципа.
+Дано:
+
+//index.php://
+
+
+<code>
+$logger  = new Logger();
+$product = new Product($logger);
+$product->setPrice(10);
+</code>
+
+//product.php//
+
+<code>
+protected $logger;
+     
+    public function __construct(Logger $logger) {
+        $this->logger = $logger;
+    }
+ 
+    public function setPrice($price) {
+        try {
+            // save price in db
+        } catch (DbException $e) {
+            $this->logger->log($e->getMessage());
+        }
+    }
+</code>
+
+
+//logger.php//
+
+<code>
+class Logger {
+    private function saveToFile($message) {
+        //...
+    }
+    public function log($message) {
+        //...
+        $this->saveToFile($message);
+    }
+}
+</code>
+
+В данном примере мы имеем два класса. Класс Product который отвечает за работу с товаром. 
+И класс Logger цель которого логировать ошибки в текстовый файл.
+
+Задача:
+Сделать логирование не в текстовый файл, а в базу данных.
+(либо логироваться в БД должен только класс Product, но другие классы, которые используют Logger, 
+должны логировать в файл как и прежде)
+
+В данном примере, для того чтобы реализовать требования заказчика, мы нарушаем принцип открытости/закрытости.
+Так как будем вынуждены модифицировать существующие классы.
+Если функционал нашей системы не сложен, то этим можно пренебречь, 
+но если система у нас большая, то изменения в классах могут вызвать непредсказуемые ошибки.
+
+Для того чтобы следовать принципу открытости/закрытости организовать нашу систему можно следующим образом.
+
+//LoggerInterface.php://
+
+<code>
+interface ILogger {
+    public function log();
+}
+</code>
+
+//logger.php://
+
+<code>
+class FileLogger implements ILogger {
+ 
+    private function saveToFile($message) {
+        //...
+    }
+    public function log($message) {
+        //...
+        $this->saveToFile($message);
+    }
+}
+ 
+class DBLogger implements ILogger {
+ 
+    private function saveToDB($message) {
+        //...
+    }
+    public function log($message) {
+        //...
+        $this->saveToDB($message);
+    }
+}
+</code>
+
+//product.php://
+
+<code>
+protected $logger;
+     
+    public function __construct(ILogger $logger) {
+        $this->logger = $logger;
+    }
+ 
+    public function setPrice($price) {
+        try {
+            // save price in db
+        } catch (DbException $e) {
+            $this->logger->log($e->getMessage());
+        }
+    }
+</code>
+
+
+//index.php://
+
+<code>
+$logger  = new DBLogger();
+$product = new Product($logger);
+$product->setPrice(10);
+</code>
+

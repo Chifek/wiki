@@ -1,0 +1,96 @@
+
+<h1 class="sectionedit1" id="принцип_единственной_обязанности_ответственности_single_responsibility_principle">Принцип единственной обязанности (ответственности)(Single responsibility principle).</h1>
+<div class="level1">
+
+<p>
+Этот принцип первый в списке принципов SOLID.
+Обозначает, что любой объект должен иметь лишь одну обязанность и эта обязанность должна быть полностью реализована в классе объекта (инкапсулирована).
+</p>
+
+<p>
+Из этого следует что должна быть одна причина чтобы вносить изменения в объект.
+</p>
+
+<p>
+Пример
+</p>
+
+<p>
+<em>index.php</em>
+</p>
+<pre class="code">$product = new Product();
+$product-&gt;setPrice(10);</pre>
+
+<p>
+<em>product.php</em>
+</p>
+<pre class="code">class Product {
+public function setPrice($price) {
+    try {
+        // save price in db
+    } catch (DbException $e) {
+        $this-&gt;logError($e-&gt;getMessage());
+    }
+}
+ 
+public function logError($error) {
+    // save error message
+    }
+}
+</pre>
+
+<p>
+Класс Product нарушает принцип единственной ответственности, так как он имеет две ответственности:
+</p>
+<ol>
+<li class="level1"><div class="li"> Работа с продуктом</div>
+</li>
+<li class="level1"><div class="li"> Логирование ошибок</div>
+</li>
+</ol>
+
+<p>
+<em>logger.php</em>
+</p>
+<pre class="code">class Logger {
+    public function log($message) {
+        //...
+        $this-&gt;saveToFile($message);
+    }
+}</pre>
+
+<p>
+Теперь изменим файл index.php:
+</p>
+
+<p>
+<em>index.php</em>
+</p>
+<pre class="code">$logger  = new Logger();
+$product = new Product($logger);
+$product-&gt;setPrice(10);</pre>
+
+<p>
+Изменим класс Product:
+</p>
+
+<p>
+<em>product.php</em>
+</p>
+<pre class="code">class Product {
+    private $logger;
+      
+    public function __construct(Logger $logger) {
+        $this-&gt;logger = $logger;
+    }
+ 
+    public function setPrice($price) {
+        try {
+            // save price in db
+        } catch (DbException $e) {
+            $this-&gt;logger-&gt;log($e-&gt;getMessage());
+        }
+    }
+}</pre>
+
+</div>

@@ -1,0 +1,133 @@
+
+<h1 class="sectionedit1" id="принцип_открытости_закрытости_open_closed_principle">Принцип открытости / закрытости. (Open/closed principle)</h1>
+<div class="level1">
+
+<p>
+Второй принцип из списка принципов SOLID.
+Классы (модули, функции) должны быть открыты для расширения и закрыты для изменения.
+Иными словами приложение следует проектировать так чтобы для изменения поведения класса, 
+нам не потребовалось менять код самого класса.
+</p>
+
+<p>
+Для демонстрации этого принципа продолжим модификацию примера из предыдущего принципа.
+Дано:
+</p>
+
+<p>
+<em>index.php:</em>
+</p>
+<pre class="code">$logger  = new Logger();
+$product = new Product($logger);
+$product-&gt;setPrice(10);</pre>
+
+<p>
+<em>product.php</em>
+</p>
+<pre class="code">protected $logger;
+     
+    public function __construct(Logger $logger) {
+        $this-&gt;logger = $logger;
+    }
+ 
+    public function setPrice($price) {
+        try {
+            // save price in db
+        } catch (DbException $e) {
+            $this-&gt;logger-&gt;log($e-&gt;getMessage());
+        }
+    }</pre>
+
+<p>
+<em>logger.php</em>
+</p>
+<pre class="code">class Logger {
+    private function saveToFile($message) {
+        //...
+    }
+    public function log($message) {
+        //...
+        $this-&gt;saveToFile($message);
+    }
+}</pre>
+
+<p>
+В данном примере мы имеем два класса. Класс Product который отвечает за работу с товаром. 
+И класс Logger цель которого логировать ошибки в текстовый файл.
+</p>
+
+<p>
+Задача:
+Сделать логирование не в текстовый файл, а в базу данных.
+(либо логироваться в БД должен только класс Product, но другие классы, которые используют Logger, 
+должны логировать в файл как и прежде)
+</p>
+
+<p>
+В данном примере, для того чтобы реализовать требования заказчика, мы нарушаем принцип открытости/закрытости.
+Так как будем вынуждены модифицировать существующие классы.
+Если функционал нашей системы не сложен, то этим можно пренебречь, 
+но если система у нас большая, то изменения в классах могут вызвать непредсказуемые ошибки.
+</p>
+
+<p>
+Для того чтобы следовать принципу открытости/закрытости организовать нашу систему можно следующим образом.
+</p>
+
+<p>
+<em>LoggerInterface.php:</em>
+</p>
+<pre class="code">interface ILogger {
+    public function log();
+}</pre>
+
+<p>
+<em>logger.php:</em>
+</p>
+<pre class="code">class FileLogger implements ILogger {
+ 
+    private function saveToFile($message) {
+        //...
+    }
+    public function log($message) {
+        //...
+        $this-&gt;saveToFile($message);
+    }
+}
+ 
+class DBLogger implements ILogger {
+ 
+    private function saveToDB($message) {
+        //...
+    }
+    public function log($message) {
+        //...
+        $this-&gt;saveToDB($message);
+    }
+}</pre>
+
+<p>
+<em>product.php:</em>
+</p>
+<pre class="code">protected $logger;
+     
+    public function __construct(ILogger $logger) {
+        $this-&gt;logger = $logger;
+    }
+ 
+    public function setPrice($price) {
+        try {
+            // save price in db
+        } catch (DbException $e) {
+            $this-&gt;logger-&gt;log($e-&gt;getMessage());
+        }
+    }</pre>
+
+<p>
+<em>index.php:</em>
+</p>
+<pre class="code">$logger  = new DBLogger();
+$product = new Product($logger);
+$product-&gt;setPrice(10);</pre>
+
+</div>

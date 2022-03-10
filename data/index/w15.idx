@@ -9,3 +9,6 @@ factoryabstract
 registryfactory
 abstractfactory
 getfirstproduct
+loggerinterface
+icartransformer
+highrankingmale

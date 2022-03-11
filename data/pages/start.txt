@@ -37,6 +37,8 @@ Wiki справочник для IT.
 
 [[psql|PostgreSQL]]
 
+[[indexsql|SQL Indexes]]
+
 ===== CSS =====
 
 [[css|CSS]]

@@ -96,3 +96,5 @@ NVM Install
 Принцип подстановки Барбары Лисков. (Liskov Substitution Principle, LSP)
 Принцип разделения интерфейса (Interface Segregation Principle, ISP).
 Принцип инверсии зависимостей (англ. Dependency Inversion Principle, DIP).
+Виды индексов SQL
+B-Tree

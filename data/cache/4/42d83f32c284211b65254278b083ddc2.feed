@@ -11,20 +11,18 @@
         <description></description>
         <link>https://wiki.chifek.ru/</link>
         <image rdf:resource="https://wiki.chifek.ru/lib/tpl/dokuwiki/images/favicon.ico" />
-       <dc:date>2022-03-07T10:40:59+00:00</dc:date>
+       <dc:date>2022-03-20T00:49:18+00:00</dc:date>
         <items>
             <rdf:Seq>
-                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=bashrc&amp;rev=1646338227&amp;do=diff"/>
-                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=docker-m1&amp;rev=1641980058&amp;do=diff"/>
-                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=macbook&amp;rev=1641979915&amp;do=diff"/>
-                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=roadmaptemlead&amp;rev=1640633980&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=b-tree&amp;rev=1646907632&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=indexsql&amp;rev=1646907269&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=start&amp;rev=1646906569&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=d&amp;rev=1646833013&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=solid&amp;rev=1646832745&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=i&amp;rev=1646832699&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=l&amp;rev=1646832517&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=roadmap-ru.png&amp;ns=&amp;rev=1640633938&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
-                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=roadmap&amp;rev=1640633919&amp;do=diff"/>
-                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=nvm&amp;rev=1640073633&amp;do=diff"/>
-                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=start&amp;rev=1640073229&amp;do=diff"/>
-                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=vim&amp;rev=1639542857&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=320e8421-f231-41ea-bd09-24b65a4d2c62.png&amp;ns=&amp;rev=1639542832&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
-                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=linux&amp;rev=1639542813&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=photo_2021-12-13_16-15-39.jpg&amp;ns=&amp;rev=1639401473&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=478a2909-8769-4d8b-ace7-19e6f979245b.png&amp;ns=&amp;rev=1638686650&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=webpack.pptx&amp;ns=&amp;rev=1630048070&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
@@ -34,6 +32,8 @@
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=postgre_03.png&amp;ns=&amp;rev=1629797154&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=postgre_02.png&amp;ns=&amp;rev=1629797083&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=postgre_01.png&amp;ns=&amp;rev=1629797032&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=docs-gulp-command.png&amp;ns=&amp;rev=1629712030&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=docs-gulp-version-command.png&amp;ns=&amp;rev=1629711852&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
             </rdf:Seq>
         </items>
     </channel>
@@ -42,109 +42,44 @@
         <link>https://wiki.chifek.ru/</link>
         <url>https://wiki.chifek.ru/lib/tpl/dokuwiki/images/favicon.ico</url>
     </image>
-    <item rdf:about="https://wiki.chifek.ru/doku.php?id=bashrc&amp;rev=1646338227&amp;do=diff">
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=b-tree&amp;rev=1646907632&amp;do=diff">
         <dc:format>text/html</dc:format>
-        <dc:date>2022-03-03T23:10:27+00:00</dc:date>
+        <dc:date>2022-03-10T13:20:32+00:00</dc:date>
         <dc:creator>chifek (chifek@undisclosed.example.com)</dc:creator>
-        <title>bashrc</title>
-        <link>https://wiki.chifek.ru/doku.php?id=bashrc&amp;rev=1646338227&amp;do=diff</link>
-        <description>Редактируем ~/.bashrc
+        <title>b-tree</title>
+        <link>https://wiki.chifek.ru/doku.php?id=b-tree&amp;rev=1646907632&amp;do=diff</link>
+        <description>B-Tree
 
-Начало скрипта:
+	*  Элемент ненумерованного спискаСоздается по умолчанию CREATE INDEX index_name ON table_name(column_name)
 
-function parse_git_branch {
-  git branch --no-color 2&gt; /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ \[\1\]/'
-    }
-    function prompt {
-            # OPTIONAL - if you want to use any of these other colors:
-                    local        RED=&quot;\[\033[0;31m\]&quot;
-                            local   LIGHT_RED=&quot;\[\033[1;31m\]&quot;
-                                    local      GREEN=&quot;\[\033[0;32m\]&quot;
-                                            local LIGHT_GREEN=&quot;\…</description>
+	*  Элемент ненумерованного спискаПоддерживает операции:</description>
     </item>
-    <item rdf:about="https://wiki.chifek.ru/doku.php?id=docker-m1&amp;rev=1641980058&amp;do=diff">
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=indexsql&amp;rev=1646907269&amp;do=diff">
         <dc:format>text/html</dc:format>
-        <dc:date>2022-01-12T12:34:18+00:00</dc:date>
+        <dc:date>2022-03-10T13:14:29+00:00</dc:date>
         <dc:creator>chifek (chifek@undisclosed.example.com)</dc:creator>
-        <title>docker-m1</title>
-        <link>https://wiki.chifek.ru/doku.php?id=docker-m1&amp;rev=1641980058&amp;do=diff</link>
-        <description>Run containers with m1 architecture.
+        <title>indexsql</title>
+        <link>https://wiki.chifek.ru/doku.php?id=indexsql&amp;rev=1646907269&amp;do=diff</link>
+        <description>Виды индексов SQL
 
-Need set the environment variable DOCKER_DEFAULT_PLATFORM
+ - B-tree (balanced tree - сбалансированное дерево)
 
-export DOCKER_DEFAULT_PLATFORM=linux/amd64</description>
+- Хеш-индекс
+
+- GiST (обобщённое дерево поиска)
+
+- GIN (обобщённый обратный)
+
+- SP-GiST (GiST с двоичным разбиением пространства)
+
+- BRIN (блочно-диапазонный)</description>
     </item>
-    <item rdf:about="https://wiki.chifek.ru/doku.php?id=macbook&amp;rev=1641979915&amp;do=diff">
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=start&amp;rev=1646906569&amp;do=diff">
         <dc:format>text/html</dc:format>
-        <dc:date>2022-01-12T12:31:55+00:00</dc:date>
-        <dc:creator>chifek (chifek@undisclosed.example.com)</dc:creator>
-        <title>macbook</title>
-        <link>https://wiki.chifek.ru/doku.php?id=macbook&amp;rev=1641979915&amp;do=diff</link>
-        <description>FAQ
-
-Brew
-
-docker-m1</description>
-    </item>
-    <item rdf:about="https://wiki.chifek.ru/doku.php?id=roadmaptemlead&amp;rev=1640633980&amp;do=diff">
-        <dc:format>text/html</dc:format>
-        <dc:date>2021-12-27T22:39:40+00:00</dc:date>
-        <dc:creator>chifek (chifek@undisclosed.example.com)</dc:creator>
-        <title>roadmaptemlead</title>
-        <link>https://wiki.chifek.ru/doku.php?id=roadmaptemlead&amp;rev=1640633980&amp;do=diff</link>
-        <description></description>
-    </item>
-    <item rdf:about="https://wiki.chifek.ru/doku.php?image=roadmap-ru.png&amp;ns=&amp;rev=1640633938&amp;tab_details=history&amp;mediado=diff&amp;do=media">
-        <dc:format>text/html</dc:format>
-        <dc:date>2021-12-27T22:38:58+00:00</dc:date>
-        <dc:creator>chifek (chifek@undisclosed.example.com)</dc:creator>
-        <title>roadmap-ru.png - создано</title>
-        <link>https://wiki.chifek.ru/doku.php?image=roadmap-ru.png&amp;ns=&amp;rev=1640633938&amp;tab_details=history&amp;mediado=diff&amp;do=media</link>
-        <description>&lt;img src=&quot;https://wiki.chifek.ru/lib/exe/fetch.php?w=500&amp;h=280&amp;t=1640633938&amp;amp;tok=008c9a&amp;amp;media=roadmap-ru.png&quot; alt=&quot;roadmap-ru.png&quot; /&gt;</description>
-    </item>
-    <item rdf:about="https://wiki.chifek.ru/doku.php?id=roadmap&amp;rev=1640633919&amp;do=diff">
-        <dc:format>text/html</dc:format>
-        <dc:date>2021-12-27T22:38:39+00:00</dc:date>
-        <dc:creator>chifek (chifek@undisclosed.example.com)</dc:creator>
-        <title>roadmap</title>
-        <link>https://wiki.chifek.ru/doku.php?id=roadmap&amp;rev=1640633919&amp;do=diff</link>
-        <description>roadmap frontend
-
-roadmap backend
-
-roadmap devops
-
-roadmap TeamLead</description>
-    </item>
-    <item rdf:about="https://wiki.chifek.ru/doku.php?id=nvm&amp;rev=1640073633&amp;do=diff">
-        <dc:format>text/html</dc:format>
-        <dc:date>2021-12-21T11:00:33+00:00</dc:date>
-        <dc:creator>chifek (chifek@undisclosed.example.com)</dc:creator>
-        <title>nvm</title>
-        <link>https://wiki.chifek.ru/doku.php?id=nvm&amp;rev=1640073633&amp;do=diff</link>
-        <description>NVM Install
-
-Now, you system is ready for the installation. Update the Homebrew package list and install NVM.
-
-
-brew update
-brew install nvm
-
-
-Next, create a directory for NVM in home.
-
-
-mkdir ~/.nvm
-
-
-Now, configure the required environment variables. Edit the following configuration file in your home directory</description>
-    </item>
-    <item rdf:about="https://wiki.chifek.ru/doku.php?id=start&amp;rev=1640073229&amp;do=diff">
-        <dc:format>text/html</dc:format>
-        <dc:date>2021-12-21T10:53:49+00:00</dc:date>
+        <dc:date>2022-03-10T13:02:49+00:00</dc:date>
         <dc:creator>chifek (chifek@undisclosed.example.com)</dc:creator>
         <title>start</title>
-        <link>https://wiki.chifek.ru/doku.php?id=start&amp;rev=1640073229&amp;do=diff</link>
+        <link>https://wiki.chifek.ru/doku.php?id=start&amp;rev=1646906569&amp;do=diff</link>
         <description>kn0wledge_l1brary
 
 Wiki справочник для IT. 
@@ -164,6 +99,8 @@ Laravel
 
 Переключение между версиями PHP
 
+SOLID in PHP
+
 JavaScript
 
 JavaScript
@@ -176,15 +113,71 @@ yarn
 
 Ghost
 
-Database</description>
+Database…</description>
     </item>
-    <item rdf:about="https://wiki.chifek.ru/doku.php?id=vim&amp;rev=1639542857&amp;do=diff">
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=d&amp;rev=1646833013&amp;do=diff">
         <dc:format>text/html</dc:format>
-        <dc:date>2021-12-15T07:34:17+00:00</dc:date>
+        <dc:date>2022-03-09T16:36:53+00:00</dc:date>
         <dc:creator>chifek (chifek@undisclosed.example.com)</dc:creator>
-        <title>vim - создано</title>
-        <link>https://wiki.chifek.ru/doku.php?id=vim&amp;rev=1639542857&amp;do=diff</link>
-        <description></description>
+        <title>d</title>
+        <link>https://wiki.chifek.ru/doku.php?id=d&amp;rev=1646833013&amp;do=diff</link>
+        <description>Принцип инверсии зависимостей (англ. Dependency Inversion Principle, DIP).
+
+Пятый SOLID принцип.
+
+Формулировка:
+
+Зависимости внутри системы строятся на основе абстракций.
+Модули верхних уровней не должны зависеть от модулей нижних уровней. Оба типа модулей должны зависеть от абстракций.
+Абстракции не должны зависеть от деталей. Детали должны зависеть от абстракций.…</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=solid&amp;rev=1646832745&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2022-03-09T16:32:25+00:00</dc:date>
+        <dc:creator>chifek (chifek@undisclosed.example.com)</dc:creator>
+        <title>solid</title>
+        <link>https://wiki.chifek.ru/doku.php?id=solid&amp;rev=1646832745&amp;do=diff</link>
+        <description>S - Single responsibility principle
+
+O - Open/closed principle
+
+L - Liskov Substitution Principle, LSP
+
+I - Interface Segregation Principle, ISP
+
+D - Dependency Inversion Principle, DIP</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=i&amp;rev=1646832699&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2022-03-09T16:31:39+00:00</dc:date>
+        <dc:creator>chifek (chifek@undisclosed.example.com)</dc:creator>
+        <title>i</title>
+        <link>https://wiki.chifek.ru/doku.php?id=i&amp;rev=1646832699&amp;do=diff</link>
+        <description>Принцип разделения интерфейса (Interface Segregation Principle, ISP).
+
+Четвертый SOLID принцип из пяти.
+Формулировка:
+
+Клиенты не должны зависить от методов, которые они не используют.</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=l&amp;rev=1646832517&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2022-03-09T16:28:37+00:00</dc:date>
+        <dc:creator>chifek (chifek@undisclosed.example.com)</dc:creator>
+        <title>l</title>
+        <link>https://wiki.chifek.ru/doku.php?id=l&amp;rev=1646832517&amp;do=diff</link>
+        <description>Принцип подстановки Барбары Лисков. (Liskov Substitution Principle, LSP)
+
+Это третий из пяти принципов SOLID и наиболее сложный для понимания.
+В оригинале данный принцип звучит так:</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?image=roadmap-ru.png&amp;ns=&amp;rev=1640633938&amp;tab_details=history&amp;mediado=diff&amp;do=media">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-12-27T22:38:58+00:00</dc:date>
+        <dc:creator>chifek (chifek@undisclosed.example.com)</dc:creator>
+        <title>roadmap-ru.png - создано</title>
+        <link>https://wiki.chifek.ru/doku.php?image=roadmap-ru.png&amp;ns=&amp;rev=1640633938&amp;tab_details=history&amp;mediado=diff&amp;do=media</link>
+        <description>&lt;img src=&quot;https://wiki.chifek.ru/lib/exe/fetch.php?w=500&amp;h=280&amp;t=1640633938&amp;amp;tok=008c9a&amp;amp;media=roadmap-ru.png&quot; alt=&quot;roadmap-ru.png&quot; /&gt;</description>
     </item>
     <item rdf:about="https://wiki.chifek.ru/doku.php?image=320e8421-f231-41ea-bd09-24b65a4d2c62.png&amp;ns=&amp;rev=1639542832&amp;tab_details=history&amp;mediado=diff&amp;do=media">
         <dc:format>text/html</dc:format>
@@ -193,22 +186,6 @@ Database</description>
         <title>320e8421-f231-41ea-bd09-24b65a4d2c62.png - создано</title>
         <link>https://wiki.chifek.ru/doku.php?image=320e8421-f231-41ea-bd09-24b65a4d2c62.png&amp;ns=&amp;rev=1639542832&amp;tab_details=history&amp;mediado=diff&amp;do=media</link>
         <description>&lt;img src=&quot;https://wiki.chifek.ru/lib/exe/fetch.php?w=500&amp;h=400&amp;t=1639542832&amp;amp;tok=0df83e&amp;amp;media=320e8421-f231-41ea-bd09-24b65a4d2c62.png&quot; alt=&quot;320e8421-f231-41ea-bd09-24b65a4d2c62.png&quot; /&gt;</description>
-    </item>
-    <item rdf:about="https://wiki.chifek.ru/doku.php?id=linux&amp;rev=1639542813&amp;do=diff">
-        <dc:format>text/html</dc:format>
-        <dc:date>2021-12-15T07:33:33+00:00</dc:date>
-        <dc:creator>chifek (chifek@undisclosed.example.com)</dc:creator>
-        <title>linux</title>
-        <link>https://wiki.chifek.ru/doku.php?id=linux&amp;rev=1639542813&amp;do=diff</link>
-        <description>Ubuntu Server. Как узнать свободное место на диске?
-
-vim
-
-подсветка веток в командной строке
-
-Добавление юзера в Linux
-
-Отображает текущую ветку в терминале</description>
     </item>
     <item rdf:about="https://wiki.chifek.ru/doku.php?image=photo_2021-12-13_16-15-39.jpg&amp;ns=&amp;rev=1639401473&amp;tab_details=history&amp;mediado=diff&amp;do=media">
         <dc:format>text/html</dc:format>
@@ -281,5 +258,21 @@ vim
         <title>postgre_01.png - создано</title>
         <link>https://wiki.chifek.ru/doku.php?image=postgre_01.png&amp;ns=&amp;rev=1629797032&amp;tab_details=history&amp;mediado=diff&amp;do=media</link>
         <description>&lt;img src=&quot;https://wiki.chifek.ru/lib/exe/fetch.php?w=493&amp;h=139&amp;t=1629797032&amp;amp;tok=e19515&amp;amp;media=postgre_01.png&quot; alt=&quot;postgre_01.png&quot; /&gt;</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?image=docs-gulp-command.png&amp;ns=&amp;rev=1629712030&amp;tab_details=history&amp;mediado=diff&amp;do=media">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-08-23T12:47:10+00:00</dc:date>
+        <dc:creator>chifek (chifek@undisclosed.example.com)</dc:creator>
+        <title>docs-gulp-command.png - создано</title>
+        <link>https://wiki.chifek.ru/doku.php?image=docs-gulp-command.png&amp;ns=&amp;rev=1629712030&amp;tab_details=history&amp;mediado=diff&amp;do=media</link>
+        <description>&lt;img src=&quot;https://wiki.chifek.ru/lib/exe/fetch.php?w=500&amp;h=204&amp;t=1629712030&amp;amp;tok=52333b&amp;amp;media=docs-gulp-command.png&quot; alt=&quot;docs-gulp-command.png&quot; /&gt;</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?image=docs-gulp-version-command.png&amp;ns=&amp;rev=1629711852&amp;tab_details=history&amp;mediado=diff&amp;do=media">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-08-23T12:44:12+00:00</dc:date>
+        <dc:creator>chifek (chifek@undisclosed.example.com)</dc:creator>
+        <title>docs-gulp-version-command.png - создано</title>
+        <link>https://wiki.chifek.ru/doku.php?image=docs-gulp-version-command.png&amp;ns=&amp;rev=1629711852&amp;tab_details=history&amp;mediado=diff&amp;do=media</link>
+        <description>&lt;img src=&quot;https://wiki.chifek.ru/lib/exe/fetch.php?w=500&amp;h=181&amp;t=1629711852&amp;amp;tok=61c285&amp;amp;media=docs-gulp-version-command.png&quot; alt=&quot;docs-gulp-version-command.png&quot; /&gt;</description>
     </item>
 </rdf:RDF>

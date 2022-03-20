@@ -11,7 +11,7 @@
         <description></description>
         <link>https://wiki.chifek.ru/</link>
         <image rdf:resource="https://wiki.chifek.ru/lib/tpl/dokuwiki/images/favicon.ico" />
-       <dc:date>2022-03-03T13:46:45+00:00</dc:date>
+       <dc:date>2022-03-20T00:49:14+00:00</dc:date>
         <items>
             <rdf:Seq>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=15_sovetov&amp;rev=1629797866&amp;do=diff"/>
@@ -22,8 +22,9 @@
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=artisan_shpargalki&amp;rev=1634983999&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=asdas&amp;rev=1635245634&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=authsocial&amp;rev=1611042191&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=b-tree&amp;rev=1646907632&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=bash&amp;rev=1608495473&amp;do=diff"/>
-                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=bashrc&amp;rev=1618851644&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=bashrc&amp;rev=1646338227&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=border_radius&amp;rev=1639401514&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=bot_on_php&amp;rev=1613334836&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=brew&amp;rev=1614287206&amp;do=diff"/>
@@ -31,6 +32,7 @@
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=composer&amp;rev=1612175831&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=create_database&amp;rev=1610226146&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=css&amp;rev=1639401509&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=d&amp;rev=1646833013&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=debug_print_backtrace&amp;rev=1613461782&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=docker-m1&amp;rev=1641980058&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=docker&amp;rev=1611509602&amp;do=diff"/>
@@ -47,6 +49,8 @@
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=gulp&amp;rev=1629712620&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=how_to_remove_images_and_containers_in_docker&amp;rev=1639032330&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=httpstatuses&amp;rev=1629224669&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=i&amp;rev=1646832699&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=indexsql&amp;rev=1646907269&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=insert_table&amp;rev=1624897874&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=instruments_php&amp;rev=1612333407&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=java&amp;rev=1629238920&amp;do=diff"/>
@@ -54,6 +58,7 @@
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=kotlin&amp;rev=1613681459&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=kuberneters&amp;rev=1618314804&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=kubernetes&amp;rev=1618480612&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=l&amp;rev=1646832517&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=laravel-mix-vuejs&amp;rev=1629450920&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=laravel-mix&amp;rev=1629450929&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=laravel&amp;rev=1629373496&amp;do=diff"/>
@@ -67,6 +72,7 @@
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=npm&amp;rev=1608199817&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=npm_shrinkwrap&amp;rev=1608199823&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=nvm&amp;rev=1640073633&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=o&amp;rev=1646832247&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=openvpn&amp;rev=1632864797&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=osnovnoy_syntacsis&amp;rev=1613681955&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=pdf_generate&amp;rev=1611729963&amp;do=diff"/>
@@ -86,14 +92,16 @@
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=roadmapfronted&amp;rev=1614087328&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=roadmaptemlead&amp;rev=1640633980&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=rsync&amp;rev=1632419902&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=s&amp;rev=1646831961&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=seeder&amp;rev=1608750811&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=solid&amp;rev=1646832745&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=sphp&amp;rev=1614288233&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=sql&amp;rev=1624897865&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=ssh&amp;rev=1608484855&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=ssh_keys&amp;rev=1608486012&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=ssh_server&amp;rev=1608486401&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=ssl&amp;rev=1611505181&amp;do=diff"/>
-                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=start&amp;rev=1640073229&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=start&amp;rev=1646906569&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=startprojectjava&amp;rev=1629238850&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=telegram&amp;rev=1613333254&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=types_java&amp;rev=1627421310&amp;do=diff"/>
@@ -215,6 +223,18 @@ tags - The cache tags you would like to clear Optional</description>
 
 http://www.voerro.com/ru/tutorials/r/autentifikatsiya-cherez-sotsialnye-seti-v-laravel-5-s-pomoshchyu-socialite/1</description>
     </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=b-tree&amp;rev=1646907632&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2022-03-10T13:20:32+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>b-tree</title>
+        <link>https://wiki.chifek.ru/doku.php?id=b-tree&amp;rev=1646907632&amp;do=diff</link>
+        <description>B-Tree
+
+	*  Элемент ненумерованного спискаСоздается по умолчанию CREATE INDEX index_name ON table_name(column_name)
+
+	*  Элемент ненумерованного спискаПоддерживает операции:</description>
+    </item>
     <item rdf:about="https://wiki.chifek.ru/doku.php?id=bash&amp;rev=1608495473&amp;do=diff">
         <dc:format>text/html</dc:format>
         <dc:date>2020-12-20T23:17:53+00:00</dc:date>
@@ -223,12 +243,12 @@ http://www.voerro.com/ru/tutorials/r/autentifikatsiya-cherez-sotsialnye-seti-v-l
         <link>https://wiki.chifek.ru/doku.php?id=bash&amp;rev=1608495473&amp;do=diff</link>
         <description>30 Bash Script Examples</description>
     </item>
-    <item rdf:about="https://wiki.chifek.ru/doku.php?id=bashrc&amp;rev=1618851644&amp;do=diff">
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=bashrc&amp;rev=1646338227&amp;do=diff">
         <dc:format>text/html</dc:format>
-        <dc:date>2021-04-19T20:00:44+00:00</dc:date>
+        <dc:date>2022-03-03T23:10:27+00:00</dc:date>
         <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
         <title>bashrc</title>
-        <link>https://wiki.chifek.ru/doku.php?id=bashrc&amp;rev=1618851644&amp;do=diff</link>
+        <link>https://wiki.chifek.ru/doku.php?id=bashrc&amp;rev=1646338227&amp;do=diff</link>
         <description>Редактируем ~/.bashrc
 
 Начало скрипта:
@@ -332,6 +352,22 @@ CREATE DATABASE имя
         <title>css</title>
         <link>https://wiki.chifek.ru/doku.php?id=css&amp;rev=1639401509&amp;do=diff</link>
         <description>Border radius</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=d&amp;rev=1646833013&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2022-03-09T16:36:53+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>d</title>
+        <link>https://wiki.chifek.ru/doku.php?id=d&amp;rev=1646833013&amp;do=diff</link>
+        <description>Принцип инверсии зависимостей (англ. Dependency Inversion Principle, DIP).
+
+Пятый SOLID принцип.
+
+Формулировка:
+
+Зависимости внутри системы строятся на основе абстракций.
+Модули верхних уровней не должны зависеть от модулей нижних уровней. Оба типа модулей должны зависеть от абстракций.
+Абстракции не должны зависеть от деталей. Детали должны зависеть от абстракций.…</description>
     </item>
     <item rdf:about="https://wiki.chifek.ru/doku.php?id=debug_print_backtrace&amp;rev=1613461782&amp;do=diff">
         <dc:format>text/html</dc:format>
@@ -574,6 +610,39 @@ Remove all unused containers, networks, images (both dangling and unreferenced),
 
 100 Continue («продолжай»)</description>
     </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=i&amp;rev=1646832699&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2022-03-09T16:31:39+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>i</title>
+        <link>https://wiki.chifek.ru/doku.php?id=i&amp;rev=1646832699&amp;do=diff</link>
+        <description>Принцип разделения интерфейса (Interface Segregation Principle, ISP).
+
+Четвертый SOLID принцип из пяти.
+Формулировка:
+
+Клиенты не должны зависить от методов, которые они не используют.</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=indexsql&amp;rev=1646907269&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2022-03-10T13:14:29+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>indexsql</title>
+        <link>https://wiki.chifek.ru/doku.php?id=indexsql&amp;rev=1646907269&amp;do=diff</link>
+        <description>Виды индексов SQL
+
+ - B-tree (balanced tree - сбалансированное дерево)
+
+- Хеш-индекс
+
+- GiST (обобщённое дерево поиска)
+
+- GIN (обобщённый обратный)
+
+- SP-GiST (GiST с двоичным разбиением пространства)
+
+- BRIN (блочно-диапазонный)</description>
+    </item>
     <item rdf:about="https://wiki.chifek.ru/doku.php?id=insert_table&amp;rev=1624897874&amp;do=diff">
         <dc:format>text/html</dc:format>
         <dc:date>2021-06-28T19:31:14+00:00</dc:date>
@@ -657,6 +726,17 @@ kubectl get pods -A - список подов
 kubectl -n &lt;namespace&gt; get pods  - список подов для stage/main
 
 kubectl -n &lt;namespace&gt; logs &lt;pod&gt; - логи пода</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=l&amp;rev=1646832517&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2022-03-09T16:28:37+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>l</title>
+        <link>https://wiki.chifek.ru/doku.php?id=l&amp;rev=1646832517&amp;do=diff</link>
+        <description>Принцип подстановки Барбары Лисков. (Liskov Substitution Principle, LSP)
+
+Это третий из пяти принципов SOLID и наиболее сложный для понимания.
+В оригинале данный принцип звучит так:</description>
     </item>
     <item rdf:about="https://wiki.chifek.ru/doku.php?id=laravel-mix-vuejs&amp;rev=1629450920&amp;do=diff">
         <dc:format>text/html</dc:format>
@@ -838,6 +918,19 @@ mkdir ~/.nvm
 
 
 Now, configure the required environment variables. Edit the following configuration file in your home directory</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=o&amp;rev=1646832247&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2022-03-09T16:24:07+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>o</title>
+        <link>https://wiki.chifek.ru/doku.php?id=o&amp;rev=1646832247&amp;do=diff</link>
+        <description>Принцип открытости / закрытости. (Open/closed principle)
+
+Второй принцип из списка принципов SOLID.
+Классы (модули, функции) должны быть открыты для расширения и закрыты для изменения.
+Иными словами приложение следует проектировать так чтобы для изменения поведения класса, 
+нам не потребовалось менять код самого класса.…</description>
     </item>
     <item rdf:about="https://wiki.chifek.ru/doku.php?id=openvpn&amp;rev=1632864797&amp;do=diff">
         <dc:format>text/html</dc:format>
@@ -1088,6 +1181,17 @@ The general syntax for transferring files with rsync is as follows:
 Local to Remote: rsync [OPTION]... -e ssh [SRC]... [USER@]HOST:DEST
 Remote to Local: rsync [OPTION]... -e ssh [USER@]HOST:SRC... [DEST]</description>
     </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=s&amp;rev=1646831961&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2022-03-09T16:19:21+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>s</title>
+        <link>https://wiki.chifek.ru/doku.php?id=s&amp;rev=1646831961&amp;do=diff</link>
+        <description>Принцип единственной обязанности (ответственности)(Single responsibility principle).
+
+Этот принцип первый в списке принципов SOLID.
+Обозначает, что любой объект должен иметь лишь одну обязанность и эта обязанность должна быть полностью реализована в классе объекта (инкапсулирована).</description>
+    </item>
     <item rdf:about="https://wiki.chifek.ru/doku.php?id=seeder&amp;rev=1608750811&amp;do=diff">
         <dc:format>text/html</dc:format>
         <dc:date>2020-12-23T22:13:31+00:00</dc:date>
@@ -1099,6 +1203,22 @@ Remote to Local: rsync [OPTION]... -e ssh [USER@]HOST:SRC... [DEST]</description
 Introduction
 
 Laravel includes the ability to seed your database with test data using seed classes. All seed classes are stored in the `database/seeders` directory. By default, a `DatabaseSeeder` class is defined for you. From this class, you may use the `call` method to run other seed classes, allowing you to control the seeding order.</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=solid&amp;rev=1646832745&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2022-03-09T16:32:25+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>solid</title>
+        <link>https://wiki.chifek.ru/doku.php?id=solid&amp;rev=1646832745&amp;do=diff</link>
+        <description>S - Single responsibility principle
+
+O - Open/closed principle
+
+L - Liskov Substitution Principle, LSP
+
+I - Interface Segregation Principle, ISP
+
+D - Dependency Inversion Principle, DIP</description>
     </item>
     <item rdf:about="https://wiki.chifek.ru/doku.php?id=sphp&amp;rev=1614288233&amp;do=diff">
         <dc:format>text/html</dc:format>
@@ -1186,12 +1306,12 @@ SSH into the server running your HTTP website as a user with sudo privileges.
 You'll need to install snapd and make sure you follow any instructions to enable classic snap support.
 Follow these instructions on snapcraft's site to install snapd.</description>
     </item>
-    <item rdf:about="https://wiki.chifek.ru/doku.php?id=start&amp;rev=1640073229&amp;do=diff">
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=start&amp;rev=1646906569&amp;do=diff">
         <dc:format>text/html</dc:format>
-        <dc:date>2021-12-21T10:53:49+00:00</dc:date>
+        <dc:date>2022-03-10T13:02:49+00:00</dc:date>
         <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
         <title>start</title>
-        <link>https://wiki.chifek.ru/doku.php?id=start&amp;rev=1640073229&amp;do=diff</link>
+        <link>https://wiki.chifek.ru/doku.php?id=start&amp;rev=1646906569&amp;do=diff</link>
         <description>kn0wledge_l1brary
 
 Wiki справочник для IT. 
@@ -1211,6 +1331,8 @@ Laravel
 
 Переключение между версиями PHP
 
+SOLID in PHP
+
 JavaScript
 
 JavaScript
@@ -1223,7 +1345,7 @@ yarn
 
 Ghost
 
-Database</description>
+Database…</description>
     </item>
     <item rdf:about="https://wiki.chifek.ru/doku.php?id=startprojectjava&amp;rev=1629238850&amp;do=diff">
         <dc:format>text/html</dc:format>

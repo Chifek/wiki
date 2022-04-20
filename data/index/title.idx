@@ -98,3 +98,4 @@ NVM Install
 Принцип инверсии зависимостей (англ. Dependency Inversion Principle, DIP).
 Виды индексов SQL
 B-Tree
+Find (and kill) process locking port 3000 on Mac and Linux

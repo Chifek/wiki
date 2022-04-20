@@ -52,6 +52,8 @@ Wiki справочник для IT.
 
 ===== OS and administrative =====
 
+[[fakplpom|Find (and kill) process locking port 3000 on Mac]]
+
 [[brew|brew]]
 
 [[linux|linux]]

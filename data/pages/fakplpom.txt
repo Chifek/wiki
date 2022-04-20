@@ -1,0 +1,29 @@
+====== Find (and kill) process locking port 3000 on Mac and Linux ======
+
+
+
+
+==== 1. You can try netstat ====
+
+
+ <code>netstat -vanp tcp | grep 3000</code>
+
+
+==== 2. For macOS El Capitan and newer (or if your netstat doesn't support -p), use lsof ====
+
+
+ <code>lsof -i tcp:3000 </code>
+
+
+==== 3. For Centos 7 use: ====
+
+
+ <code>netstat -vanp --tcp | grep 3000</code>
+
+
+
+
+
+Then you can kill the process like that:
+
+<code>kill {pid_of_process}</code>

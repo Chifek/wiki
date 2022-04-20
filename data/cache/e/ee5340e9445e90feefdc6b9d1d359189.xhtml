@@ -1,0 +1,29 @@
+
+<h1 class="sectionedit1" id="find_and_kill_process_locking_port_3000_on_mac_and_linux">Find (and kill) process locking port 3000 on Mac and Linux</h1>
+<div class="level1">
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Find (and kill) process locking port 3000 on Mac and Linux&quot;,&quot;hid&quot;:&quot;find_and_kill_process_locking_port_3000_on_mac_and_linux&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:1,&quot;range&quot;:&quot;1-77&quot;} -->
+<h3 class="sectionedit2" id="you_can_try_netstat">1. You can try netstat</h3>
+<div class="level3">
+<pre class="code">netstat -vanp tcp | grep 3000</pre>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;1. You can try netstat&quot;,&quot;hid&quot;:&quot;you_can_try_netstat&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:2,&quot;range&quot;:&quot;78-158&quot;} -->
+<h3 class="sectionedit3" id="for_macos_el_capitan_and_newer_or_if_your_netstat_doesn_t_support_-p_use_lsof">2. For macOS El Capitan and newer (or if your netstat doesn&#039;t support -p), use lsof</h3>
+<div class="level3">
+<pre class="code">lsof -i tcp:3000 </pre>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;2. For macOS El Capitan and newer (or if your netstat doesn&#039;t support -p), use lsof&quot;,&quot;hid&quot;:&quot;for_macos_el_capitan_and_newer_or_if_your_netstat_doesn_t_support_-p_use_lsof&quot;,&quot;codeblockOffset&quot;:1,&quot;secid&quot;:3,&quot;range&quot;:&quot;159-288&quot;} -->
+<h3 class="sectionedit4" id="for_centos_7_use">3. For Centos 7 use:</h3>
+<div class="level3">
+<pre class="code">netstat -vanp --tcp | grep 3000</pre>
+
+<p>
+Then you can kill the process like that:
+</p>
+<pre class="code">kill {pid_of_process}</pre>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;3. For Centos 7 use:&quot;,&quot;hid&quot;:&quot;for_centos_7_use&quot;,&quot;codeblockOffset&quot;:2,&quot;secid&quot;:4,&quot;range&quot;:&quot;289-&quot;} -->

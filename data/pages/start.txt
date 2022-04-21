@@ -9,35 +9,23 @@ Wiki справочник для IT.
 
 ===== PHP =====
 
-[[composer|Composer: Шпаргалка команд]]
+[[composer|Composer: Шпаргалка команд]] <=> [[php|PHP]]
 
-[[php|PHP]]
+[[php_patterns|Шаблоны проектирования PHP. Часть 1. Порождающие]] <=> [[Laravel|Laravel]]
 
-[[php_patterns|Шаблоны проектирования PHP. Часть 1. Порождающие]]
-
-[[Laravel|Laravel]]
-
-[[sphp|Переключение между версиями PHP]]
-
-[[SOLID|SOLID in PHP]]
+[[sphp|Переключение между версиями PHP]] <=> [[SOLID|SOLID in PHP]]
 
 ===== JavaScript =====
 
-[[javasript|JavaScript]]
+[[javasript|JavaScript]] <=> [[npm|npm]]
 
-[[npm|npm]]
-
-[[nvm|nvm]]
-
-[[yarn|yarn]]
+[[nvm|nvm]] <=> [[yarn|yarn]]
 
 [[ghost|Ghost]]
 
 ===== Database =====
 
-[[psql|PostgreSQL]]
-
-[[indexsql|SQL Indexes]]
+[[psql|PostgreSQL]] <=> [[indexsql|SQL Indexes]]
 
 ===== CSS =====
 
@@ -46,48 +34,30 @@ Wiki справочник для IT.
 
 ===== Other dev languages =====
 
-[[java|JAVA]]
-
-[[kotlin|Kotlin]]
+[[java|JAVA]] <=> [[kotlin|Kotlin]]
 
 ===== OS and administrative =====
 
-[[fakplpom|Find (and kill) process locking port 3000 on Mac]]
+[[fakplpom|Find (and kill) process locking port 3000 on Mac]] <=> [[brew|brew]]
 
-[[brew|brew]]
+[[linux|linux]] <=> [[ssh|SSH]]
 
-[[linux|linux]]
+[[bash| /bin/bash]] <=> [[docker|docker]]
 
-[[ssh|SSH]]
+[[rsync|RSYNC]] <=> [[openvpn|openVPN]]
 
-[[bash| /bin/bash]]
+[[ufw|ufw firewall]] <=> [[kubernetes|k8s]]
 
-[[docker|docker]]
-
-[[rsync|RSYNC]]
-
-[[openvpn|openVPN]]
-
-[[ufw|ufw firewall]]
-
-[[kubernetes|k8s]]
-
-[[ssl|ssl]]
-
-[[work-space|Установка раб.среды]]
+[[ssl|ssl]] <=> [[work-space|Установка раб.среды]]
 
 [[MacBook|MacBook]]
 
 
 ===== WEB Tools =====
 
-[[git|git]]
+[[git|git]] <=> [[httpStatuses|Список кодов состояния HTTP]]
 
-[[httpStatuses|Список кодов состояния HTTP]]
-
-[[roadMap|ROADMAP]]
-
-[[telegram|telegram]]
+[[roadMap|ROADMAP]] <=> [[telegram|telegram]]
 
 [[links|полезные ссылки]]
 

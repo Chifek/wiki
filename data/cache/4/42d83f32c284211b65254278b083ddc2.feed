@@ -11,16 +11,13 @@
         <description></description>
         <link>https://wiki.chifek.ru/</link>
         <image rdf:resource="https://wiki.chifek.ru/lib/tpl/dokuwiki/images/favicon.ico" />
-       <dc:date>2022-04-10T04:20:10+00:00</dc:date>
+       <dc:date>2022-04-24T09:00:37+00:00</dc:date>
         <items>
             <rdf:Seq>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=start&amp;rev=1650457807&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=fakplpom&amp;rev=1650373534&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=b-tree&amp;rev=1646907632&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=indexsql&amp;rev=1646907269&amp;do=diff"/>
-                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=start&amp;rev=1646906569&amp;do=diff"/>
-                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=d&amp;rev=1646833013&amp;do=diff"/>
-                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=solid&amp;rev=1646832745&amp;do=diff"/>
-                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=i&amp;rev=1646832699&amp;do=diff"/>
-                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=l&amp;rev=1646832517&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=roadmap-ru.png&amp;ns=&amp;rev=1640633938&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=320e8421-f231-41ea-bd09-24b65a4d2c62.png&amp;ns=&amp;rev=1639542832&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=photo_2021-12-13_16-15-39.jpg&amp;ns=&amp;rev=1639401473&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
@@ -34,6 +31,9 @@
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=postgre_01.png&amp;ns=&amp;rev=1629797032&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=docs-gulp-command.png&amp;ns=&amp;rev=1629712030&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=docs-gulp-version-command.png&amp;ns=&amp;rev=1629711852&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=74de6adc11.jpg&amp;ns=&amp;rev=1629470339&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=ebce88e301.jpg&amp;ns=&amp;rev=1629374512&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=81efc3a35e.jpg&amp;ns=&amp;rev=1629370511&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
             </rdf:Seq>
         </items>
     </channel>
@@ -42,6 +42,51 @@
         <link>https://wiki.chifek.ru/</link>
         <url>https://wiki.chifek.ru/lib/tpl/dokuwiki/images/favicon.ico</url>
     </image>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=start&amp;rev=1650457807&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2022-04-20T15:30:07+00:00</dc:date>
+        <dc:creator>chifek (chifek@undisclosed.example.com)</dc:creator>
+        <title>start</title>
+        <link>https://wiki.chifek.ru/doku.php?id=start&amp;rev=1650457807&amp;do=diff</link>
+        <description>kn0wledge_l1brary
+
+Wiki справочник для IT. 
+Тут я делюсь своими знаниями и использую шпаргалки, чтобы не держать все в голове.
+
+Про меня
+
+PHP
+
+Composer: Шпаргалка команд &lt;=&gt; PHP
+
+Шаблоны проектирования PHP. Часть 1. Порождающие &lt;=&gt; Laravel
+
+Переключение между версиями PHP &lt;=&gt; SOLID in PHP
+
+JavaScript
+
+JavaScript &lt;=&gt;</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=fakplpom&amp;rev=1650373534&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2022-04-19T16:05:34+00:00</dc:date>
+        <dc:creator>chifek (chifek@undisclosed.example.com)</dc:creator>
+        <title>fakplpom</title>
+        <link>https://wiki.chifek.ru/doku.php?id=fakplpom&amp;rev=1650373534&amp;do=diff</link>
+        <description>Find (and kill) process locking port 3000 on Mac and Linux
+
+1. You can try netstat
+
+netstat -vanp tcp | grep 3000
+
+2. For macOS El Capitan and newer (or if your netstat doesn't support -p), use lsof
+
+lsof -i tcp:3000 
+
+3. For Centos 7 use:
+
+netstat -vanp --tcp | grep 3000</description>
+    </item>
     <item rdf:about="https://wiki.chifek.ru/doku.php?id=b-tree&amp;rev=1646907632&amp;do=diff">
         <dc:format>text/html</dc:format>
         <dc:date>2022-03-10T13:20:32+00:00</dc:date>
@@ -73,103 +118,6 @@
 - SP-GiST (GiST с двоичным разбиением пространства)
 
 - BRIN (блочно-диапазонный)</description>
-    </item>
-    <item rdf:about="https://wiki.chifek.ru/doku.php?id=start&amp;rev=1646906569&amp;do=diff">
-        <dc:format>text/html</dc:format>
-        <dc:date>2022-03-10T13:02:49+00:00</dc:date>
-        <dc:creator>chifek (chifek@undisclosed.example.com)</dc:creator>
-        <title>start</title>
-        <link>https://wiki.chifek.ru/doku.php?id=start&amp;rev=1646906569&amp;do=diff</link>
-        <description>kn0wledge_l1brary
-
-Wiki справочник для IT. 
-Тут я делюсь своими знаниями и использую шпаргалки, чтобы не держать все в голове.
-
-Про меня
-
-PHP
-
-Composer: Шпаргалка команд
-
-PHP
-
-Шаблоны проектирования PHP. Часть 1. Порождающие
-
-Laravel
-
-Переключение между версиями PHP
-
-SOLID in PHP
-
-JavaScript
-
-JavaScript
-
-npm
-
-nvm
-
-yarn
-
-Ghost
-
-Database…</description>
-    </item>
-    <item rdf:about="https://wiki.chifek.ru/doku.php?id=d&amp;rev=1646833013&amp;do=diff">
-        <dc:format>text/html</dc:format>
-        <dc:date>2022-03-09T16:36:53+00:00</dc:date>
-        <dc:creator>chifek (chifek@undisclosed.example.com)</dc:creator>
-        <title>d</title>
-        <link>https://wiki.chifek.ru/doku.php?id=d&amp;rev=1646833013&amp;do=diff</link>
-        <description>Принцип инверсии зависимостей (англ. Dependency Inversion Principle, DIP).
-
-Пятый SOLID принцип.
-
-Формулировка:
-
-Зависимости внутри системы строятся на основе абстракций.
-Модули верхних уровней не должны зависеть от модулей нижних уровней. Оба типа модулей должны зависеть от абстракций.
-Абстракции не должны зависеть от деталей. Детали должны зависеть от абстракций.…</description>
-    </item>
-    <item rdf:about="https://wiki.chifek.ru/doku.php?id=solid&amp;rev=1646832745&amp;do=diff">
-        <dc:format>text/html</dc:format>
-        <dc:date>2022-03-09T16:32:25+00:00</dc:date>
-        <dc:creator>chifek (chifek@undisclosed.example.com)</dc:creator>
-        <title>solid</title>
-        <link>https://wiki.chifek.ru/doku.php?id=solid&amp;rev=1646832745&amp;do=diff</link>
-        <description>S - Single responsibility principle
-
-O - Open/closed principle
-
-L - Liskov Substitution Principle, LSP
-
-I - Interface Segregation Principle, ISP
-
-D - Dependency Inversion Principle, DIP</description>
-    </item>
-    <item rdf:about="https://wiki.chifek.ru/doku.php?id=i&amp;rev=1646832699&amp;do=diff">
-        <dc:format>text/html</dc:format>
-        <dc:date>2022-03-09T16:31:39+00:00</dc:date>
-        <dc:creator>chifek (chifek@undisclosed.example.com)</dc:creator>
-        <title>i</title>
-        <link>https://wiki.chifek.ru/doku.php?id=i&amp;rev=1646832699&amp;do=diff</link>
-        <description>Принцип разделения интерфейса (Interface Segregation Principle, ISP).
-
-Четвертый SOLID принцип из пяти.
-Формулировка:
-
-Клиенты не должны зависить от методов, которые они не используют.</description>
-    </item>
-    <item rdf:about="https://wiki.chifek.ru/doku.php?id=l&amp;rev=1646832517&amp;do=diff">
-        <dc:format>text/html</dc:format>
-        <dc:date>2022-03-09T16:28:37+00:00</dc:date>
-        <dc:creator>chifek (chifek@undisclosed.example.com)</dc:creator>
-        <title>l</title>
-        <link>https://wiki.chifek.ru/doku.php?id=l&amp;rev=1646832517&amp;do=diff</link>
-        <description>Принцип подстановки Барбары Лисков. (Liskov Substitution Principle, LSP)
-
-Это третий из пяти принципов SOLID и наиболее сложный для понимания.
-В оригинале данный принцип звучит так:</description>
     </item>
     <item rdf:about="https://wiki.chifek.ru/doku.php?image=roadmap-ru.png&amp;ns=&amp;rev=1640633938&amp;tab_details=history&amp;mediado=diff&amp;do=media">
         <dc:format>text/html</dc:format>
@@ -274,5 +222,29 @@ D - Dependency Inversion Principle, DIP</description>
         <title>docs-gulp-version-command.png - создано</title>
         <link>https://wiki.chifek.ru/doku.php?image=docs-gulp-version-command.png&amp;ns=&amp;rev=1629711852&amp;tab_details=history&amp;mediado=diff&amp;do=media</link>
         <description>&lt;img src=&quot;https://wiki.chifek.ru/lib/exe/fetch.php?w=500&amp;h=181&amp;t=1629711852&amp;amp;tok=61c285&amp;amp;media=docs-gulp-version-command.png&quot; alt=&quot;docs-gulp-version-command.png&quot; /&gt;</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?image=74de6adc11.jpg&amp;ns=&amp;rev=1629470339&amp;tab_details=history&amp;mediado=diff&amp;do=media">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-08-20T17:38:59+00:00</dc:date>
+        <dc:creator>chifek (chifek@undisclosed.example.com)</dc:creator>
+        <title>74de6adc11.jpg - создано</title>
+        <link>https://wiki.chifek.ru/doku.php?image=74de6adc11.jpg&amp;ns=&amp;rev=1629470339&amp;tab_details=history&amp;mediado=diff&amp;do=media</link>
+        <description>&lt;img src=&quot;https://wiki.chifek.ru/lib/exe/fetch.php?w=500&amp;h=242&amp;t=1629470339&amp;amp;tok=3e0be7&amp;amp;media=74de6adc11.jpg&quot; alt=&quot;74de6adc11.jpg&quot; /&gt;</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?image=ebce88e301.jpg&amp;ns=&amp;rev=1629374512&amp;tab_details=history&amp;mediado=diff&amp;do=media">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-08-19T15:01:52+00:00</dc:date>
+        <dc:creator>chifek (chifek@undisclosed.example.com)</dc:creator>
+        <title>ebce88e301.jpg - создано</title>
+        <link>https://wiki.chifek.ru/doku.php?image=ebce88e301.jpg&amp;ns=&amp;rev=1629374512&amp;tab_details=history&amp;mediado=diff&amp;do=media</link>
+        <description>&lt;img src=&quot;https://wiki.chifek.ru/lib/exe/fetch.php?w=500&amp;h=439&amp;t=1629374512&amp;amp;tok=ed9186&amp;amp;media=ebce88e301.jpg&quot; alt=&quot;ebce88e301.jpg&quot; /&gt;</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?image=81efc3a35e.jpg&amp;ns=&amp;rev=1629370511&amp;tab_details=history&amp;mediado=diff&amp;do=media">
+        <dc:format>text/html</dc:format>
+        <dc:date>2021-08-19T13:55:11+00:00</dc:date>
+        <dc:creator>chifek (chifek@undisclosed.example.com)</dc:creator>
+        <title>81efc3a35e.jpg - создано</title>
+        <link>https://wiki.chifek.ru/doku.php?image=81efc3a35e.jpg&amp;ns=&amp;rev=1629370511&amp;tab_details=history&amp;mediado=diff&amp;do=media</link>
+        <description>&lt;img src=&quot;https://wiki.chifek.ru/lib/exe/fetch.php?w=351&amp;h=285&amp;t=1629370511&amp;amp;tok=e51f5e&amp;amp;media=81efc3a35e.jpg&quot; alt=&quot;81efc3a35e.jpg&quot; /&gt;</description>
     </item>
 </rdf:RDF>

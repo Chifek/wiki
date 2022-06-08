@@ -11,7 +11,7 @@
         <description></description>
         <link>https://wiki.chifek.ru/</link>
         <image rdf:resource="https://wiki.chifek.ru/lib/tpl/dokuwiki/images/favicon.ico" />
-       <dc:date>2022-04-10T04:20:14+00:00</dc:date>
+       <dc:date>2022-06-08T06:34:11+00:00</dc:date>
         <items>
             <rdf:Seq>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=15_sovetov&amp;rev=1629797866&amp;do=diff"/>
@@ -38,6 +38,7 @@
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=docker&amp;rev=1611509602&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=downgradepsql&amp;rev=1614288640&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=dry&amp;rev=1629923633&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=fakplpom&amp;rev=1650373534&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=faq&amp;rev=1629882513&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=free_space_on_sql&amp;rev=1624349969&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=ghost&amp;rev=1627389021&amp;do=diff"/>
@@ -101,7 +102,7 @@
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=ssh_keys&amp;rev=1608486012&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=ssh_server&amp;rev=1608486401&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=ssl&amp;rev=1611505181&amp;do=diff"/>
-                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=start&amp;rev=1646906569&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=start&amp;rev=1650457807&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=startprojectjava&amp;rev=1629238850&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=telegram&amp;rev=1613333254&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=types_java&amp;rev=1627421310&amp;do=diff"/>
@@ -435,6 +436,26 @@ brew link postgresql@9.6 --force</description>
 Рассмотрим простой модуль, отвечающий за добавление новых пользователей. 
 
 И на его примере увидим, какие возможности открывает применение принципа DRY.</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=fakplpom&amp;rev=1650373534&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2022-04-19T16:05:34+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>fakplpom</title>
+        <link>https://wiki.chifek.ru/doku.php?id=fakplpom&amp;rev=1650373534&amp;do=diff</link>
+        <description>Find (and kill) process locking port 3000 on Mac and Linux
+
+1. You can try netstat
+
+netstat -vanp tcp | grep 3000
+
+2. For macOS El Capitan and newer (or if your netstat doesn't support -p), use lsof
+
+lsof -i tcp:3000 
+
+3. For Centos 7 use:
+
+netstat -vanp --tcp | grep 3000</description>
     </item>
     <item rdf:about="https://wiki.chifek.ru/doku.php?id=faq&amp;rev=1629882513&amp;do=diff">
         <dc:format>text/html</dc:format>
@@ -1306,12 +1327,12 @@ SSH into the server running your HTTP website as a user with sudo privileges.
 You'll need to install snapd and make sure you follow any instructions to enable classic snap support.
 Follow these instructions on snapcraft's site to install snapd.</description>
     </item>
-    <item rdf:about="https://wiki.chifek.ru/doku.php?id=start&amp;rev=1646906569&amp;do=diff">
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=start&amp;rev=1650457807&amp;do=diff">
         <dc:format>text/html</dc:format>
-        <dc:date>2022-03-10T13:02:49+00:00</dc:date>
+        <dc:date>2022-04-20T15:30:07+00:00</dc:date>
         <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
         <title>start</title>
-        <link>https://wiki.chifek.ru/doku.php?id=start&amp;rev=1646906569&amp;do=diff</link>
+        <link>https://wiki.chifek.ru/doku.php?id=start&amp;rev=1650457807&amp;do=diff</link>
         <description>kn0wledge_l1brary
 
 Wiki справочник для IT. 
@@ -1321,31 +1342,15 @@ Wiki справочник для IT.
 
 PHP
 
-Composer: Шпаргалка команд
+Composer: Шпаргалка команд &lt;=&gt; PHP
 
-PHP
+Шаблоны проектирования PHP. Часть 1. Порождающие &lt;=&gt; Laravel
 
-Шаблоны проектирования PHP. Часть 1. Порождающие
-
-Laravel
-
-Переключение между версиями PHP
-
-SOLID in PHP
+Переключение между версиями PHP &lt;=&gt; SOLID in PHP
 
 JavaScript
 
-JavaScript
-
-npm
-
-nvm
-
-yarn
-
-Ghost
-
-Database…</description>
+JavaScript &lt;=&gt;</description>
     </item>
     <item rdf:about="https://wiki.chifek.ru/doku.php?id=startprojectjava&amp;rev=1629238850&amp;do=diff">
         <dc:format>text/html</dc:format>

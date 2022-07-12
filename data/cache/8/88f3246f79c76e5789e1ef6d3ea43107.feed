@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- generator="FeedCreator 1.8" -->
+<?xml-stylesheet href="https://wiki.chifek.ru/lib/exe/css.php?s=feed" type="text/css"?>
+<rdf:RDF
+    xmlns="http://purl.org/rss/1.0/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel rdf:about="https://wiki.chifek.ru/feed.php">
+        <title>kn0wledge_l1brary</title>
+        <description></description>
+        <link>https://wiki.chifek.ru/</link>
+        <image rdf:resource="https://wiki.chifek.ru/lib/tpl/dokuwiki/images/favicon.ico" />
+       <dc:date>2022-07-12T02:11:48+00:00</dc:date>
+        <items>
+            <rdf:Seq>
+            </rdf:Seq>
+        </items>
+    </channel>
+    <image rdf:about="https://wiki.chifek.ru/lib/tpl/dokuwiki/images/favicon.ico">
+        <title>kn0wledge_l1brary</title>
+        <link>https://wiki.chifek.ru/</link>
+        <url>https://wiki.chifek.ru/lib/tpl/dokuwiki/images/favicon.ico</url>
+    </image>
+</rdf:RDF>

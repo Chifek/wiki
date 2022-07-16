@@ -7,13 +7,14 @@
     xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
     xmlns:dc="http://purl.org/dc/elements/1.1/">
     <channel rdf:about="https://wiki.chifek.ru/feed.php">
-        <title>kn0wledge_l1brary</title>
+        <title>kn0wledge_l1brary playground</title>
         <description></description>
         <link>https://wiki.chifek.ru/</link>
         <image rdf:resource="https://wiki.chifek.ru/lib/tpl/dokuwiki/images/favicon.ico" />
-       <dc:date>2022-07-16T05:25:46+00:00</dc:date>
+       <dc:date>2022-07-16T02:45:27+00:00</dc:date>
         <items>
             <rdf:Seq>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=playground:playground&amp;rev=1596015505&amp;do=diff"/>
             </rdf:Seq>
         </items>
     </channel>
@@ -22,4 +23,12 @@
         <link>https://wiki.chifek.ru/</link>
         <url>https://wiki.chifek.ru/lib/tpl/dokuwiki/images/favicon.ico</url>
     </image>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=playground:playground&amp;rev=1596015505&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2020-07-29T12:38:25+00:00</dc:date>
+        <dc:creator>Anonymous (anonymous@undisclosed.example.com)</dc:creator>
+        <title>playground:playground</title>
+        <link>https://wiki.chifek.ru/doku.php?id=playground:playground&amp;rev=1596015505&amp;do=diff</link>
+        <description>PlayGround</description>
+    </item>
 </rdf:RDF>

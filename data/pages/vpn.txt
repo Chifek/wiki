@@ -1,0 +1,11 @@
+<code>
+wget https://raw.githubusercontent.com/drew2a/wireguard/master/wg-ubuntu-server-up.sh
+</code>
+
+<code>
+chmod +x ./wg-ubuntu-server-up.sh
+</code>
+
+<code>
+sudo ./wg-ubuntu-server-up.sh
+</code>

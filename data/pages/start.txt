@@ -50,10 +50,10 @@ Wiki справочник для IT.
 
 [[ssl|ssl]] <=> [[work-space|Установка раб.среды]]
 
-[[MacBook|MacBook]]
+[[MacBook|MacBook]]  <=>  [[VPN | VPN]]
 
-[[VPN | VPN]]
 
+[[other-admin | other]]
 
 ===== WEB Tools =====
 

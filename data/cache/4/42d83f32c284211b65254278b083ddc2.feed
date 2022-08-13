@@ -11,13 +11,14 @@
         <description></description>
         <link>https://wiki.chifek.ru/</link>
         <image rdf:resource="https://wiki.chifek.ru/lib/tpl/dokuwiki/images/favicon.ico" />
-       <dc:date>2022-06-19T02:43:19+00:00</dc:date>
+       <dc:date>2022-08-12T18:11:17+00:00</dc:date>
         <items>
             <rdf:Seq>
-                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=start&amp;rev=1650457807&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=start&amp;rev=1660233053&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=other-admin&amp;rev=1660233003&amp;do=diff"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5_png.png&amp;ns=&amp;rev=1660232916&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
+                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=vpn&amp;rev=1659892896&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=fakplpom&amp;rev=1650373534&amp;do=diff"/>
-                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=b-tree&amp;rev=1646907632&amp;do=diff"/>
-                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?id=indexsql&amp;rev=1646907269&amp;do=diff"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=roadmap-ru.png&amp;ns=&amp;rev=1640633938&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=320e8421-f231-41ea-bd09-24b65a4d2c62.png&amp;ns=&amp;rev=1639542832&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=photo_2021-12-13_16-15-39.jpg&amp;ns=&amp;rev=1639401473&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
@@ -33,7 +34,6 @@
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=docs-gulp-version-command.png&amp;ns=&amp;rev=1629711852&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=74de6adc11.jpg&amp;ns=&amp;rev=1629470339&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
                 <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=ebce88e301.jpg&amp;ns=&amp;rev=1629374512&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
-                <rdf:li rdf:resource="https://wiki.chifek.ru/doku.php?image=81efc3a35e.jpg&amp;ns=&amp;rev=1629370511&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
             </rdf:Seq>
         </items>
     </channel>
@@ -42,12 +42,12 @@
         <link>https://wiki.chifek.ru/</link>
         <url>https://wiki.chifek.ru/lib/tpl/dokuwiki/images/favicon.ico</url>
     </image>
-    <item rdf:about="https://wiki.chifek.ru/doku.php?id=start&amp;rev=1650457807&amp;do=diff">
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=start&amp;rev=1660233053&amp;do=diff">
         <dc:format>text/html</dc:format>
-        <dc:date>2022-04-20T15:30:07+00:00</dc:date>
+        <dc:date>2022-08-11T18:50:53+00:00</dc:date>
         <dc:creator>chifek (chifek@undisclosed.example.com)</dc:creator>
-        <title>start</title>
-        <link>https://wiki.chifek.ru/doku.php?id=start&amp;rev=1650457807&amp;do=diff</link>
+        <title>start - [OS and administrative] </title>
+        <link>https://wiki.chifek.ru/doku.php?id=start&amp;rev=1660233053&amp;do=diff</link>
         <description>kn0wledge_l1brary
 
 Wiki справочник для IT. 
@@ -66,6 +66,38 @@ Composer: Шпаргалка команд &lt;=&gt; PHP
 JavaScript
 
 JavaScript &lt;=&gt;</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=other-admin&amp;rev=1660233003&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2022-08-11T18:50:03+00:00</dc:date>
+        <dc:creator>chifek (chifek@undisclosed.example.com)</dc:creator>
+        <title>other-admin</title>
+        <link>https://wiki.chifek.ru/doku.php?id=other-admin&amp;rev=1660233003&amp;do=diff</link>
+        <description></description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?image=%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5_png.png&amp;ns=&amp;rev=1660232916&amp;tab_details=history&amp;mediado=diff&amp;do=media">
+        <dc:format>text/html</dc:format>
+        <dc:date>2022-08-11T18:48:36+00:00</dc:date>
+        <dc:creator>chifek (chifek@undisclosed.example.com)</dc:creator>
+        <title>изображение_png.png - создано</title>
+        <link>https://wiki.chifek.ru/doku.php?image=%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5_png.png&amp;ns=&amp;rev=1660232916&amp;tab_details=history&amp;mediado=diff&amp;do=media</link>
+        <description>&lt;img src=&quot;https://wiki.chifek.ru/lib/exe/fetch.php?w=500&amp;h=286&amp;t=1660232916&amp;amp;tok=86cd4d&amp;amp;media=%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5_png.png&quot; alt=&quot;изображение_png.png&quot; /&gt;</description>
+    </item>
+    <item rdf:about="https://wiki.chifek.ru/doku.php?id=vpn&amp;rev=1659892896&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2022-08-07T20:21:36+00:00</dc:date>
+        <dc:creator>chifek (chifek@undisclosed.example.com)</dc:creator>
+        <title>vpn - создано</title>
+        <link>https://wiki.chifek.ru/doku.php?id=vpn&amp;rev=1659892896&amp;do=diff</link>
+        <description>wget https://raw.githubusercontent.com/drew2a/wireguard/master/wg-ubuntu-server-up.sh
+
+
+
+chmod +x ./wg-ubuntu-server-up.sh
+
+
+
+sudo ./wg-ubuntu-server-up.sh</description>
     </item>
     <item rdf:about="https://wiki.chifek.ru/doku.php?id=fakplpom&amp;rev=1650373534&amp;do=diff">
         <dc:format>text/html</dc:format>
@@ -86,38 +118,6 @@ lsof -i tcp:3000
 3. For Centos 7 use:
 
 netstat -vanp --tcp | grep 3000</description>
-    </item>
-    <item rdf:about="https://wiki.chifek.ru/doku.php?id=b-tree&amp;rev=1646907632&amp;do=diff">
-        <dc:format>text/html</dc:format>
-        <dc:date>2022-03-10T13:20:32+00:00</dc:date>
-        <dc:creator>chifek (chifek@undisclosed.example.com)</dc:creator>
-        <title>b-tree</title>
-        <link>https://wiki.chifek.ru/doku.php?id=b-tree&amp;rev=1646907632&amp;do=diff</link>
-        <description>B-Tree
-
-	*  Элемент ненумерованного спискаСоздается по умолчанию CREATE INDEX index_name ON table_name(column_name)
-
-	*  Элемент ненумерованного спискаПоддерживает операции:</description>
-    </item>
-    <item rdf:about="https://wiki.chifek.ru/doku.php?id=indexsql&amp;rev=1646907269&amp;do=diff">
-        <dc:format>text/html</dc:format>
-        <dc:date>2022-03-10T13:14:29+00:00</dc:date>
-        <dc:creator>chifek (chifek@undisclosed.example.com)</dc:creator>
-        <title>indexsql</title>
-        <link>https://wiki.chifek.ru/doku.php?id=indexsql&amp;rev=1646907269&amp;do=diff</link>
-        <description>Виды индексов SQL
-
- - B-tree (balanced tree - сбалансированное дерево)
-
-- Хеш-индекс
-
-- GiST (обобщённое дерево поиска)
-
-- GIN (обобщённый обратный)
-
-- SP-GiST (GiST с двоичным разбиением пространства)
-
-- BRIN (блочно-диапазонный)</description>
     </item>
     <item rdf:about="https://wiki.chifek.ru/doku.php?image=roadmap-ru.png&amp;ns=&amp;rev=1640633938&amp;tab_details=history&amp;mediado=diff&amp;do=media">
         <dc:format>text/html</dc:format>
@@ -238,13 +238,5 @@ netstat -vanp --tcp | grep 3000</description>
         <title>ebce88e301.jpg - создано</title>
         <link>https://wiki.chifek.ru/doku.php?image=ebce88e301.jpg&amp;ns=&amp;rev=1629374512&amp;tab_details=history&amp;mediado=diff&amp;do=media</link>
         <description>&lt;img src=&quot;https://wiki.chifek.ru/lib/exe/fetch.php?w=500&amp;h=439&amp;t=1629374512&amp;amp;tok=ed9186&amp;amp;media=ebce88e301.jpg&quot; alt=&quot;ebce88e301.jpg&quot; /&gt;</description>
-    </item>
-    <item rdf:about="https://wiki.chifek.ru/doku.php?image=81efc3a35e.jpg&amp;ns=&amp;rev=1629370511&amp;tab_details=history&amp;mediado=diff&amp;do=media">
-        <dc:format>text/html</dc:format>
-        <dc:date>2021-08-19T13:55:11+00:00</dc:date>
-        <dc:creator>chifek (chifek@undisclosed.example.com)</dc:creator>
-        <title>81efc3a35e.jpg - создано</title>
-        <link>https://wiki.chifek.ru/doku.php?image=81efc3a35e.jpg&amp;ns=&amp;rev=1629370511&amp;tab_details=history&amp;mediado=diff&amp;do=media</link>
-        <description>&lt;img src=&quot;https://wiki.chifek.ru/lib/exe/fetch.php?w=351&amp;h=285&amp;t=1629370511&amp;amp;tok=e51f5e&amp;amp;media=81efc3a35e.jpg&quot; alt=&quot;81efc3a35e.jpg&quot; /&gt;</description>
     </item>
 </rdf:RDF>
